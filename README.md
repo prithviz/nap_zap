@@ -21,9 +21,9 @@ This project meets the following criteria:
      * url_to_id : For mapping indexed urls.
   2. links :  A directory of web-pages crawled by Crawler.py
             
-        A web-pages(url) crawled and saved offline in links 
-        directory and named with base64 encoding.
-        (To store longest urls in distinct names.)
+      A web-pages(url) crawled and saved offline in links 
+      directory and named with base64 encoding.
+      (To store longest urls in distinct names.)
   3. static : A directory of static(logo) files like pictures.
    
   4. templates : A directory of views (front-end files).
