@@ -61,3 +61,8 @@ This project meets the following criteria:
   8. lang_proc.py : Language Processing Module
       
   9. util.py : HTML parser Module
+
+
+#####Currently 2 websites crawled 
+    1.wikipedia.org (Crawl_Depth-1)
+    2.Python.org (Crawl_Depth-3)
