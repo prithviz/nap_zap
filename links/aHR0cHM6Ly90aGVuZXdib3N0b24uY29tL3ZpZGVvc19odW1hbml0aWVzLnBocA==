@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Watch free video tutorials on computer programming, web design, game development, and more.">    <title>Video Tutorials - thenewboston</title>
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin' >
+<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' >
+<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/main.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/widgets.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/pages.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/themes.min.css' >
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js' ></script>
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script><![endif]-->    
+</head>
+<body class="theme-default main-menu-fixed main-navbar-fixed">
+
+<script>
+    (function (i, s, o, g, r, a, m){
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function (){
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-56989641-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+    
+
+<script>var init = []; var tnb_base_path = 'https://thenewboston.com/';</script>
+<div id="main-wrapper">
+	
+<div id="main-navbar" class="navbar navbar-inverse" role="navigation">
+
+	<!-- Left menu toggle button -->
+	<button type="button" id="main-menu-toggle">
+		<i class="navbar-icon fa fa-bars icon"></i>
+	</button>
+
+	<div class="navbar-inner">
+
+		<!-- Logo and top menu toggle (for smaller screens) -->
+		<div class="navbar-header">
+			<a href="https://thenewboston.com/index.php" class="navbar-brand">
+				<div>
+					<img alt="thenewboston Logo" src="/images/logo.png" />
+				</div>
+				thenewboston
+			</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+			        data-target="#main-navbar-collapse">
+				<i class="navbar-icon fa fa-bars"></i>
+			</button>
+		</div>
+
+		<div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
+			<div>
+
+				<!-- Left buttons -->
+				<ul class="nav navbar-nav">
+                    					<li><a href="https://thenewboston.com/forum"><i class="dropdown-icon fa fa-comment"></i>&nbsp; Forum</a></li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp; Video Tutorials</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://thenewboston.com/videos_beauty.php">Beauty</a></li>
+                            <li><a href="https://thenewboston.com/videos_business.php">Business</a></li>
+                            <li><a href="https://thenewboston.com/videos.php">Computer Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_food.php">Cooking</a></li>
+                            <li><a href="https://thenewboston.com/videos_health.php">Health &amp; Medicine</a></li>
+                            <li><a href="https://thenewboston.com/videos_humanities.php">Humanities</a></li>
+                            <li><a href="https://thenewboston.com/videos_math.php">Math</a></li>
+                            <li><a href="https://thenewboston.com/videos_science.php">Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_social.php">Social Sciences</a></li>
+                        </ul>
+                    </li>
+				</ul>
+
+				<!-- Right buttons -->
+				<div class="right clearfix">
+                                        <ul class="nav navbar-nav pull-right right-navbar-nav">
+                        <!-- Login Form -->
+                        <li class="hidden-sm hidden-xs">
+                            <form class="navbar-form pull-left" method="post" action="https://thenewboston.com/login.php" validate="true">
+                                <div class="form-group">
+                                    <input type="text" class="form-control require-validation" placeholder="Email" v-email="1" v-require="1" name="email" id="username_id"  />
+                                    <input type="password" class="form-control require-validation" placeholder="Password" v-require="1" v-minlength="6" name="password" id="password_id" />
+                                    <input type="submit" name="signin_submit" class="btn btn-primary" value="Login" /> 
+                                    <input type="hidden" name="action" value="login" />
+                                    <input type="hidden" name="35ada36320b3b826e6854b9a22a02099" value="1" />                                </div>
+                            </form>
+                        </li>
+                        
+                        <!-- Login Link -->
+                        <li class="visible-sm visible-xs"><a href="https://thenewboston.com/login.php"><i class="dropdown-icon fa fa-sign-in"></i>&nbsp; Login</a></li>
+                    </ul>
+                    				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>	    <div id="main-menu" role="navigation">
+	<div id="main-menu-inner">
+
+		
+		<ul class="navigation">
+            
+                <!-- Beauty -->
+                <li>
+                    <a href="https://thenewboston.com/videos_beauty.php">
+                        <i class="menu-icon fa fa-heart"></i>
+                        <span class="mm-text">Beauty</span>
+                    </a>
+                </li>
+
+                <!-- Business -->
+                <li>
+                    <a href="https://thenewboston.com/videos_business.php">
+                        <i class="menu-icon fa fa-line-chart"></i>
+                        <span class="mm-text">Business</span>
+                    </a>
+                </li>
+
+                <!-- Computer Science -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php">
+                        <i class="menu-icon fa fa-laptop"></i>
+                        <span class="mm-text">Computer Science</span>
+                    </a>
+                </li>
+
+                <!-- Cooking -->
+                <li>
+                    <a href="https://thenewboston.com/videos_food.php">
+                        <i class="menu-icon fa fa-coffee"></i>
+                        <span class="mm-text">Cooking</span>
+                    </a>
+                </li>
+
+                <!-- Health & Medicine -->
+                <li>
+                    <a href="https://thenewboston.com/videos_health.php">
+                        <i class="menu-icon fa fa-stethoscope"></i>
+                        <span class="mm-text">Health &amp; Medicine</span>
+                    </a>
+                </li>
+
+                <!-- Humanities -->
+                <li>
+                    <a href="https://thenewboston.com/videos_humanities.php">
+                        <i class="menu-icon fa fa-bank"></i>
+                        <span class="mm-text">Humanities</span>
+                    </a>
+                </li>
+
+                <!-- Math -->
+                <li>
+                    <a href="https://thenewboston.com/videos_math.php">
+                        <i class="menu-icon fa fa-plus"></i>
+                        <span class="mm-text">Math</span>
+                    </a>
+                </li>
+
+                <!-- Science -->
+                <li>
+                    <a href="https://thenewboston.com/videos_science.php">
+                        <i class="menu-icon fa fa-leaf"></i>
+                        <span class="mm-text">Science</span>
+                    </a>
+                </li>
+
+                <!-- Social Sciences -->
+                <li>
+                    <a href="https://thenewboston.com/videos_social.php">
+                        <i class="menu-icon fa fa-graduation-cap"></i>
+                        <span class="mm-text">Social Sciences</span>
+                    </a>
+                </li>
+
+                                    <div class="menu-content animated fadeIn">
+                        <a href="https://thenewboston.com/register.php" class="btn btn-primary btn-block btn-outline dark">Create an Account</a>
+                    </div>
+                
+                        
+		</ul>
+	</div>
+</div>    
+
+	<div id="content-wrapper">
+
+        <!-- Breadcrumbs -->
+		<ul class="breadcrumb breadcrumb-page">
+            <li><a href="index.php">Home</a></li>
+            <li class="active">
+                <a href="https://thenewboston.com/videos_humanities.php">
+                                            Humanities                                    </a>
+            </li>
+		</ul>
+        
+                
+                <div class="row">
+            <div class="col-xs-12">
+                <h1 class="margin-top0 featured-video-heading">Watch Thousands of Tutorials for Free!</h1>
+                <p class="margin-bottom25">Welcome to the worlds largest collection of computer and technology related tutorials on the web. Feel free to browse through our library of over 7,000 videos and tutorials. We have courses in programming, web design, video editing, game development, and more. Join the over 180 million people who have already enjoyed the benefits of online learning.</p>
+            </div>
+        </div>
+        
+		<div class="row">
+            
+			<!-- Left -->
+			<div class="col-xs-12 col-lg-6">
+				
+                
+                    <!-- Featured video (not computer science) -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item youtube-player" src="//www.youtube.com/embed/wyzi9GNZFMU?enablejsapi=1" 
+                            data-code="wyzi9GNZFMU"                             
+                            data-token="35ada36320b3b826e6854b9a22a02099" 
+                            id="youtube-player44" allowfullscreen></iframe>
+                    </div>
+                    <br />
+                    <p>
+                        This week, we'll be talking about the idea of civilization, some of the traditional hallmarks of so-called civilization, and why some people would choose to live outside the civilization model. It turns out, not everyone who lives outside of what we traditionally think of as a "civilized" social order is necessarily a barbarian!                    </p>
+                    <br />
+                    
+                    <!-- Top 10 Courses (not computer science) -->
+                    <div class="panel">
+
+                        <div class="panel-heading">
+                            <h2 class="panel-title"><b>Top 10 Courses</b></h2>
+                        </div>
+
+                        <div class="panel-body no-padding">
+                            <table class="videos-top-courses">
+
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=197">
+                                                <img src="/images/video_categories/197.png" alt="US History (cc) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=197">1.&nbsp; US History (cc)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                John Green teaches you the history of the United States of America in 47 episodes!                                                <a href="https://thenewboston.com/videos_humanities.php?cat=197">48 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=206">
+                                                <img src="/images/video_categories/206.png" alt="Civil War and Reconstruction (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=206">2.&nbsp; Civil War and Reconstruction (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course explores the causes, course, and consequences of the American Civil War, from the 1840s to 1877.                                                <a href="https://thenewboston.com/videos_humanities.php?cat=206">27 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=154">
+                                                <img src="/images/video_categories/154.png" alt="World History I (cc) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=154">3.&nbsp; World History I (cc)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                John Green teaches you the history of the world in 42 episodes!                                                <a href="https://thenewboston.com/videos_humanities.php?cat=154">42 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=202">
+                                                <img src="/images/video_categories/202.png" alt="Death (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=202">4.&nbsp; Death (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course will examine a number of issues that arise once we begin to reflect on our mortality. The possibility that death may not actually be the end is considered.                                                <a href="https://thenewboston.com/videos_humanities.php?cat=202">26 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=199">
+                                                <img src="/images/video_categories/199.png" alt="World History II (cc) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=199">5.&nbsp; World History II (cc)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Watch as John Green returns to teaching World History!                                                <a href="https://thenewboston.com/videos_humanities.php?cat=199">17 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=201">
+                                                <img src="/images/video_categories/201.png" alt="Political Philosophy (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=201">6.&nbsp; Political Philosophy (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course is intended as an introduction to political philosophy as seen through an examination of some of the major texts and thinkers of the Western political tradition.                                                <a href="https://thenewboston.com/videos_humanities.php?cat=201">24 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=137">
+                                                <img src="/images/video_categories/137.png" alt="History (KA) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=137">7.&nbsp; History (KA)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course from Khan Academy covers the history of the world!                                                <a href="https://thenewboston.com/videos_humanities.php?cat=137">26 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=212">
+                                                <img src="/images/video_categories/212.png" alt="Epidemics in Western Society (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=212">8.&nbsp; Epidemics in Western Society (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course consists of an international analysis of the impact of epidemic diseases on western society and culture from the Bubonic plague to HIV/AIDS and the recent experience of SARS and swine flu.                                                <a href="https://thenewboston.com/videos_humanities.php?cat=212">26 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=217">
+                                                <img src="/images/video_categories/217.png" alt="The Early Middle Ages (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=217">9.&nbsp; The Early Middle Ages (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Major developments in the political, social, and religious history of Western Europe from the accession of Diocletian to the feudal transformation.                                                <a href="https://thenewboston.com/videos_humanities.php?cat=217">22 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_humanities.php?cat=211">
+                                                <img src="/images/video_categories/211.png" alt="The American Revolution (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_humanities.php?cat=211">10.&nbsp; The American Revolution (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                The American Revolution entailed some remarkable transformations--converting British colonists into American revolutionaries, and a cluster of colonies into a confederation of states with a common cause -- but it was far more complex and enduring then the fighting of a war.                                                <a href="https://thenewboston.com/videos_humanities.php?cat=211">25 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+
+                    </div>
+                    
+                
+			</div>
+
+			<!-- Right -->
+			<div class="col-xs-12 col-lg-4">
+
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-book"></i>
+                                History                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=220" class="list-group-item">
+                                        African American History (Yale)                                        <span class="item-details"> Â· 25 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=206" class="list-group-item">
+                                        Civil War and Reconstruction (Yale)                                        <span class="item-details"> Â· 27 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=213" class="list-group-item">
+                                        Early Modern England (Yale)                                        <span class="item-details"> Â· 25 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=212" class="list-group-item">
+                                        Epidemics in Western Society (Yale)                                        <span class="item-details"> Â· 26 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=208" class="list-group-item">
+                                        European History (Yale)                                        <span class="item-details"> Â· 24 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=207" class="list-group-item">
+                                        France Since 1871 (Yale)                                        <span class="item-details"> Â· 24 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=137" class="list-group-item">
+                                        History (KA)                                        <span class="item-details"> Â· 26 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=205" class="list-group-item">
+                                        Intro to Ancient Greek History (Yale)                                        <span class="item-details"> Â· 24 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=211" class="list-group-item">
+                                        The American Revolution (Yale)                                        <span class="item-details"> Â· 25 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=217" class="list-group-item">
+                                        The Early Middle Ages (Yale)                                        <span class="item-details"> Â· 22 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=197" class="list-group-item">
+                                        US History (cc)                                        <span class="item-details"> Â· 48 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=154" class="list-group-item">
+                                        World History I (cc)                                        <span class="item-details"> Â· 42 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=199" class="list-group-item">
+                                        World History II (cc)                                        <span class="item-details"> Â· 17 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-graduation-cap"></i>
+                                Other                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=249" class="list-group-item">
+                                        Darwin and Design (MIT)                                        <span class="item-details"> Â· 21 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-gavel"></i>
+                                Philosophy                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=202" class="list-group-item">
+                                        Death (Yale)                                        <span class="item-details"> Â· 26 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=219" class="list-group-item">
+                                        Philosophy and Human Nature (Yale)                                        <span class="item-details"> Â· 26 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_humanities.php?cat=201" class="list-group-item">
+                                        Political Philosophy (Yale)                                        <span class="item-details"> Â· 24 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<div id="main-menu-bg"></div></div>
+
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' ></script>
+<script type='text/javascript' src='/js/pixel-admin.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-script.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-forum-script.min.js' ></script>
+<script type='text/javascript' src='//www.youtube.com/iframe_api' ></script>
+</body>
+</html>

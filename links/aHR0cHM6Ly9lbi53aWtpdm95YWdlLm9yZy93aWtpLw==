@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Wikivoyage – The FREE worldwide travel guide that anyone can edit</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":3310421,"wgRevisionId":3310421,"wgArticleId":120537,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Title articles"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":120537,"wgRequestId":"WeqMeQpAIDEAAIolJc4AAAAS","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgWikiEditorEnabledModules":{"toolbar":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":false,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":false,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikivoyage","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.inputBox.styles":"ready","mediawiki.ui.input":"ready","mediawiki.ui.checkbox":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","skins.vector.styles.experimental.print":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.ui.button":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Carousel","ext.gadget.ListingEditor","ext.gadget.MapFrame","ext.gadget.exlinks","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.inputBox.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%2Ccheckbox%2Cinput%7Cskins.vector.styles%7Cskins.vector.styles.experimental.print%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.31.0-wmf.4"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Continents_vide_couleurs-automatedvector.svg/1200px-Continents_vide_couleurs-automatedvector.svg.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikivoyage.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikivoyage (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikivoyage.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikivoyage Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikivoyage.org/wiki/Main_Page"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Main_Page rootpage-Main_Page vector-experimental-print-styles vector-nav-directionality skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Main Page</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From Wikivoyage</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div style="background-color:#0B0A34;">
+<div id="mainpage-map" class="js-proportonal-resize nomobile">
+<div class="mainpage-shadowbox" id="mainpage-maptext">
+<h2><span class="mw-headline" id="Welcome_to_Wikivoyage"><a href="/wiki/Wikivoyage:Welcome,_newcomers" title="Wikivoyage:Welcome, newcomers">Welcome</a> to <a href="/wiki/Wikivoyage:About" title="Wikivoyage:About">Wikivoyage</a></span></h2>
+<p id="mainpage-tagline">the <a href="/wiki/Wikivoyage:Copyleft" title="Wikivoyage:Copyleft">FREE</a> worldwide travel guide that <i><a href="/wiki/Wikivoyage:Plunge_forward" title="Wikivoyage:Plunge forward">anyone can edit</a></i>.</p>
+<div id="mainpage-searchinput">
+<form name="bodySearch0.368240364578" id="bodySearch0.368240364578" class="bodySearch" action="/wiki/Special:Search">
+<div class="bodySearchWrap" style=""><label for="bodySearchInput0.368240364578">Where would you like to travel?<br /></label><input type="text" name="search" class="mw-ui-input mw-ui-input-inline" size="20" id="bodySearchInput0.368240364578" dir="ltr" />&#160;<input type="submit" name="go" value="Search" class="mw-ui-button" /></div>
+</form>
+</div>
+<p>Got a specific question? Ask it at the <a href="/wiki/Wikivoyage:Tourist_office" title="Wikivoyage:Tourist office">tourist office</a></p>
+</div>
+<div id="mainpage-maplinks">
+<p>More: <a href="/wiki/Destinations" title="Destinations">Destinations</a> • <a href="/wiki/Itineraries" title="Itineraries">Itineraries</a> • <a href="/wiki/Phrasebooks" title="Phrasebooks">Phrasebooks</a> • <a href="/wiki/Travel_topics" title="Travel topics">Travel topics</a></p>
+</div>
+<div class="noresize"><map name="ImageMap_1_848525093" id="ImageMap_1_848525093">
+<area href="/wiki/Antarctica" shape="poly" coords="1125,311,1049,296,661,289,463,317,412,327,1125,327" alt="Antarctica" title="Antarctica" />
+<area href="/wiki/Oceania" shape="poly" coords="1007,242,1000,208,1020,203,1036,189,1043,183,1059,186,1082,135,1125,143,1125,227,1125,272" alt="Oceania" title="Oceania" />
+<area href="/wiki/Asia" shape="poly" coords="876,70,836,95,863,140,886,133,925,164,969,165,991,184,1035,190,1042,184,1058,186,1070,165,1084,130,1082,76,1123,39,1122,11,1001,5,875,0" alt="Asia" title="Asia" />
+<area href="/wiki/Africa" shape="poly" coords="817,245,878,219,907,205,886,132,863,140,837,95,788,85,741,96,728,103,729,142,806,240" alt="Africa" title="Africa" />
+<area href="/wiki/Europe" shape="poly" coords="741,12,714,31,743,66,750,93,789,85,819,91,837,95,875,70,874,0" alt="Europe" title="Europe" />
+<area href="/wiki/North_America" shape="poly" coords="395,1,424,63,429,125,493,169,573,176,613,139,635,120,637,75,666,68,718,26,735,13,735,0,394,0" alt="North America" title="North America" />
+<area href="/wiki/South_America" shape="poly" coords="573,176,636,120,705,175,695,215,662,268,643,283,615,283,606,204,592,191" alt="South America" title="South America" /></map><img alt="Bluemarble banner WV.jpg" src="//upload.wikimedia.org/wikivoyage/en/thumb/2/21/Bluemarble_banner_WV.jpg/1125px-Bluemarble_banner_WV.jpg" width="1125" height="326" srcset="//upload.wikimedia.org/wikivoyage/en/thumb/2/21/Bluemarble_banner_WV.jpg/1688px-Bluemarble_banner_WV.jpg 1.5x, //upload.wikimedia.org/wikivoyage/en/thumb/2/21/Bluemarble_banner_WV.jpg/2250px-Bluemarble_banner_WV.jpg 2x" data-file-width="4092" data-file-height="1187" usemap="#ImageMap_1_848525093" /></div>
+</div>
+<div class="mf-mobile-only" id="mf-mapbanner">
+<p><strong><a href="/wiki/Wikivoyage:Welcome,_newcomers" title="Wikivoyage:Welcome, newcomers">Welcome</a> to <a href="/wiki/Wikivoyage:About" title="Wikivoyage:About">Wikivoyage</a></strong></p>
+<p>the <a href="/wiki/Wikivoyage:Copyleft" title="Wikivoyage:Copyleft">FREE</a> worldwide travel guide that <i><a href="/wiki/Wikivoyage:Plunge_forward" title="Wikivoyage:Plunge forward">anyone can edit</a></i>.</p>
+<p><a href="/wiki/Special:Statistics" title="Special:Statistics">28,053</a> articles in English</p>
+<ul>
+<li><a href="/wiki/Africa" title="Africa">Africa</a></li>
+<li><a href="/wiki/Antarctica" title="Antarctica">Antarctica</a></li>
+<li><a href="/wiki/Asia" title="Asia">Asia</a></li>
+<li><a href="/wiki/Europe" title="Europe">Europe</a></li>
+<li><a href="/wiki/North_America" title="North America">North America</a></li>
+<li><a href="/wiki/Oceania" title="Oceania">Oceania</a></li>
+<li><a href="/wiki/South_America" title="South America">South America</a></li>
+</ul>
+<p>Got a specific question? Ask it at the <a href="/wiki/Wikivoyage:Tourist_office" title="Wikivoyage:Tourist office">tourist office</a></p>
+<p>More: <a href="/wiki/Destinations" title="Destinations">Destinations</a> • <a href="/wiki/Itineraries" title="Itineraries">Itineraries</a> • <a href="/wiki/Phrasebooks" title="Phrasebooks">Phrasebooks</a> • <a href="/wiki/Travel_topics" title="Travel topics">Travel topics</a></p>
+</div>
+</div>
+<div class="jcarousel-wrapper">
+<div class="jcarousel jcarousel-randomize">
+<div class="jcarousel-list">
+<div class="jcarousel-item">
+<div class="banner-image nomobile js-proportonal-resize">
+<div class="mainpage-shadowbox banner-box-2 banner-box-right" style="width:33%">
+<h2><span class="mw-headline" id="Nashville"><a href="/wiki/Nashville" title="Nashville">Nashville</a></span></h2>
+<h3><span class="mw-headline" id="Destination_of_the_Month"><a href="/wiki/Previous_Destinations_of_the_month" title="Previous Destinations of the month">Destination of the Month</a></span></h3>
+<div class="quote"><a href="/wiki/Nashville" title="Nashville">Tennessee's capital wears many hats (not just cowboy ones): country fans flock to "Music City, U.S.A." for the Grand Ole Opry and the Country Music Hall of Fame; others prefer the Neoclassical architecture and vibrant culture of the "Athens of the South".</a></div>
+</div>
+<a href="/wiki/Nashville" title="Nashville"><img alt="Nashville" src="//upload.wikimedia.org/wikivoyage/en/thumb/1/1e/NashvilleBanner1.jpg/1700px-NashvilleBanner1.jpg" width="1700" height="567" srcset="//upload.wikimedia.org/wikivoyage/en/1/1e/NashvilleBanner1.jpg 1.5x" data-file-width="1710" data-file-height="570" /></a></div>
+<div id="mf-section-.7B.7B.7Bsection-id.7D.7D.7D" class="mf-mobile-only">
+<h2><span class="mw-headline" id="Destination_of_the_Month_2">Destination of the Month</span></h2>
+<p><b><a href="/wiki/Nashville" title="Nashville">Nashville</a></b></p>
+<p>Tennessee's capital wears many hats (not just cowboy ones): country fans flock to "Music City, U.S.A." for the Grand Ole Opry and the Country Music Hall of Fame; others prefer the Neoclassical architecture and vibrant culture of the "Athens of the South".</p>
+</div>
+</div>
+<div class="jcarousel-item">
+<div class="banner-image nomobile js-proportonal-resize">
+<div class="mainpage-shadowbox banner-box-2 banner-box-left" style="width:32%">
+<h2><span class="mw-headline" id="Filadelfia"><a href="/wiki/Filadelfia" title="Filadelfia">Filadelfia</a></span></h2>
+<h3><span class="mw-headline" id="Off_the_Beaten_Path"><a href="/wiki/Previously_Off_the_beaten_path" title="Previously Off the beaten path">Off the Beaten Path</a></span></h3>
+<div class="quote"><a href="/wiki/Filadelfia" title="Filadelfia">One of the little-known quirks of South America tourists rarely get to see: learn the history of the Mennonite colonies of western Paraguay in this small German-speaking commune hidden amid the remote grasslands and cattle ranches of the Gran Chaco.</a></div>
+</div>
+<a href="/wiki/Filadelfia" title="Filadelfia"><img alt="Filadelfia" src="//upload.wikimedia.org/wikivoyage/en/thumb/3/37/FiladelfiaBanner1.jpg/1700px-FiladelfiaBanner1.jpg" width="1700" height="567" srcset="//upload.wikimedia.org/wikivoyage/en/3/37/FiladelfiaBanner1.jpg 1.5x" data-file-width="1710" data-file-height="570" /></a></div>
+<div id="mf-section-.7B.7B.7Bsection-id.7D.7D.7D" class="mf-mobile-only">
+<h2><span class="mw-headline" id="Off_the_Beaten_Path_2">Off the Beaten Path</span></h2>
+<p><b><a href="/wiki/Filadelfia" title="Filadelfia">Filadelfia</a></b></p>
+<p>One of the little-known quirks of South America tourists rarely get to see: learn the history of the Mennonite colonies of western Paraguay in this small German-speaking commune hidden amid the remote grasslands and cattle ranches of the Gran Chaco.</p>
+</div>
+</div>
+<div class="jcarousel-item">
+<div class="banner-image nomobile js-proportonal-resize">
+<div class="mainpage-shadowbox banner-box-2 banner-box-left" style="width:50%">
+<h2><span class="mw-headline" id="Manchester_Airport"><a href="/wiki/Manchester_Airport" title="Manchester Airport">Manchester Airport</a></span></h2>
+<h3><span class="mw-headline" id="Featured_travel_topic"><a href="/wiki/Previous_Featured_travel_topics" title="Previous Featured travel topics">Featured travel topic</a></span></h3>
+<div class="quote"><a href="/wiki/Manchester_Airport" title="Manchester Airport">With service to the most destinations of any airport in the country, MAN is a gateway to northern Britain — and, compared to Heathrow and Gatwick, a cinch to navigate!</a></div>
+</div>
+<a href="/wiki/Manchester_Airport" title="Manchester Airport"><img alt="Manchester Airport" src="//upload.wikimedia.org/wikivoyage/en/thumb/1/1a/MANBanner1.jpg/1700px-MANBanner1.jpg" width="1700" height="567" srcset="//upload.wikimedia.org/wikivoyage/en/1/1a/MANBanner1.jpg 1.5x" data-file-width="1710" data-file-height="570" /></a></div>
+<div id="mf-section-.7B.7B.7Bsection-id.7D.7D.7D" class="mf-mobile-only">
+<h2><span class="mw-headline" id="Featured_travel_topic_2">Featured travel topic</span></h2>
+<p><b><a href="/wiki/Manchester_Airport" title="Manchester Airport">Manchester Airport</a></b></p>
+<p>With service to the most destinations of any airport in the country, MAN is a gateway to northern Britain — and, compared to Heathrow and Gatwick, a cinch to navigate!</p>
+</div>
+</div>
+</div>
+</div>
+<p><span class="jcarousel-control-prev"><a href="/wiki/">‹</a></span> <span class="jcarousel-control-next"><a href="/wiki/">›</a></span></p>
+<p class="jcarousel-pagination"></p>
+</div>
+<table style="border-spacing: 0; width: 100%; padding: 0; margin: 0; background-color: #c5d7f0;">
+<tr>
+<td class="main-page-bottom-box" style="width: 49.5%">
+<h3><span id="Discover
+&lt;p&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;_Xi'an_has_a_pleasant_cosmopolitan_flair_to_it_and_it_is_worth_visiting_for_the_famed_Terracotta_Warriors_(pictured)_alone.&lt;/li&gt;
+&lt;li&gt;_The_world's_largest_pencil_collection_is_on_display_at_a_museum_outside_Colonia,_Uruguay.&lt;/li&gt;
+&lt;li&gt;_Gwandong_Palgyeong_are_eight_landscapes_that_have_been_famous_for_their_beauty_since_the_Joseon_Dynasty."></span><span class="mw-headline" id="Discover.0A.0A.0A.2A_Xi.27an_has_a_pleasant_cosmopolitan_flair_to_it_and_it_is_worth_visiting_for_the_famed_Terracotta_Warriors_.28pictured.29_alone..0A.2A_The_world.27s_largest_pencil_collection_is_on_display_at_a_museum_outside_Colonia.2C_Uruguay..0A.2A_Gwandong_Palgyeong_are_eight_landscapes_that_have_been_famous_for_their_beauty_since_the_Joseon_Dynasty."><a href="/wiki/Discover" title="Discover">Discover</a></span></h3>
+<div class="floatright">
+<h3><a href="/wiki/File:Xian_guerreros_terracota_general.JPG" class="image"><img alt="Xian guerreros terracota general.JPG" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Xian_guerreros_terracota_general.JPG/100px-Xian_guerreros_terracota_general.JPG" width="100" height="67" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Xian_guerreros_terracota_general.JPG/150px-Xian_guerreros_terracota_general.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Xian_guerreros_terracota_general.JPG/200px-Xian_guerreros_terracota_general.JPG 2x" data-file-width="1536" data-file-height="1024" /></a></h3>
+</div>
+<ul>
+<li><span class="mw-headline" id="Discover.0A.0A.0A.2A_Xi.27an_has_a_pleasant_cosmopolitan_flair_to_it_and_it_is_worth_visiting_for_the_famed_Terracotta_Warriors_.28pictured.29_alone..0A.2A_The_world.27s_largest_pencil_collection_is_on_display_at_a_museum_outside_Colonia.2C_Uruguay..0A.2A_Gwandong_Palgyeong_are_eight_landscapes_that_have_been_famous_for_their_beauty_since_the_Joseon_Dynasty."><a href="/wiki/Xi%27an" title="Xi'an">Xi'an</a> has a pleasant cosmopolitan flair to it and it is <b>worth visiting for the famed Terracotta Warriors</b> (<i>pictured</i>) <b>alone.</b></span></li>
+<li><span class="mw-headline" id="Discover.0A.0A.0A.2A_Xi.27an_has_a_pleasant_cosmopolitan_flair_to_it_and_it_is_worth_visiting_for_the_famed_Terracotta_Warriors_.28pictured.29_alone..0A.2A_The_world.27s_largest_pencil_collection_is_on_display_at_a_museum_outside_Colonia.2C_Uruguay..0A.2A_Gwandong_Palgyeong_are_eight_landscapes_that_have_been_famous_for_their_beauty_since_the_Joseon_Dynasty.">The <b>world's largest pencil collection</b> is on display at a museum outside <a href="/wiki/Colonia" title="Colonia">Colonia</a>, <a href="/wiki/Uruguay" title="Uruguay">Uruguay</a>.</span></li>
+<li><span class="mw-headline" id="Discover.0A.0A.0A.2A_Xi.27an_has_a_pleasant_cosmopolitan_flair_to_it_and_it_is_worth_visiting_for_the_famed_Terracotta_Warriors_.28pictured.29_alone..0A.2A_The_world.27s_largest_pencil_collection_is_on_display_at_a_museum_outside_Colonia.2C_Uruguay..0A.2A_Gwandong_Palgyeong_are_eight_landscapes_that_have_been_famous_for_their_beauty_since_the_Joseon_Dynasty."><a href="/wiki/Gwandong_Palgyeong" title="Gwandong Palgyeong">Gwandong Palgyeong</a> are <b>eight landscapes that have been famous for their beauty</b> since the Joseon Dynasty.</span></li>
+</ul>
+</td>
+<td style="width: 10px; background-color: #c5d7f0;">&#160;</td>
+<td class="main-page-bottom-box">
+<h3><span id="Get_involved
+&lt;p&gt;Collaboration_of_the_month:
+Dead_links_in_city_articles_at_guide_status
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Community_portal&lt;/li&gt;
+&lt;li&gt;Policies&lt;/li&gt;
+&lt;li&gt;How_to_edit_a_page&lt;/li&gt;
+&lt;li&gt;Tips_on_contributing&lt;/li&gt;
+&lt;li&gt;Expeditions&lt;/li&gt;
+&lt;li&gt;Requested_articles&lt;/li&gt;
+&lt;li&gt;Travellers'_pub"></span><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Plunge_forward" title="Wikivoyage:Plunge forward">Get involved</a></span></h3>
+<p><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub">Collaboration of the month: <a href="/wiki/Wikivoyage:Collaboration_of_the_month#Category:Articles_with_dead_external_links" title="Wikivoyage:Collaboration of the month">Dead links in city articles at guide status</a></span></p>
+<span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"></span>
+<div class="floatright"><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Collaboration_of_the_month#Continents" title="Wikivoyage:Collaboration_of_the_month#Continents"><img alt="Wikivoyage:Collaboration_of_the_month#Continents" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Continents_vide_couleurs-automatedvector.svg/250px-Continents_vide_couleurs-automatedvector.svg.png" width="250" height="127" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Continents_vide_couleurs-automatedvector.svg/375px-Continents_vide_couleurs-automatedvector.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Continents_vide_couleurs-automatedvector.svg/500px-Continents_vide_couleurs-automatedvector.svg.png 2x" data-file-width="1860" data-file-height="944" /></a></span></div>
+<ul>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Community_portal" title="Wikivoyage:Community portal">Community portal</a><br /></span></li>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Policies" title="Wikivoyage:Policies">Policies</a><br /></span></li>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:How_to_edit_a_page" title="Wikivoyage:How to edit a page">How to edit a page</a><br /></span></li>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Tips_for_new_contributors" title="Wikivoyage:Tips for new contributors">Tips on contributing</a><br /></span></li>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Expeditions" title="Wikivoyage:Expeditions">Expeditions</a><br /></span></li>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Requested_articles" title="Wikivoyage:Requested articles">Requested articles</a><br /></span></li>
+<li><span class="mw-headline" id="Get_involved.0ACollaboration_of_the_month:.0ADead_links_in_city_articles_at_guide_status.0A.0A.2ACommunity_portal.0A.2APolicies.0A.2AHow_to_edit_a_page.0A.2ATips_on_contributing.0A.2AExpeditions.0A.2ARequested_articles.0A.2ATravellers.27_pub"><a href="/wiki/Wikivoyage:Travellers%27_pub" title="Wikivoyage:Travellers' pub">Travellers' pub</a></span></li>
+</ul>
+</td>
+</tr>
+</table>
+<div style="margin-top:30px; clear:both; padding-top:15px; border-top:3px double #CCC; color:#222; line-height:120%;">
+<div style="background: white; width:45px; margin:0 auto; margin-top:-40px;">
+<div class="center">
+<div class="floatnone"><img alt="Wikimedia-logo.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/45px-Wikimedia-logo.svg.png" width="45" height="45" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/68px-Wikimedia-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/90px-Wikimedia-logo.svg.png 2x" data-file-width="1024" data-file-height="1024" /></div>
+</div>
+</div>
+<div class="plainlinks" style="color:#222; font-size:120%; text-align:center; margin-bottom:20px; padding-top:10px;">Wikivoyage is part of the <b><a href="https://wikimediafoundation.org/wiki/" class="extiw" title="wikimedia:">Wikimedia Foundation</a></b> family</div>
+<table align="center" cellpadding="2" style="margin-top:0px; font-size:100%; text-align:left; background-color:transparent; color:#777;">
+<tr style="text-align:center; padding:10px;">
+<td><a href="https://meta.wikimedia.org/wiki/" title="Meta Wikimedia"><img alt="Meta Wikimedia" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/35px-Wikimedia_Community_Logo.svg.png" width="35" height="35" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/53px-Wikimedia_Community_Logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/70px-Wikimedia_Community_Logo.svg.png 2x" data-file-width="900" data-file-height="900" /></a></td>
+<td><a href="https://en.wikipedia.org/wiki/" title="Wikipedia"><img alt="Wikipedia" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/35px-Wikipedia-logo.png" width="35" height="35" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/53px-Wikipedia-logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/70px-Wikipedia-logo.png 2x" data-file-width="200" data-file-height="200" /></a></td>
+<td><a href="https://en.wiktionary.org/wiki/" title="Wiktionary"><img alt="Wiktionary" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/35px-Wiktionary-logo.svg.png" width="35" height="33" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/53px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/70px-Wiktionary-logo.svg.png 2x" data-file-width="370" data-file-height="350" /></a></td>
+<td><a href="https://en.wikiquote.org/wiki/" title="Wikiquote"><img alt="Wikiquote" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/35px-Wikiquote-logo.svg.png" width="35" height="41" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/53px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/70px-Wikiquote-logo.svg.png 2x" data-file-width="300" data-file-height="355" /></a></td>
+<td><a href="https://en.wikisource.org/wiki/" title="Wikisource"><img alt="Wikisource" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/35px-Wikisource-logo.svg.png" width="35" height="37" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/53px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/70px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" /></a></td>
+<td><a href="https://en.wikibooks.org/wiki/" title="Wikibooks"><img alt="Wikibooks" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png" width="35" height="35" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/53px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/70px-Wikibooks-logo.svg.png 2x" data-file-width="300" data-file-height="300" /></a></td>
+<td><a href="https://en.wikiversity.org/wiki/" title="Wikiversity"><img alt="Wikiversity" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/35px-Wikiversity-logo.svg.png" width="35" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/53px-Wikiversity-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/70px-Wikiversity-logo.svg.png 2x" data-file-width="1000" data-file-height="800" /></a></td>
+<td><a href="https://en.wikinews.org/wiki/" title="Wikinews"><img alt="Wikinews" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/51px-Wikinews-logo.svg.png" width="51" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/77px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/102px-Wikinews-logo.svg.png 2x" data-file-width="759" data-file-height="415" /></a></td>
+<td><a href="https://commons.wikimedia.org/wiki/" title="Wikimedia Commons"><img alt="Wikimedia Commons" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/31px-Commons-logo.svg.png" width="31" height="42" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/62px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></td>
+<td><a href="https://species.wikimedia.org/wiki/" title="Wikispecies"><img alt="Wikispecies" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/35px-Wikispecies-logo.svg.png" width="35" height="41" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/53px-Wikispecies-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/70px-Wikispecies-logo.svg.png 2x" data-file-width="941" data-file-height="1103" /></a></td>
+<td><a href="https://www.wikidata.org/wiki/" title="Wikidata"><img alt="Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/35px-Wikidata-logo.svg.png" width="35" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/53px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/70px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a></td>
+<td><a href="https://www.mediawiki.org/wiki/" title="Wikidata"><img alt="Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/MediaWiki-notext.svg/35px-MediaWiki-notext.svg.png" width="35" height="27" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/MediaWiki-notext.svg/53px-MediaWiki-notext.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bb/MediaWiki-notext.svg/70px-MediaWiki-notext.svg.png 2x" data-file-width="685" data-file-height="530" /></a></td>
+</tr>
+<tr style="text-align:center; vertical-align:top;">
+<td><a href="https://meta.wikimedia.org/wiki/" class="extiw" title="m:">Meta-Wiki</a><br />
+Coordination</td>
+<td><a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">Wikipedia</a><br />
+Encyclopedia</td>
+<td><a href="https://en.wiktionary.org/wiki/" class="extiw" title="wikt:">Wiktionary</a><br />
+Dictionary</td>
+<td><a href="https://en.wikiquote.org/wiki/" class="extiw" title="q:">Wikiquote</a><br />
+Quotations</td>
+<td><a href="https://en.wikisource.org/wiki/" class="extiw" title="s:">Wikisource</a><br />
+Documents</td>
+<td><a href="https://en.wikibooks.org/wiki/" class="extiw" title="b:">Wikibooks</a><br />
+Textbooks</td>
+<td><a href="https://en.wikiversity.org/wiki/" class="extiw" title="v:">Wikiversity</a><br />
+Learning tools</td>
+<td><a href="https://en.wikinews.org/wiki/" class="extiw" title="n:">Wikinews</a><br />
+News</td>
+<td><a href="https://commons.wikimedia.org/wiki/" class="extiw" title="commons:">Commons</a><br />
+Media</td>
+<td><a href="https://species.wikimedia.org/wiki/" class="extiw" title="wikispecies:">Wikispecies</a><br />
+Species</td>
+<td><a href="https://www.wikidata.org/wiki/" class="extiw" title="d:">Wikidata</a><br />
+Structured data</td>
+<td><a href="https://www.mediawiki.org/wiki/" class="extiw" title="mw:">MediaWiki</a><br />
+Wiki software</td>
+</tr>
+</table>
+</div>
+<div class="hlist" style="text-align:center">
+<ul>
+<li><b>Wikivoyage in other languages</b>: <a href="https://de.wikivoyage.org/wiki/" class="extiw" title="de:">Deutsch</a></li>
+<li><a href="https://el.wikivoyage.org/wiki/" class="extiw" title="el:">Ελληνικά</a></li>
+<li><a href="https://es.wikivoyage.org/wiki/" class="extiw" title="es:">Español</a></li>
+<li><a href="https://fa.wikivoyage.org/wiki/" class="extiw" title="fa:">فارسی</a></li>
+<li><a href="https://fi.wikivoyage.org/wiki/" class="extiw" title="fi:">Suomi</a></li>
+<li><a href="https://fr.wikivoyage.org/wiki/" class="extiw" title="fr:">Français</a></li>
+<li><a href="https://he.wikivoyage.org/wiki/" class="extiw" title="he:">עברית</a></li>
+<li><a href="https://hi.wikivoyage.org/wiki/" class="extiw" title="hi:">हिन्दी</a></li>
+<li><a href="https://it.wikivoyage.org/wiki/" class="extiw" title="it:">Italiano</a></li>
+<li><a href="https://nl.wikivoyage.org/wiki/" class="extiw" title="nl:">Nederlands</a></li>
+<li><a href="https://pl.wikivoyage.org/wiki/" class="extiw" title="pl:">Polski</a></li>
+<li><a href="https://pt.wikivoyage.org/wiki/" class="extiw" title="pt:">Português</a></li>
+<li><a href="https://ro.wikivoyage.org/wiki/" class="extiw" title="ro:">Română</a></li>
+<li><a href="https://ru.wikivoyage.org/wiki/" class="extiw" title="ru:">Русский</a></li>
+<li><a href="https://sv.wikivoyage.org/wiki/" class="extiw" title="sv:">Svenska</a></li>
+<li><a href="https://uk.wikivoyage.org/wiki/" class="extiw" title="uk:">Українська</a></li>
+<li><a href="https://vi.wikivoyage.org/wiki/" class="extiw" title="vi:">Tiếng Việt</a></li>
+<li><a href="https://zh.wikivoyage.org/wiki/" class="extiw" title="zh:">中文</a><br /></li>
+</ul>
+<span style="white-space:nowrap;"><a href="https://incubator.wikimedia.org/wiki/Special:IncubatorFirstSteps" class="extiw" title="incubator:Special:IncubatorFirstSteps"><i>start another language!</i></a></span></div>
+<div style="float:right; margin-top:-1em;"><a href="/wiki/Main_Page/Photo_credits" title="Main Page/Photo credits"><span style="color:gray">photo credits</span></a></div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1285
+Cached time: 20171020235221
+Cache expiry: 3600
+Dynamic content: true
+CPU time usage: 0.044 seconds
+Real time usage: 0.065 seconds
+Preprocessor visited node count: 236/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 9326/2097152 bytes
+Template argument size: 3832/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   19.992      1 -total
+ 48.20%    9.636      1 Template:Mapbanner
+ 23.88%    4.774      1 Template:Bottomboxes
+ 13.28%    2.655      1 Template:Discover
+  8.70%    1.739      3 Template:Banner
+  6.17%    1.233      1 Template:Title-Index_page
+  6.00%    1.200      1 Template:WikivoyageSister
+  4.96%    0.992      1 Template:Wikivoyagelang
+  4.38%    0.876      1 Template:Current_collaboration
+-->
+</div>
+<!-- Saved in parser cache with key enwikivoyage:pcache:idhash:120537-0!canonical and timestamp 20171020235242 and revision id 3310421
+ -->
+<noscript><img src="//en.wikivoyage.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikivoyage.org/w/index.php?title=Main_Page&amp;oldid=3310421">https://en.wikivoyage.org/w/index.php?title=Main_Page&amp;oldid=3310421</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category: <ul><li><a href="/wiki/Category:Title_articles" title="Category:Title articles">Title articles</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Main+Page" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Main+Page" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Main_Page" title="View the content page [c]" accesskey="c">Main page</a></span></li>
+							<li id="ca-talk"><span><a href="/wiki/Talk:Main_Page" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Main_Page">Read</a></span></li>
+							<li id="ca-viewsource" class="collapsible"><span><a href="/w/index.php?title=Main_Page&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Main_Page&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikivoyage" title="Search Wikivoyage [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Main-page"><a href="/wiki/Main_Page">Main page</a></li><li id="n-Travel-destinations"><a href="/wiki/Destinations">Travel destinations</a></li><li id="n-Star-articles"><a href="/wiki/Star_articles">Star articles</a></li><li id="n-What.27s-Nearby.3F"><a href="/wiki/Special:Nearby">What's Nearby?</a></li><li id="n-Tourist-office"><a href="/wiki/Wikivoyage:Tourist_office">Tourist office</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Get_involved' aria-labelledby='p-Get_involved-label'>
+			<h3 id='p-Get_involved-label'>Get involved</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Travellers.27-pub"><a href="/wiki/Wikivoyage:Travellers%27_pub">Travellers' pub</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-portal"><a href="/wiki/Wikivoyage:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-Maintenance-panel"><a href="/wiki/Wikivoyage:Maintenance_panel">Maintenance panel</a></li><li id="n-Policies"><a href="/wiki/Wikivoyage:Policies">Policies</a></li><li id="n-help"><a href="/wiki/Wikivoyage:Help" title="The place to find out">Help</a></li><li id="n-Interlingual-lounge"><a href="//meta.wikimedia.org/wiki/Wikivoyage/Lounge">Interlingual lounge</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=en" title="Support us">Donate</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Main_Page" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Main_Page" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="//en.wikivoyage.org/wiki/Wikivoyage:Upload_file" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Main_Page&amp;oldid=3310421" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Main_Page&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5296" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Main_Page&amp;id=3310421" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Main+Page">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Main+Page&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Main_Page&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-wikibase-otherprojects' aria-labelledby='p-wikibase-otherprojects-label'>
+			<h3 id='p-wikibase-otherprojects-label'>In other projects</h3>
+
+			<div class="body">
+									<ul>
+						<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Main_Page" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-mediawiki"><a href="https://www.mediawiki.org/wiki/MediaWiki" hreflang="en">MediaWiki</a></li><li class="wb-otherproject-link wb-otherproject-meta"><a href="https://meta.wikimedia.org/wiki/Main_Page" hreflang="en">Meta-Wiki</a></li><li class="wb-otherproject-link wb-otherproject-species"><a href="https://species.wikimedia.org/wiki/Main_Page" hreflang="en">Wikispecies</a></li><li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/Main_Page" hreflang="en">Wikibooks</a></li><li class="wb-otherproject-link wb-otherproject-wikidata"><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" hreflang="en">Wikidata</a></li><li class="wb-otherproject-link wb-otherproject-wikinews"><a href="https://en.wikinews.org/wiki/Main_Page" hreflang="en">Wikinews</a></li><li class="wb-otherproject-link wb-otherproject-wikipedia"><a href="https://en.wikipedia.org/wiki/Main_Page" hreflang="en">Wikipedia</a></li><li class="wb-otherproject-link wb-otherproject-wikiquote"><a href="https://en.wikiquote.org/wiki/Main_Page" hreflang="en">Wikiquote</a></li><li class="wb-otherproject-link wb-otherproject-wikisource"><a href="https://en.wikisource.org/wiki/Main_Page" hreflang="en">Wikisource</a></li><li class="wb-otherproject-link wb-otherproject-wikiversity"><a href="https://en.wikiversity.org/wiki/Wikiversity:Main_Page" hreflang="en">Wikiversity</a></li><li class="wb-otherproject-link wb-otherproject-wiktionary"><a href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page" hreflang="en">Wiktionary</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>In other languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-de"><a href="https://de.wikivoyage.org/wiki/Hauptseite" title="Hauptseite – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikivoyage.org/wiki/%CE%9A%CF%8D%CF%81%CE%B9%CE%B1_%CE%A3%CE%B5%CE%BB%CE%AF%CE%B4%CE%B1" title="Κύρια Σελίδα – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikivoyage.org/wiki/P%C3%A1gina_principal" title="Página principal – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikivoyage.org/wiki/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C" title="صفحهٔ اصلی – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikivoyage.org/wiki/Etusivu" title="Etusivu – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikivoyage.org/wiki/Accueil" title="Accueil – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikivoyage.org/wiki/%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99" title="עמוד ראשי – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikivoyage.org/wiki/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0" title="मुखपृष्ठ – Hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikivoyage.org/wiki/Pagina_principale" title="Pagina principale – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikivoyage.org/wiki/Hoofdpagina" title="Hoofdpagina – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikivoyage.org/wiki/Strona_g%C5%82%C3%B3wna" title="Strona główna – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikivoyage.org/wiki/P%C3%A1gina_principal" title="Página principal – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikivoyage.org/wiki/Pagina_principal%C4%83" title="Pagina principală – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikivoyage.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Заглавная страница – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikivoyage.org/wiki/Huvudsida" title="Huvudsida – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikivoyage.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0" title="Головна сторінка – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikivoyage.org/wiki/Trang_Ch%C3%ADnh" title="Trang Chính – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikivoyage.org/wiki/%E9%A6%96%E9%A1%B5" title="首页 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>					</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5296#sitelinks-wikivoyage" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-credits">This travel guide page was last edited at 23:52, on 20 October 2017 by Wikivoyage user <a href="/wiki/User:AndreCarrotflower" title="User:AndreCarrotflower">AndreCarrotflower</a>. Based on work by Wikivoyage users <a href="/wiki/User:Wrh2" title="User:Wrh2">Wrh2</a>, <a href="/wiki/User:Torty3" title="User:Torty3">Torty3</a>, <a href="/wiki/User:Nurg" title="User:Nurg">Nurg</a>, <a href="/wiki/User:Ikan_Kekek" title="User:Ikan Kekek">Ikan Kekek</a>, <a href="/w/index.php?title=User:Rats121Rats&amp;action=edit&amp;redlink=1" class="new" title="User:Rats121Rats (page does not exist)">Rats121Rats</a>, <a href="/wiki/User:Ypsilon" title="User:Ypsilon">Ypsilon</a>, <a href="/wiki/User:Hobbitschuster" title="User:Hobbitschuster">Hobbitschuster</a>, <a href="/w/index.php?title=User:Diogo_Bispo&amp;action=edit&amp;redlink=1" class="new" title="User:Diogo Bispo (page does not exist)">Diogo Bispo</a> and <a href="/wiki/User:Jc86035" title="User:Jc86035">Jc86035</a> and <a href="/w/index.php?title=Main_Page&amp;action=credits" title="Main Page">others</a>.</li>
+											<li id="footer-info-copyright">Text is available under the <a href="//creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike License</a>; additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy.</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikivoyage:About" title="Wikivoyage:About">About Wikivoyage</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikivoyage:Disclaimer" title="Wikivoyage:Disclaimer">Disclaimer</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikivoyage.org/w/index.php?title=Main_Page&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.044","walltime":"0.065","ppvisitednodes":{"value":236,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":9326,"limit":2097152},"templateargumentsize":{"value":3832,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   19.992      1 -total"," 48.20%    9.636      1 Template:Mapbanner"," 23.88%    4.774      1 Template:Bottomboxes"," 13.28%    2.655      1 Template:Discover","  8.70%    1.739      3 Template:Banner","  6.17%    1.233      1 Template:Title-Index_page","  6.00%    1.200      1 Template:WikivoyageSister","  4.96%    0.992      1 Template:Wikivoyagelang","  4.38%    0.876      1 Template:Current_collaboration"]},"cachereport":{"origin":"mw1285","timestamp":"20171020235221","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":107,"wgHostname":"mw1328"});});</script>
+	</body>
+</html>

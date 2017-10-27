@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Watch free video tutorials on computer programming, web design, game development, and more.">    <title>Android App Development - Beginners Tutorial - Introduction</title>
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin' >
+<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' >
+<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/main.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/widgets.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/pages.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/themes.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/sceditor/themes/default.min.css' >
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js' ></script>
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script><![endif]-->    
+</head>
+<body class="theme-default main-menu-fixed main-navbar-fixed">
+
+<script>
+    (function (i, s, o, g, r, a, m){
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function (){
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-56989641-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+    
+
+<script>var init = []; var tnb_base_path = 'https://thenewboston.com/';</script>
+<div id="main-wrapper">
+	
+<div id="main-navbar" class="navbar navbar-inverse" role="navigation">
+
+	<!-- Left menu toggle button -->
+	<button type="button" id="main-menu-toggle">
+		<i class="navbar-icon fa fa-bars icon"></i>
+	</button>
+
+	<div class="navbar-inner">
+
+		<!-- Logo and top menu toggle (for smaller screens) -->
+		<div class="navbar-header">
+			<a href="https://thenewboston.com/index.php" class="navbar-brand">
+				<div>
+					<img alt="thenewboston Logo" src="/images/logo.png" />
+				</div>
+				thenewboston
+			</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+			        data-target="#main-navbar-collapse">
+				<i class="navbar-icon fa fa-bars"></i>
+			</button>
+		</div>
+
+		<div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
+			<div>
+
+				<!-- Left buttons -->
+				<ul class="nav navbar-nav">
+                    					<li><a href="https://thenewboston.com/forum"><i class="dropdown-icon fa fa-comment"></i>&nbsp; Forum</a></li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp; Video Tutorials</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://thenewboston.com/videos_beauty.php">Beauty</a></li>
+                            <li><a href="https://thenewboston.com/videos_business.php">Business</a></li>
+                            <li><a href="https://thenewboston.com/videos.php">Computer Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_food.php">Cooking</a></li>
+                            <li><a href="https://thenewboston.com/videos_health.php">Health &amp; Medicine</a></li>
+                            <li><a href="https://thenewboston.com/videos_humanities.php">Humanities</a></li>
+                            <li><a href="https://thenewboston.com/videos_math.php">Math</a></li>
+                            <li><a href="https://thenewboston.com/videos_science.php">Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_social.php">Social Sciences</a></li>
+                        </ul>
+                    </li>
+				</ul>
+
+				<!-- Right buttons -->
+				<div class="right clearfix">
+                                        <ul class="nav navbar-nav pull-right right-navbar-nav">
+                        <!-- Login Form -->
+                        <li class="hidden-sm hidden-xs">
+                            <form class="navbar-form pull-left" method="post" action="https://thenewboston.com/login.php" validate="true">
+                                <div class="form-group">
+                                    <input type="text" class="form-control require-validation" placeholder="Email" v-email="1" v-require="1" name="email" id="username_id"  />
+                                    <input type="password" class="form-control require-validation" placeholder="Password" v-require="1" v-minlength="6" name="password" id="password_id" />
+                                    <input type="submit" name="signin_submit" class="btn btn-primary" value="Login" /> 
+                                    <input type="hidden" name="action" value="login" />
+                                    <input type="hidden" name="7fcf29e9c2c5e100b0eab03056e38221" value="1" />                                </div>
+                            </form>
+                        </li>
+                        
+                        <!-- Login Link -->
+                        <li class="visible-sm visible-xs"><a href="https://thenewboston.com/login.php"><i class="dropdown-icon fa fa-sign-in"></i>&nbsp; Login</a></li>
+                    </ul>
+                    				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>	<div id="main-menu" role="navigation">
+	<div id="main-menu-inner">
+
+		
+		<ul class="navigation">
+                            
+                                
+                <!-- <li class="active"> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27335" class="video-item">
+                        <span class="mm-text">
+                            1 - Introduction                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27336" class="video-item">
+                        <span class="mm-text">
+                            2 - Installing Android Studio                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27337" class="video-item">
+                        <span class="mm-text">
+                            3 - Setting up Your Project                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27338" class="video-item">
+                        <span class="mm-text">
+                            4 - Running a Simple App                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27339" class="video-item">
+                        <span class="mm-text">
+                            5 - Tour of the Interface                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27340" class="video-item">
+                        <span class="mm-text">
+                            6 - Android Studio Tips                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27341" class="video-item">
+                        <span class="mm-text">
+                            7 - Create a Custom AVD                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27342" class="video-item">
+                        <span class="mm-text">
+                            8 - Basic Overview of an App                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27343" class="video-item">
+                        <span class="mm-text">
+                            9 - Activity States                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27344" class="video-item">
+                        <span class="mm-text">
+                            10 - Running the State Changing Example                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27345" class="video-item">
+                        <span class="mm-text">
+                            11 - Designing the User Interface                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27346" class="video-item">
+                        <span class="mm-text">
+                            12 - More on User Interface                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27347" class="video-item">
+                        <span class="mm-text">
+                            13 - Create an Interface with Java                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27348" class="video-item">
+                        <span class="mm-text">
+                            14 - Adding Properties to Widgets                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27349" class="video-item">
+                        <span class="mm-text">
+                            15 - Adding More Widgets                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27350" class="video-item">
+                        <span class="mm-text">
+                            16 - Converting DIP to Pixels                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27351" class="video-item">
+                        <span class="mm-text">
+                            17 - GridLayout                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27352" class="video-item">
+                        <span class="mm-text">
+                            18 - Event Handling                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27353" class="video-item">
+                        <span class="mm-text">
+                            19 - Event Listener and Callback Method                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27354" class="video-item">
+                        <span class="mm-text">
+                            20 - Multiple Event Listeners                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27355" class="video-item">
+                        <span class="mm-text">
+                            21 - Gestures                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27356" class="video-item">
+                        <span class="mm-text">
+                            22 - Running the Gesture App                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27357" class="video-item">
+                        <span class="mm-text">
+                            23 - Fragments                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27358" class="video-item">
+                        <span class="mm-text">
+                            24 - Designing the Top Fragment                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27359" class="video-item">
+                        <span class="mm-text">
+                            25 - Creating the Fragment Class                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27360" class="video-item">
+                        <span class="mm-text">
+                            26 - Finishing the Meme Apps Design                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27361" class="video-item">
+                        <span class="mm-text">
+                            27 - Listening for Button Clicks                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27362" class="video-item">
+                        <span class="mm-text">
+                            28 - Communicating with Main Activity                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27363" class="video-item">
+                        <span class="mm-text">
+                            29 - Changing the Memes Text                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27364" class="video-item">
+                        <span class="mm-text">
+                            30 - Dank Meme Bro                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27365" class="video-item">
+                        <span class="mm-text">
+                            31 - Master Detail Flow                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27366" class="video-item">
+                        <span class="mm-text">
+                            32 - Master Detail Flow Example                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27367" class="video-item">
+                        <span class="mm-text">
+                            33 - Overflow Menu                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27368" class="video-item">
+                        <span class="mm-text">
+                            34 - Animations and Transitions                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27369" class="video-item">
+                        <span class="mm-text">
+                            35 - Intents                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27370" class="video-item">
+                        <span class="mm-text">
+                            36 - Sending Extra Intent Data                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27371" class="video-item">
+                        <span class="mm-text">
+                            37 - Sending Broadcast Intents                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27372" class="video-item">
+                        <span class="mm-text">
+                            38 - Receiving Broadcast Intents                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27373" class="video-item">
+                        <span class="mm-text">
+                            39 - Threads                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27374" class="video-item">
+                        <span class="mm-text">
+                            40 - Thread Handlers                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27375" class="video-item">
+                        <span class="mm-text">
+                            41 - Intent Service                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27376" class="video-item">
+                        <span class="mm-text">
+                            42 - Services                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27377" class="video-item">
+                        <span class="mm-text">
+                            43 - Bound Services                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27378" class="video-item">
+                        <span class="mm-text">
+                            44 - Bound Services Example                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27379" class="video-item">
+                        <span class="mm-text">
+                            45 - ListView                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27380" class="video-item">
+                        <span class="mm-text">
+                            46 - ListView Example                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27381" class="video-item">
+                        <span class="mm-text">
+                            47 - Custom ListView Row                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27382" class="video-item">
+                        <span class="mm-text">
+                            48 - Custom ListView Adapter                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27383" class="video-item">
+                        <span class="mm-text">
+                            49 - Saving Data with SQLite                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27384" class="video-item">
+                        <span class="mm-text">
+                            50 - SQLite Database Product                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27385" class="video-item">
+                        <span class="mm-text">
+                            51 - Creating a New SQLite Database                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27386" class="video-item">
+                        <span class="mm-text">
+                            52 - Adding and Deleting Rows                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27387" class="video-item">
+                        <span class="mm-text">
+                            53 - Printing Database Results                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27388" class="video-item">
+                        <span class="mm-text">
+                            54 - Testing the SQLite App                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27389" class="video-item">
+                        <span class="mm-text">
+                            55 - Playing Video                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27390" class="video-item">
+                        <span class="mm-text">
+                            56 - Image Capture                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27391" class="video-item">
+                        <span class="mm-text">
+                            57 - Taking Photos with the Camera                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27392" class="video-item">
+                        <span class="mm-text">
+                            58 - Image Effects                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27393" class="video-item">
+                        <span class="mm-text">
+                            59 - Inverting an Image                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27394" class="video-item">
+                        <span class="mm-text">
+                            60 - Creating Photo Filters                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27395" class="video-item">
+                        <span class="mm-text">
+                            61 - Notifications                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27396" class="video-item">
+                        <span class="mm-text">
+                            62 - Custom Notifications                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27397" class="video-item">
+                        <span class="mm-text">
+                            63 - Styles                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27398" class="video-item">
+                        <span class="mm-text">
+                            64 - Themes                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27420" class="video-item">
+                        <span class="mm-text">
+                            65 - Shared Preferences                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27421" class="video-item">
+                        <span class="mm-text">
+                            66 - Shared Preferences Example                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29920" class="video-item">
+                        <span class="mm-text">
+                            67 - Custom Launcher Icon                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29921" class="video-item">
+                        <span class="mm-text">
+                            68 - Working with GitHub                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29922" class="video-item">
+                        <span class="mm-text">
+                            69 - Creating an APK File for Distribution                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29923" class="video-item">
+                        <span class="mm-text">
+                            70 - LibGDX Game Development                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29924" class="video-item">
+                        <span class="mm-text">
+                            71 - LibGDX Game Project Structure                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29925" class="video-item">
+                        <span class="mm-text">
+                            72 - LibGDX Displaying Text                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29926" class="video-item">
+                        <span class="mm-text">
+                            73 - LibGDX Displaying Images                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29927" class="video-item">
+                        <span class="mm-text">
+                            74 - LibGDX Game Animation                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29928" class="video-item">
+                        <span class="mm-text">
+                            75 - LibGDX Handling User Input                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29929" class="video-item">
+                        <span class="mm-text">
+                            76 - LibGDX Camera                        </span>
+                    </a>
+                </li>
+                                
+                <!-- <li class=""> -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=29930" class="video-item">
+                        <span class="mm-text">
+                            77 - LibGDX Sound Effects and Streaming Music                        </span>
+                    </a>
+                </li>
+                
+                        
+		</ul>
+	</div>
+</div>  
+
+	<div id="content-wrapper">
+
+		<ul class="breadcrumb breadcrumb-page">
+            <li><a href="index.php">Home</a></li>
+            <li>
+                <a href="https://thenewboston.com/videos.php">
+                                        Computer Science
+                                    </a>
+            </li>
+            <li>                
+                <a href="https://thenewboston.com/videos.php?cat=278">Android App Development - Beginners</a>
+            </li>
+            <li class="active">                
+                Introduction            </li>
+        </ul>
+        
+                
+		<!-- Left -->
+		<div class="col-lg-6 col-md-12">
+
+			<div class="row hidden-tablet video-title-panel">
+				<div class="col-xs-8">
+					<h1 class="featured-video-heading margin-top0 margin-bottom10 hidden-xs hidden-sm">Introduction</h1>
+				</div>
+				<div class="col-xs-4">
+					<div class="addthis_sharing_toolbox hidden-xs hidden-sm pull-right"></div>
+				</div>
+			</div>
+
+			<div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item youtube-player" src="//www.youtube.com/embed/QAbQgLGKd3Y?enablejsapi=1" 
+                            id="youtube-player27" 
+                            data-code="QAbQgLGKd3Y" 
+                            data-token="7fcf29e9c2c5e100b0eab03056e38221" allowfullscreen></iframe>
+			</div>
+            <div class="progress progress-striped margin-top15 margin-bottom15">
+				<div class="progress-bar progress-bar-info" style="width: 1%;"></div>
+			</div>
+            
+            <div class="form-inline text-right margin-bottom30">
+
+                <div class="donate-contr">
+
+                    <!-- Donate -->
+                    <a href="https://www.patreon.com/thenewboston?ty=h" target="_blank">
+                        <button class="btn btn-sm btn-labeled btn-success">
+                            <span class="btn-label icon fa fa-heart"></span>Donate
+                        </button>
+                    </a>
+
+                </div>
+
+                                                <div class="form-group">
+                    <a href="https://thenewboston.com/videos.php?cat=278&video=27336" class="btn btn-default">Next</a>
+                </div>
+                            </div>
+            
+            <!-- Create Topic Directly Form -->
+            
+        </div>
+
+        <!-- Right -->
+        <div class="col-lg-6 col-md-12">
+            
+            
+			<div class="panel hidden-xs hidden-sm">
+
+				<div class="panel-heading">
+					<h2 class="panel-title inline">
+                        Java / Android Development                    </h2>
+                    <div class="panel-heading-controls">
+                        <div class="panel-heading-text">
+                            <a href="https://thenewboston.com//forum/category.php?id=10" class="view-all-link">view all</a>
+                        </div>
+                    </div>
+				</div>
+
+				<div class="panel-body no-padding" >
+					<div class="table-primary no-margin-b">
+						<table class="table table-striped forum-feed-table forum-feed-table-default">
+
+							<!-- Table body -->
+							<tbody>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13184" class="title text-semibold">
+                                            Java for beginners has ended, next step ?                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=59246" class="user-name">Abdurrahman M. Rabah</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13184" class="date text-semibold">September 13, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13184" class="replies text-semibold">2 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="13184"
+                                            data-hashed="c31e43b654cfc2f6af521ed22978e87c"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +5                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=1283" class="title text-semibold">
+                                            Question about an Interview on the 22nd                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=7291" class="user-name">Jean DeZonia</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=1283" class="date text-semibold">September 13, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=1283" class="replies text-semibold">7 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="1283"
+                                            data-hashed="5c5eafcf552f79d62d86237a307f259f"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +3                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13027" class="title text-semibold">
+                                            To learn programming or NOT !? Need advice here!                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=107134" class="user-name">Elijah Gankz Pao</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13027" class="date text-semibold">August 20, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13027" class="replies text-semibold">17 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="13027"
+                                            data-hashed="10db621cab21d43894a38b3f7f47fbba"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +18                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13093" class="title text-semibold">
+                                            Does &quot;Bucky&#039;s Java&quot; teach you some OOP fundamentals?                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=113037" class="user-name">Stefan Catalin</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13093" class="date text-semibold">June 14, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13093" class="replies text-semibold">3 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="13093"
+                                            data-hashed="54c2db15bb87237a2090c1db5bb99dac"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +15                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13070" class="title text-semibold">
+                                            nested if statements                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=54062" class="user-name">Sylvester Chikoti</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13070" class="date text-semibold">June 2, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=13070" class="replies text-semibold">3 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="13070"
+                                            data-hashed="a90da3d2fa8269861e0a261a4d17f7f5"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +11                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=3234" class="title text-semibold">
+                                            Different States of an Android Activity                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=2" class="user-name">Bucky Roberts</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=3234" class="date text-semibold">April 23, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=3234" class="replies text-semibold">51 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="3234"
+                                            data-hashed="aa06871ac8e5eceb9a0093c8feb580a5"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +155                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12994" class="title text-semibold">
+                                            I cant run Avd in emulator - &quot;PANIC: Unknown AVD name&quot;                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=105357" class="user-name">Evgeny Kosakovich</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12994" class="date text-semibold">April 23, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12994" class="replies text-semibold">1 reply</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="12994"
+                                            data-hashed="c4b1168dd6082e5cc79afc2d48599346"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +5                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12431" class="title text-semibold">
+                                            Location based app                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=98223" class="user-name">Dark knight</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12431" class="date text-semibold">April 23, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12431" class="replies text-semibold">5 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="12431"
+                                            data-hashed="3db9bfecabe1f672cf9dccd769282b37"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +6                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=5437" class="title text-semibold">
+                                            SOLVED - Android: MasterDetailFlow example -&gt; ERR_CACHE_MISS                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=45341" class="user-name">Matthew Cliatt</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=5437" class="date text-semibold">April 23, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=5437" class="replies text-semibold">2 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="5437"
+                                            data-hashed="b638757181a948568826bc962089c48d"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +4                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+								<tr>
+                                    <!-- Icon -->
+                                    <td class="feed-item post-thumbnail">
+                                        <a href="https://thenewboston.com/forum/category.php?id=10">
+                                            <img class="item-thumbnail" src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png">
+                                        </a>
+                                    </td>
+                                    
+                                    <!-- Text content  -->
+                                    <td class="feed-item valign-top content">
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12118" class="title text-semibold">
+                                            Uploading a photo into WebView site directly from camera                                        </a>
+                                        <a href="https://thenewboston.com/profile.php?user=79420" class="user-name">Monty Mason</a></a>
+                                        <span class="arrows"> >> </span>
+                                        <a href="https://thenewboston.com/forum/category.php?id=10" class="category-name">Java / Android Development </a> <br>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12118" class="date text-semibold">April 23, 2017</a>
+                                        <span class="dot"> &middot; </span>
+                                        <a href="https://thenewboston.com/forum/topic.php?id=12118" class="replies text-semibold">3 replies</a>
+                                    </td>
+                                    
+                                    <td class="feed-item vote">
+                                                                              <a href="#" class="btn btn-sm btn-outline processing btn-11 thumb-up" 
+                                            data-type='topic' data-action="thumb-up"
+                                            data-id="12118"
+                                            data-hashed="449eec8338ae562273431a29547b2a46"
+                                            data-loading-text="<span class='fa fa-spinner fa-spin'></span>"
+                                            data-placement="left" title="You already casted your vote.">
+                                            
+                                            +3                                        </a>
+                                                                          </td>
+									
+								</tr>
+
+							
+							</tbody>
+
+						</table>
+					</div>
+				</div>
+			</div>
+            
+            
+
+
+		</div>
+    
+    </div>
+    
+    <div id="main-menu-bg"></div></div>
+
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' ></script>
+<script type='text/javascript' src='/js/pixel-admin.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-script.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-forum-script.min.js' ></script>
+<script type='text/javascript' src='//www.youtube.com/iframe_api' ></script>
+</body>
+</html>

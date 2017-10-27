@@ -1,0 +1,2039 @@
+<!doctype html>
+<!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->
+<!--[if IE 7]>      <html class="no-js ie7 lt-ie8 lt-ie9">          <![endif]-->
+<!--[if IE 8]>      <html class="no-js ie8 lt-ie9">                 <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr">  <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="prefetch" href="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+
+    <meta name="application-name" content="Python.org">
+    <meta name="msapplication-tooltip" content="The official home of the Python Programming Language">
+    <meta name="apple-mobile-web-app-title" content="Python.org">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="imagetoolbar" content="false">
+
+    <script src="/static/js/libs/modernizr.js"></script>
+
+    <link href="/static/stylesheets/style.css" rel="stylesheet" type="text/css" title="default" />
+    <link href="/static/stylesheets/mq.css" rel="stylesheet" type="text/css" media="not print, braille, embossed, speech, tty" />
+    
+
+    <!--[if (lte IE 8)&(!IEMobile)]>
+    <link href="/static/stylesheets/no-mq.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    
+    <![endif]-->
+
+    
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="/static/metro-icon-144x144-precomposed.png"><!-- white shape -->
+    <meta name="msapplication-TileColor" content="#3673a5"><!-- python blue -->
+    <meta name="msapplication-navbutton-color" content="#3673a5">
+
+    <title>PEP 0 -- Index of Python Enhancement Proposals (PEPs) | Python.org</title>
+
+    <meta name="description" content="The official home of the Python Programming Language">
+    <meta name="keywords" content="Python programming language object oriented web free open source software license documentation download community">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Python.org">
+    <meta property="og:title" content="PEP 0 -- Index of Python Enhancement Proposals (PEPs)">
+    <meta property="og:description" content="The official home of the Python Programming Language">
+    
+    <meta property="og:image" content="https://www.python.org/static/opengraph-icon-200x200.png">
+    <meta property="og:image:secure_url" content="https://www.python.org/static/opengraph-icon-200x200.png">
+    
+    <meta property="og:url" content="https://www.python.org/dev/peps/">
+
+    <link rel="author" href="/static/humans.txt">
+
+    <link rel="alternate" type="application/rss+xml" title="Python Enhancement Proposals"
+          href="https://www.python.org/dev/peps/peps.rss/">
+    <link rel="alternate" type="application/rss+xml" title="Python Job Opportunities"
+          href="https://www.python.org/jobs/feed/rss/">
+    <link rel="alternate" type="application/rss+xml" title="Python Software Foundation News"
+          href="https://feeds.feedburner.com/PythonSoftwareFoundationNews">
+    <link rel="alternate" type="application/rss+xml" title="Python Insider"
+          href="https://feeds.feedburner.com/PythonInsider">
+
+    
+
+    
+    <script type="application/ld+json">
+     {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "https://www.python.org/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.python.org/search/?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+     }
+    </script>
+
+    
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39055973-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    
+</head>
+
+<body class="python pages pep-page">
+
+    <div id="touchnav-wrapper">
+
+        <div id="nojs" class="do-not-print">
+            <p><strong>Notice:</strong> While Javascript is not essential for this website, your interaction with the content will be limited. Please turn Javascript on for the full experience. </p>
+        </div>
+
+        <!--[if lt IE 8]>
+        <div id="oldie-warning" class="do-not-print">
+            <p><strong>Notice:</strong> Your browser is <em>ancient</em> and <a href="http://www.ie6countdown.com/">Microsoft agrees</a>. <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience a better web.</p>
+        </div>
+        <![endif]-->
+
+        <!-- Sister Site Links -->
+        <div id="top" class="top-bar do-not-print">
+
+            <nav class="meta-navigation container" role="navigation">
+
+                
+                <div class="skip-link screen-reader-text">
+                    <a href="#content" title="Skip to content">Skip to content</a>
+                </div>
+
+                
+                <a id="close-python-network" class="jump-link" href="#python-network" aria-hidden="true">
+                    <span aria-hidden="true" class="icon-arrow-down"><span>&#9660;</span></span> Close
+                </a>
+
+                
+
+<ul class="menu" role="tree">
+    
+    <li class="python-meta ">
+        <a href="/" title="The Python Programming Language" >Python</a>
+    </li>
+    
+    <li class="psf-meta ">
+        <a href="/psf-landing/" title="The Python Software Foundation" >PSF</a>
+    </li>
+    
+    <li class="docs-meta ">
+        <a href="https://docs.python.org" title="Python Documentation" >Docs</a>
+    </li>
+    
+    <li class="pypi-meta ">
+        <a href="https://pypi.python.org/" title="Python Package Index" >PyPI</a>
+    </li>
+    
+    <li class="jobs-meta ">
+        <a href="/jobs/" title="Python Job Board" >Jobs</a>
+    </li>
+    
+    <li class="shop-meta ">
+        <a href="/community/" title="Python Community" >Community</a>
+    </li>
+    
+</ul>
+
+
+                <a id="python-network" class="jump-link" href="#top" aria-hidden="true">
+                    <span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> The Python Network
+                </a>
+
+            </nav>
+
+        </div>
+
+        <!-- Header elements -->
+        <header class="main-header" role="banner">
+            <div class="container">
+
+                <h1 class="site-headline">
+                    <a href="/"><img class="python-logo" src="/static/img/python-logo.png" alt="python&trade;"></a>
+                </h1>
+
+                <div class="options-bar do-not-print">
+
+                    
+                    <a id="site-map-link" class="jump-to-menu" href="#site-map"><span class="menu-icon">&equiv;</span> Menu</a><form class="search-the-site" action="/search/" method="get">
+                        <fieldset title="Search Python.org">
+
+                            <span aria-hidden="true" class="icon-search"></span>
+
+                            <label class="screen-reader-text" for="id-search-field">Search This Site</label>
+                            <input id="id-search-field" name="q" type="search" role="textbox" class="search-field" placeholder="Search" value="" tabindex="1">
+
+                            <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                                GO
+                            </button>
+
+                            
+                            <!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" tabindex="4"><![endif]-->
+
+                        </fieldset>
+                    </form><span class="breaker"></span><div class="adjust-font-size" aria-hidden="true">
+                        <ul class="navigation menu" aria-label="Adjust Text Size on Page">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger"><strong><small>A</small> A</strong></a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a class="text-shrink" title="Make Text Smaller" href="javascript:;">Smaller</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a class="text-grow" title="Make Text Larger" href="javascript:;">Larger</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a class="text-reset" title="Reset any font size changes I have made" href="javascript:;">Reset</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="winkwink-nudgenudge">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger">Socialize</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="http://plus.google.com/+Python"><span aria-hidden="true" class="icon-google-plus"></span>Google+</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="http://www.facebook.com/pythonlang?fref=ts"><span aria-hidden="true" class="icon-facebook"></span>Facebook</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a href="http://twitter.com/ThePSF"><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
+                                    <li class="tier-2 element-4" role="treeitem"><a href="/community/irc/"><span aria-hidden="true" class="icon-freenode"></span>Chat on IRC</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="account-signin">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                
+                                <a href="/accounts/login/" title="Sign Up or Sign In to Python.org">Sign In</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="/accounts/signup/">Sign Up / Register</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="/accounts/login/">Sign In</a></li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!-- end options-bar -->
+
+                <nav id="mainnav" class="python-navigation main-navigation do-not-print" role="navigation">
+                    
+                        
+<ul class="navigation menu" role="menubar" aria-label="Main Navigation">
+  
+    
+    
+    <li id="about" class="tier-1 element-1  " aria-haspopup="true">
+        <a href="/about/" title="" class="">About</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/help/" title="">Help</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="http://brochure.getpython.info/" title="">Python Brochure</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="downloads" class="tier-1 element-2  " aria-haspopup="true">
+        <a href="/downloads/" title="" class="">Downloads</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/download/alternatives" title="">Alternative Implementations</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="documentation" class="tier-1 element-3  " aria-haspopup="true">
+        <a href="/doc/" title="" class="">Documentation</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/doc/essays/" title="">Python Essays</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="community" class="tier-1 element-4  " aria-haspopup="true">
+        <a href="/community/" title="" class="">Community</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/community/forums/" title="">Forums</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-10" role="treeitem"><a href="/community/awards" title="">Community Awards</a></li>
+    
+        <li class="tier-2 element-11" role="treeitem"><a href="https://www.python.org/psf/codeofconduct/" title="">Code of Conduct</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="success-stories" class="tier-1 element-5  " aria-haspopup="true">
+        <a href="/about/success/" title="success-stories" class="">Success Stories</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/about/success/#software-development" title="">Software Development</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="news" class="tier-1 element-6  " aria-haspopup="true">
+        <a href="/blogs/" title="News from around the Python world" class="">News</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="events" class="tier-1 element-7  " aria-haspopup="true">
+        <a href="/events/" title="" class="">Events</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/events/python-events" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    
+  
+</ul>
+
+                    
+                </nav>
+
+                <div class="header-banner "> <!-- for optional "do-not-print" class -->
+                    
+                    
+                </div>
+
+                
+                
+
+             </div><!-- end .container -->
+        </header>
+
+        <div id="content" class="content-wrapper">
+            <!-- Main Content Column -->
+            <div class="container">
+
+                <section class="main-content with-left-sidebar" role="main">
+
+                    
+<ul class="breadcrumbs menu">
+    <li>
+        <a href="/" title="The Python Programming Language">Python</a><span class="prompt">&gt;&gt;&gt;</span>
+    </li>
+    <li>
+        <a href="/dev/">Python Developer's Guide</a><span class="prompt">&gt;&gt;&gt;</span>
+    </li>
+    <li>
+        <a href="/dev/peps/">PEP Index</a><span class="prompt">&gt;&gt;&gt;</span>
+    </li>
+    <li>PEP 0 -- Index of Python Enhancement Proposals (PEPs)</li>
+</ul>
+
+
+                    
+
+                    
+<style>
+   .pep-page pre {
+        padding: .5em;
+        background: inherit;
+        border-left: 0px;
+        -webkit-box-shadow: 0 0 0 0;
+        -moz-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+   }
+</style>
+
+    
+    <article class="text">
+        
+
+        <header class="article-header">
+            <h1 class="page-title">PEP 0 -- Index of Python Enhancement Proposals (PEPs)</h1>
+        </header>
+
+        <div class="header">
+<table border="0">
+<tr><th>PEP:Â </th><td>0</td></tr>
+<tr><th>Title:Â </th><td>Index of Python Enhancement Proposals (PEPs)</td></tr>
+
+<tr><th>Last-Modified:Â </th><td>2017-10-16</td></tr>
+<tr><th>Author:Â </th><td>David Goodger &lt;goodger at python.org&gt;, Barry Warsaw &lt;barry at python.org&gt;</td></tr>
+<tr><th>Status:Â </th><td>Active</td></tr>
+<tr><th>Type:Â </th><td>Informational</td></tr>
+<tr><th>Created:Â </th><td>13-Jul-2000</td></tr>
+</table>
+</div><div class="content">
+<h3>Introduction</h3>
+<pre>
+    This PEP contains the index of all Python Enhancement Proposals,
+    known as PEPs.  PEP numbers are assigned by the PEP editors, and
+    once assigned are never changed[1].  The Mercurial history[2] of
+    the PEP texts represent their historical record.
+
+
+</pre>
+<h3>Index by Category</h3>
+<pre>
+     num  title                                                   owner
+     ---  -----                                                   -----
+
+ Meta-PEPs (PEPs about PEPs or Processes)
+
+ P     <a href="/dev/peps/pep-0001/">1</a>  PEP Purpose and Guidelines                              Warsaw, Hylton, Goodger, Coghlan
+  P     <a href="/dev/peps/pep-0004/">4</a>  Deprecation of Standard Modules                         Cannon, von LÃ¶wis
+  P     <a href="/dev/peps/pep-0005/">5</a>  Guidelines for Language Evolution                       Prescod
+  P     <a href="/dev/peps/pep-0006/">6</a>  Bug Fix Releases                                        Aahz, Baxter
+  P     <a href="/dev/peps/pep-0007/">7</a>  Style Guide for C Code                                  GvR, Warsaw
+  P     <a href="/dev/peps/pep-0008/">8</a>  Style Guide for Python Code                             GvR, Warsaw, Coghlan
+  P    <a href="/dev/peps/pep-0010/">10</a>  Voting Guidelines                                       Warsaw
+  P    <a href="/dev/peps/pep-0011/">11</a>  Removing support for little used platforms              von LÃ¶wis, Cannon
+  P    <a href="/dev/peps/pep-0012/">12</a>  Sample reStructuredText PEP Template                    Goodger, Warsaw
+ 
+ Other Informational PEPs
+
+ I    <a href="/dev/peps/pep-0020/">20</a>  The Zen of Python                                       Peters
+  I   <a href="/dev/peps/pep-0101/">101</a>  Doing Python Releases 101                               Warsaw, GvR
+  IF  <a href="/dev/peps/pep-0247/">247</a>  API for Cryptographic Hash Functions                    Kuchling
+  IF  <a href="/dev/peps/pep-0248/">248</a>  Python Database API Specification v1.0                  Lemburg
+  IF  <a href="/dev/peps/pep-0249/">249</a>  Python Database API Specification v2.0                  Lemburg
+  I   <a href="/dev/peps/pep-0257/">257</a>  Docstring Conventions                                   Goodger, GvR
+  IF  <a href="/dev/peps/pep-0272/">272</a>  API for Block Encryption Algorithms v1.0                Kuchling
+  I   <a href="/dev/peps/pep-0287/">287</a>  reStructuredText Docstring Format                       Goodger
+  I   <a href="/dev/peps/pep-0290/">290</a>  Code Migration and Modernization                        Hettinger
+  IF  <a href="/dev/peps/pep-0291/">291</a>  Backward Compatibility for the Python 2 Standard ...    Norwitz
+  IF  <a href="/dev/peps/pep-0333/">333</a>  Python Web Server Gateway Interface v1.0                Eby
+  I   <a href="/dev/peps/pep-0373/">373</a>  Python 2.7 Release Schedule                             Peterson
+  I   <a href="/dev/peps/pep-0392/">392</a>  Python 3.2 Release Schedule                             Brandl
+  I   <a href="/dev/peps/pep-0394/">394</a>  The "python" Command on Unix-Like Systems               Staley, Coghlan, Warsaw
+  I   <a href="/dev/peps/pep-0398/">398</a>  Python 3.3 Release Schedule                             Brandl
+  IF  <a href="/dev/peps/pep-0399/">399</a>  Pure Python/C Accelerator Module Compatibility ...      Cannon
+  IF  <a href="/dev/peps/pep-0404/">404</a>  Python 2.8 Un-release Schedule                          Warsaw
+  IA  <a href="/dev/peps/pep-0411/">411</a>  Provisional packages in the Python standard library     Coghlan, Bendersky
+  I   <a href="/dev/peps/pep-0429/">429</a>  Python 3.4 Release Schedule                             Hastings
+  IF  <a href="/dev/peps/pep-0430/">430</a>  Migrating to Python 3 as the default online ...         Coghlan
+  I   <a href="/dev/peps/pep-0434/">434</a>  IDLE Enhancement Exception for All Branches             Rovito, Reedy
+  IA  <a href="/dev/peps/pep-0440/">440</a>  Version Identification and Dependency Specification     Coghlan, Stufft
+  I   <a href="/dev/peps/pep-0478/">478</a>  Python 3.5 Release Schedule                             Hastings
+  I   <a href="/dev/peps/pep-0494/">494</a>  Python 3.6 Release Schedule                             Deily
+  IA  <a href="/dev/peps/pep-0503/">503</a>  Simple Repository API                                   Stufft
+  I   <a href="/dev/peps/pep-0508/">508</a>  Dependency specification for Python Software Packages   Collins
+  I   <a href="/dev/peps/pep-0513/">513</a>  A Platform Tag for Portable Linux Built Distributions   McGibbon, Smith
+  I   <a href="/dev/peps/pep-0514/">514</a>  Python registration in the Windows registry             Dower
+  IA  <a href="/dev/peps/pep-0518/">518</a>  Specifying Minimum Build System Requirements for ...    Cannon, Smith, Stufft
+  I   <a href="/dev/peps/pep-0537/">537</a>  Python 3.7 Release Schedule                             Deily
+  IF <a href="/dev/peps/pep-3333/">3333</a>  Python Web Server Gateway Interface v1.0.1              Eby
+ 
+ Accepted PEPs (accepted; may not be implemented yet)
+
+ SA  <a href="/dev/peps/pep-0345/">345</a>  Metadata for Python Software Packages 1.2               Jones
+  SA  <a href="/dev/peps/pep-0376/">376</a>  Database of Installed Python Distributions              ZiadÃ©
+  SA  <a href="/dev/peps/pep-0425/">425</a>  Compatibility Tags for Built Distributions              Holth
+  SA  <a href="/dev/peps/pep-0427/">427</a>  The Wheel Binary Package Format 1.0                     Holth
+  SA  <a href="/dev/peps/pep-0484/">484</a>  Type Hints                                              GvR, Lehtosalo, Langa
+  SA  <a href="/dev/peps/pep-0506/">506</a>  Adding A Secrets Module To The Standard Library         D'Aprano
+  SA  <a href="/dev/peps/pep-0517/">517</a>  A build-system independent format for source trees      Smith, Kluyver
+  SA  <a href="/dev/peps/pep-0539/">539</a>  A New C-API for Thread-Local Storage in CPython         Bray, Yamamoto
+  SA  <a href="/dev/peps/pep-0546/">546</a>  Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7  Stinner, Benfield
+  SA  <a href="/dev/peps/pep-0552/">552</a>  Deterministic pycs                                      Peterson
+  SA <a href="/dev/peps/pep-3121/">3121</a>  Extension Module Initialization and Finalization        von LÃ¶wis
+ 
+ Open PEPs (under consideration)
+
+ S   <a href="/dev/peps/pep-0381/">381</a>  Mirroring infrastructure for PyPI                       ZiadÃ©, v. LÃ¶wis
+  P   <a href="/dev/peps/pep-0387/">387</a>  Backwards Compatibility Policy                          Peterson
+  S   <a href="/dev/peps/pep-0432/">432</a>  Restructuring the CPython startup sequence              Coghlan
+  S   <a href="/dev/peps/pep-0436/">436</a>  The Argument Clinic DSL                                 Hastings
+  S   <a href="/dev/peps/pep-0447/">447</a>  Add __getdescriptor__ method to metaclass               Oussoren
+  I   <a href="/dev/peps/pep-0452/">452</a>  API for Cryptographic Hash Functions v2.0               Kuchling, Heimes
+  I   <a href="/dev/peps/pep-0457/">457</a>  Syntax For Positional-Only Parameters                   Hastings
+  S   <a href="/dev/peps/pep-0458/">458</a>  Surviving a Compromise of PyPI                          Kuppusamy, Diaz, Stufft, Cappos
+  S   <a href="/dev/peps/pep-0467/">467</a>  Minor API improvements for binary sequences             Coghlan
+  S   <a href="/dev/peps/pep-0472/">472</a>  Support for indexing with keyword arguments             Borini, Martinot-Lagarde
+  S   <a href="/dev/peps/pep-0473/">473</a>  Adding structured data to built-in exceptions           Kreft
+  S   <a href="/dev/peps/pep-0480/">480</a>  Surviving a Compromise of PyPI: The Maximum ...         Kuppusamy, Diaz, Stufft, Cappos
+  I   <a href="/dev/peps/pep-0482/">482</a>  Literature Overview for Type Hints                      Langa
+  I   <a href="/dev/peps/pep-0483/">483</a>  The Theory of Type Hints                                GvR, Levkivskyi
+  S   <a href="/dev/peps/pep-0491/">491</a>  The Wheel Binary Package Format 1.9                     Holth
+  P   <a href="/dev/peps/pep-0497/">497</a>  A standard mechanism for backward compatibility         Schofield
+  S   <a href="/dev/peps/pep-0499/">499</a>  ``python -m foo`` should bind ...                       Simpson
+  I   <a href="/dev/peps/pep-0502/">502</a>  String Interpolation - Extended Discussion              Miller
+  S   <a href="/dev/peps/pep-0505/">505</a>  None-aware operators                                    Haase
+  S   <a href="/dev/peps/pep-0510/">510</a>  Specialize functions with guards                        Stinner
+  S   <a href="/dev/peps/pep-0511/">511</a>  API for code transformers                               Stinner
+  S   <a href="/dev/peps/pep-0532/">532</a>  A circuit breaking protocol and binary operators        Coghlan, Haase
+  S   <a href="/dev/peps/pep-0533/">533</a>  Deterministic cleanup for iterators                     Smith
+  S   <a href="/dev/peps/pep-0534/">534</a>  Distributing a Subset of the Standard Library           Orsava, Viktorin, Coghlan
+  S   <a href="/dev/peps/pep-0535/">535</a>  Rich comparison chaining                                Coghlan
+  S   <a href="/dev/peps/pep-0536/">536</a>  Final Grammar for Literal String Interpolation          Angerer
+  S   <a href="/dev/peps/pep-0540/">540</a>  Add a new UTF-8 mode                                    Stinner
+  P   <a href="/dev/peps/pep-0541/">541</a>  Package Index Name Retention                            Langa
+  S   <a href="/dev/peps/pep-0542/">542</a>  Dot Notation Assignment In Function Header              Meskanen
+  S   <a href="/dev/peps/pep-0543/">543</a>  A Unified TLS API for Python                            Benfield, Heimes
+  S   <a href="/dev/peps/pep-0544/">544</a>  Protocols: Structural subtyping (static duck typing)    Levkivskyi, Lehtosalo, Langa
+  S   <a href="/dev/peps/pep-0547/">547</a>  Running extension modules using the -m option           Plch, Viktorin
+  S   <a href="/dev/peps/pep-0549/">549</a>  Instance Descriptors                                    Hastings
+  S   <a href="/dev/peps/pep-0550/">550</a>  Execution Context                                       Selivanov, Pranskevichus
+  S   <a href="/dev/peps/pep-0551/">551</a>  Security transparency in the Python runtime             Dower
+  S   <a href="/dev/peps/pep-0554/">554</a>  Multiple Interpreters in the Stdlib                     Snow
+  S   <a href="/dev/peps/pep-0555/">555</a>  Context-local variables (contextvars)                   Zevenhoven
+  S   <a href="/dev/peps/pep-0556/">556</a>  Threaded garbage collection                             Pitrou
+  S   <a href="/dev/peps/pep-0557/">557</a>  Data Classes                                            Smith
+  S   <a href="/dev/peps/pep-0558/">558</a>  Defined semantics for locals()                          Coghlan
+  S   <a href="/dev/peps/pep-0560/">560</a>  Core support for generic types                          Levkivskyi
+  S   <a href="/dev/peps/pep-0561/">561</a>  Distributing and Packaging Type Information             Smith
+  S   <a href="/dev/peps/pep-0562/">562</a>  Module __getattr__                                      Levkivskyi
+  S   <a href="/dev/peps/pep-0563/">563</a>  Postponed Evaluation of Annotations                     Langa
+ 
+ Finished PEPs (done, implemented in code repository)
+
+ SF  <a href="/dev/peps/pep-0100/">100</a>  Python Unicode Integration                              Lemburg
+  SF  <a href="/dev/peps/pep-0201/">201</a>  Lockstep Iteration                                      Warsaw
+  SF  <a href="/dev/peps/pep-0202/">202</a>  List Comprehensions                                     Warsaw
+  SF  <a href="/dev/peps/pep-0203/">203</a>  Augmented Assignments                                   Wouters
+  SF  <a href="/dev/peps/pep-0205/">205</a>  Weak References                                         Drake
+  SF  <a href="/dev/peps/pep-0207/">207</a>  Rich Comparisons                                        GvR, Ascher
+  SF  <a href="/dev/peps/pep-0208/">208</a>  Reworking the Coercion Model                            Schemenauer, Lemburg
+  SF  <a href="/dev/peps/pep-0214/">214</a>  Extended Print Statement                                Warsaw
+  SF  <a href="/dev/peps/pep-0217/">217</a>  Display Hook for Interactive Use                        Zadka
+  SF  <a href="/dev/peps/pep-0218/">218</a>  Adding a Built-In Set Object Type                       Wilson, Hettinger
+  SF  <a href="/dev/peps/pep-0221/">221</a>  Import As                                               Wouters
+  SF  <a href="/dev/peps/pep-0223/">223</a>  Change the Meaning of ``\x`` Escapes                    Peters
+  SF  <a href="/dev/peps/pep-0227/">227</a>  Statically Nested Scopes                                Hylton
+  SF  <a href="/dev/peps/pep-0229/">229</a>  Using Distutils to Build Python                         Kuchling
+  SF  <a href="/dev/peps/pep-0230/">230</a>  Warning Framework                                       GvR
+  SF  <a href="/dev/peps/pep-0232/">232</a>  Function Attributes                                     Warsaw
+  SF  <a href="/dev/peps/pep-0234/">234</a>  Iterators                                               Yee, GvR
+  SF  <a href="/dev/peps/pep-0235/">235</a>  Import on Case-Insensitive Platforms                    Peters
+  SF  <a href="/dev/peps/pep-0236/">236</a>  Back to the __future__                                  Peters
+  SF  <a href="/dev/peps/pep-0237/">237</a>  Unifying Long Integers and Integers                     Zadka, GvR
+  SF  <a href="/dev/peps/pep-0238/">238</a>  Changing the Division Operator                          Zadka, GvR
+  SF  <a href="/dev/peps/pep-0241/">241</a>  Metadata for Python Software Packages                   Kuchling
+  SF  <a href="/dev/peps/pep-0250/">250</a>  Using site-packages on Windows                          Moore
+  SF  <a href="/dev/peps/pep-0252/">252</a>  Making Types Look More Like Classes                     GvR
+  SF  <a href="/dev/peps/pep-0253/">253</a>  Subtyping Built-in Types                                GvR
+  SF  <a href="/dev/peps/pep-0255/">255</a>  Simple Generators                                       Schemenauer, Peters, Hetland
+  SF  <a href="/dev/peps/pep-0260/">260</a>  Simplify xrange()                                       GvR
+  SF  <a href="/dev/peps/pep-0261/">261</a>  Support for "wide" Unicode characters                   Prescod
+  SF  <a href="/dev/peps/pep-0263/">263</a>  Defining Python Source Code Encodings                   Lemburg, von LÃ¶wis
+  SF  <a href="/dev/peps/pep-0264/">264</a>  Future statements in simulated shells                   Hudson
+  SF  <a href="/dev/peps/pep-0273/">273</a>  Import Modules from Zip Archives                        Ahlstrom
+  SF  <a href="/dev/peps/pep-0274/">274</a>  Dict Comprehensions                                     Warsaw
+  SF  <a href="/dev/peps/pep-0277/">277</a>  Unicode file name support for Windows NT                Hodgson
+  SF  <a href="/dev/peps/pep-0278/">278</a>  Universal Newline Support                               Jansen
+  SF  <a href="/dev/peps/pep-0279/">279</a>  The enumerate() built-in function                       Hettinger
+  SF  <a href="/dev/peps/pep-0282/">282</a>  A Logging System                                        Sajip, Mick
+  SF  <a href="/dev/peps/pep-0285/">285</a>  Adding a bool type                                      GvR
+  SF  <a href="/dev/peps/pep-0289/">289</a>  Generator Expressions                                   Hettinger
+  SF  <a href="/dev/peps/pep-0292/">292</a>  Simpler String Substitutions                            Warsaw
+  SF  <a href="/dev/peps/pep-0293/">293</a>  Codec Error Handling Callbacks                          DÃ¶rwald
+  SF  <a href="/dev/peps/pep-0301/">301</a>  Package Index and Metadata for Distutils                Jones
+  SF  <a href="/dev/peps/pep-0302/">302</a>  New Import Hooks                                        JvR, Moore
+  SF  <a href="/dev/peps/pep-0305/">305</a>  CSV File API                                            Altis, Cole, McNamara, Montanaro, Wells
+  SF  <a href="/dev/peps/pep-0307/">307</a>  Extensions to the pickle protocol                       GvR, Peters
+  SF  <a href="/dev/peps/pep-0308/">308</a>  Conditional Expressions                                 GvR, Hettinger
+  SF  <a href="/dev/peps/pep-0309/">309</a>  Partial Function Application                            Harris
+  SF  <a href="/dev/peps/pep-0311/">311</a>  Simplified Global Interpreter Lock Acquisition for ...  Hammond
+  SF  <a href="/dev/peps/pep-0314/">314</a>  Metadata for Python Software Packages v1.1              Kuchling, Jones
+  SF  <a href="/dev/peps/pep-0318/">318</a>  Decorators for Functions and Methods                    Smith
+  SF  <a href="/dev/peps/pep-0322/">322</a>  Reverse Iteration                                       Hettinger
+  SF  <a href="/dev/peps/pep-0324/">324</a>  subprocess - New process module                         Astrand
+  SF  <a href="/dev/peps/pep-0327/">327</a>  Decimal Data Type                                       Batista
+  SF  <a href="/dev/peps/pep-0328/">328</a>  Imports: Multi-Line and Absolute/Relative               Aahz
+  SF  <a href="/dev/peps/pep-0331/">331</a>  Locale-Independent Float/String Conversions             Reis
+  SF  <a href="/dev/peps/pep-0338/">338</a>  Executing modules as scripts                            Coghlan
+  SF  <a href="/dev/peps/pep-0341/">341</a>  Unifying try-except and try-finally                     Brandl
+  SF  <a href="/dev/peps/pep-0342/">342</a>  Coroutines via Enhanced Generators                      GvR, Eby
+  SF  <a href="/dev/peps/pep-0343/">343</a>  The "with" Statement                                    GvR, Coghlan
+  SF  <a href="/dev/peps/pep-0352/">352</a>  Required Superclass for Exceptions                      Cannon, GvR
+  SF  <a href="/dev/peps/pep-0353/">353</a>  Using ssize_t as the index type                         von LÃ¶wis
+  SF  <a href="/dev/peps/pep-0357/">357</a>  Allowing Any Object to be Used for Slicing              Oliphant
+  SF  <a href="/dev/peps/pep-0358/">358</a>  The "bytes" Object                                      Schemenauer, GvR
+  SF  <a href="/dev/peps/pep-0362/">362</a>  Function Signature Object                               Cannon, Seo, Selivanov, Hastings
+  SF  <a href="/dev/peps/pep-0366/">366</a>  Main module explicit relative imports                   Coghlan
+  SF  <a href="/dev/peps/pep-0370/">370</a>  Per user site-packages directory                        Heimes
+  SF  <a href="/dev/peps/pep-0371/">371</a>  Addition of the multiprocessing package to the ...      Noller, Oudkerk
+  SF  <a href="/dev/peps/pep-0372/">372</a>  Adding an ordered dictionary to collections             Ronacher, Hettinger
+  SF  <a href="/dev/peps/pep-0378/">378</a>  Format Specifier for Thousands Separator                Hettinger
+  SF  <a href="/dev/peps/pep-0380/">380</a>  Syntax for Delegating to a Subgenerator                 Ewing
+  SF  <a href="/dev/peps/pep-0383/">383</a>  Non-decodable Bytes in System Character Interfaces      v. LÃ¶wis
+  SF  <a href="/dev/peps/pep-0384/">384</a>  Defining a Stable ABI                                   v. LÃ¶wis
+  SF  <a href="/dev/peps/pep-0389/">389</a>  argparse - New Command Line Parsing Module              Bethard
+  SF  <a href="/dev/peps/pep-0391/">391</a>  Dictionary-Based Configuration For Logging              Sajip
+  SF  <a href="/dev/peps/pep-0393/">393</a>  Flexible String Representation                          v. LÃ¶wis
+  SF  <a href="/dev/peps/pep-0397/">397</a>  Python launcher for Windows                             Hammond, v. LÃ¶wis
+  SF  <a href="/dev/peps/pep-0405/">405</a>  Python Virtual Environments                             Meyer
+  SF  <a href="/dev/peps/pep-0409/">409</a>  Suppressing exception context                           Furman
+  SF  <a href="/dev/peps/pep-0412/">412</a>  Key-Sharing Dictionary                                  Shannon
+  SF  <a href="/dev/peps/pep-0414/">414</a>  Explicit Unicode Literal for Python 3.3                 Ronacher, Coghlan
+  SF  <a href="/dev/peps/pep-0415/">415</a>  Implement context suppression with exception attributes Peterson
+  SF  <a href="/dev/peps/pep-0417/">417</a>  Including mock in the Standard Library                  Foord
+  SF  <a href="/dev/peps/pep-0418/">418</a>  Add monotonic time, performance counter, and ...        Simpson, Jewett, Turnbull, Stinner
+  SF  <a href="/dev/peps/pep-0420/">420</a>  Implicit Namespace Packages                             Smith
+  SF  <a href="/dev/peps/pep-0421/">421</a>  Adding sys.implementation                               Snow
+  SF  <a href="/dev/peps/pep-0424/">424</a>  A method for exposing a length hint                     Gaynor
+  SF  <a href="/dev/peps/pep-0428/">428</a>  The pathlib module -- object-oriented filesystem paths  Pitrou
+  SF  <a href="/dev/peps/pep-0435/">435</a>  Adding an Enum type to the Python standard library      Warsaw, Bendersky, Furman
+  SF  <a href="/dev/peps/pep-0441/">441</a>  Improving Python ZIP Application Support                Holth, Moore
+  SF  <a href="/dev/peps/pep-0442/">442</a>  Safe object finalization                                Pitrou
+  SF  <a href="/dev/peps/pep-0443/">443</a>  Single-dispatch generic functions                       Langa
+  SF  <a href="/dev/peps/pep-0445/">445</a>  Add new APIs to customize Python memory allocators      Stinner
+  SF  <a href="/dev/peps/pep-0446/">446</a>  Make newly created file descriptors non-inheritable     Stinner
+  SF  <a href="/dev/peps/pep-0448/">448</a>  Additional Unpacking Generalizations                    Landau
+  SF  <a href="/dev/peps/pep-0450/">450</a>  Adding A Statistics Module To The Standard Library      D'Aprano
+  SF  <a href="/dev/peps/pep-0451/">451</a>  A ModuleSpec Type for the Import System                 Snow
+  SF  <a href="/dev/peps/pep-0453/">453</a>  Explicit bootstrapping of pip in Python installations   Stufft, Coghlan
+  SF  <a href="/dev/peps/pep-0454/">454</a>  Add a new tracemalloc module to trace Python memory ... Stinner
+  SF  <a href="/dev/peps/pep-0456/">456</a>  Secure and interchangeable hash algorithm               Heimes
+  SF  <a href="/dev/peps/pep-0461/">461</a>  Adding % formatting to bytes and bytearray              Furman
+  SF  <a href="/dev/peps/pep-0465/">465</a>  A dedicated infix operator for matrix multiplication    Smith
+  SF  <a href="/dev/peps/pep-0466/">466</a>  Network Security Enhancements for Python 2.7.x          Coghlan
+  SF  <a href="/dev/peps/pep-0468/">468</a>  Preserving the order of \*\*kwargs in a function.       Snow
+  SF  <a href="/dev/peps/pep-0471/">471</a>  os.scandir() function -- a better and faster ...        Hoyt
+  SF  <a href="/dev/peps/pep-0475/">475</a>  Retry system calls failing with EINTR                   Natali, Stinner
+  SF  <a href="/dev/peps/pep-0476/">476</a>  Enabling certificate verification by default for ...    Gaynor
+  SF  <a href="/dev/peps/pep-0477/">477</a>  Backport ensurepip (PEP 453) to Python 2.7              Stufft, Coghlan
+  SF  <a href="/dev/peps/pep-0479/">479</a>  Change StopIteration handling inside generators         Angelico, GvR
+  SF  <a href="/dev/peps/pep-0485/">485</a>  A Function for testing approximate equality             Barker
+  SF  <a href="/dev/peps/pep-0486/">486</a>  Make the Python Launcher aware of virtual environments  Moore
+  SF  <a href="/dev/peps/pep-0487/">487</a>  Simpler customisation of class creation                 Teichmann
+  SF  <a href="/dev/peps/pep-0488/">488</a>  Elimination of PYO files                                Cannon
+  SF  <a href="/dev/peps/pep-0489/">489</a>  Multi-phase extension module initialization             Viktorin, Behnel, Coghlan
+  SF  <a href="/dev/peps/pep-0492/">492</a>  Coroutines with async and await syntax                  Selivanov
+  SF  <a href="/dev/peps/pep-0493/">493</a>  HTTPS verification migration tools for Python 2.7       Coghlan, Kuska, Lemburg
+  SF  <a href="/dev/peps/pep-0495/">495</a>  Local Time Disambiguation                               Belopolsky, Peters
+  SF  <a href="/dev/peps/pep-0498/">498</a>  Literal String Interpolation                            Smith
+  SF  <a href="/dev/peps/pep-0509/">509</a>  Add a private version to dict                           Stinner
+  SF  <a href="/dev/peps/pep-0515/">515</a>  Underscores in Numeric Literals                         Brandl, Storchaka
+  SF  <a href="/dev/peps/pep-0519/">519</a>  Adding a file system path protocol                      Cannon, Zevenhoven
+  SF  <a href="/dev/peps/pep-0520/">520</a>  Preserving Class Attribute Definition Order             Snow
+  SF  <a href="/dev/peps/pep-0523/">523</a>  Adding a frame evaluation API to CPython                Cannon, Viehland
+  SF  <a href="/dev/peps/pep-0524/">524</a>  Make os.urandom() blocking on Linux                     Stinner
+  SF  <a href="/dev/peps/pep-0525/">525</a>  Asynchronous Generators                                 Selivanov
+  SF  <a href="/dev/peps/pep-0526/">526</a>  Syntax for Variable Annotations                         Gonzalez, House, Levkivskyi, Roach, GvR
+  SF  <a href="/dev/peps/pep-0528/">528</a>  Change Windows console encoding to UTF-8                Dower
+  SF  <a href="/dev/peps/pep-0529/">529</a>  Change Windows filesystem encoding to UTF-8             Dower
+  SF  <a href="/dev/peps/pep-0530/">530</a>  Asynchronous Comprehensions                             Selivanov
+  SF  <a href="/dev/peps/pep-0538/">538</a>  Coercing the legacy C locale to a UTF-8 based locale    Coghlan
+  SF  <a href="/dev/peps/pep-0553/">553</a>  Built-in breakpoint()                                   Warsaw
+  SF  <a href="/dev/peps/pep-0628/">628</a>  Add ``math.tau``                                        Coghlan
+  SF <a href="/dev/peps/pep-3101/">3101</a>  Advanced String Formatting                              Talin
+  SF <a href="/dev/peps/pep-3102/">3102</a>  Keyword-Only Arguments                                  Talin
+  SF <a href="/dev/peps/pep-3104/">3104</a>  Access to Names in Outer Scopes                         Yee
+  SF <a href="/dev/peps/pep-3105/">3105</a>  Make print a function                                   Brandl
+  SF <a href="/dev/peps/pep-3106/">3106</a>  Revamping dict.keys(), .values() and .items()           GvR
+  SF <a href="/dev/peps/pep-3107/">3107</a>  Function Annotations                                    Winter, Lownds
+  SF <a href="/dev/peps/pep-3108/">3108</a>  Standard Library Reorganization                         Cannon
+  SF <a href="/dev/peps/pep-3109/">3109</a>  Raising Exceptions in Python 3000                       Winter
+  SF <a href="/dev/peps/pep-3110/">3110</a>  Catching Exceptions in Python 3000                      Winter
+  SF <a href="/dev/peps/pep-3111/">3111</a>  Simple input built-in in Python 3000                    Roberge
+  SF <a href="/dev/peps/pep-3112/">3112</a>  Bytes literals in Python 3000                           Orendorff
+  SF <a href="/dev/peps/pep-3113/">3113</a>  Removal of Tuple Parameter Unpacking                    Cannon
+  SF <a href="/dev/peps/pep-3114/">3114</a>  Renaming iterator.next() to iterator.__next__()         Yee
+  SF <a href="/dev/peps/pep-3115/">3115</a>  Metaclasses in Python 3000                              Talin
+  SF <a href="/dev/peps/pep-3116/">3116</a>  New I/O                                                 Stutzbach, GvR, Verdone
+  SF <a href="/dev/peps/pep-3118/">3118</a>  Revising the buffer protocol                            Oliphant, Banks
+  SF <a href="/dev/peps/pep-3119/">3119</a>  Introducing Abstract Base Classes                       GvR, Talin
+  SF <a href="/dev/peps/pep-3120/">3120</a>  Using UTF-8 as the default source encoding              von LÃ¶wis
+  SF <a href="/dev/peps/pep-3123/">3123</a>  Making PyObject_HEAD conform to standard C              von LÃ¶wis
+  SF <a href="/dev/peps/pep-3127/">3127</a>  Integer Literal Support and Syntax                      Maupin
+  SF <a href="/dev/peps/pep-3129/">3129</a>  Class Decorators                                        Winter
+  SF <a href="/dev/peps/pep-3131/">3131</a>  Supporting Non-ASCII Identifiers                        von LÃ¶wis
+  SF <a href="/dev/peps/pep-3132/">3132</a>  Extended Iterable Unpacking                             Brandl
+  SF <a href="/dev/peps/pep-3134/">3134</a>  Exception Chaining and Embedded Tracebacks              Yee
+  SF <a href="/dev/peps/pep-3135/">3135</a>  New Super                                               Spealman, Delaney, Ryan
+  SF <a href="/dev/peps/pep-3137/">3137</a>  Immutable Bytes and Mutable Buffer                      GvR
+  SF <a href="/dev/peps/pep-3138/">3138</a>  String representation in Python 3000                    Ishimoto
+  SF <a href="/dev/peps/pep-3141/">3141</a>  A Type Hierarchy for Numbers                            Yasskin
+  SF <a href="/dev/peps/pep-3144/">3144</a>  IP Address Manipulation Library for the Python ...      Moody
+  SF <a href="/dev/peps/pep-3147/">3147</a>  PYC Repository Directories                              Warsaw
+  SF <a href="/dev/peps/pep-3148/">3148</a>  futures - execute computations asynchronously           Quinlan
+  SF <a href="/dev/peps/pep-3149/">3149</a>  ABI version tagged .so files                            Warsaw
+  SF <a href="/dev/peps/pep-3151/">3151</a>  Reworking the OS and IO exception hierarchy             Pitrou
+  SF <a href="/dev/peps/pep-3154/">3154</a>  Pickle protocol version 4                               Pitrou
+  SF <a href="/dev/peps/pep-3155/">3155</a>  Qualified name for classes and functions                Pitrou
+  SF <a href="/dev/peps/pep-3156/">3156</a>  Asynchronous IO Support Rebooted: the "asyncio" Module  GvR
+ 
+ Historical Meta-PEPs and Informational PEPs
+
+ PF    <a href="/dev/peps/pep-0002/">2</a>  Procedure for Adding New Modules                        Faassen
+  IF  <a href="/dev/peps/pep-0160/">160</a>  Python 1.6 Release Schedule                             Drake
+  IF  <a href="/dev/peps/pep-0200/">200</a>  Python 2.0 Release Schedule                             Hylton
+  IF  <a href="/dev/peps/pep-0226/">226</a>  Python 2.1 Release Schedule                             Hylton
+  IF  <a href="/dev/peps/pep-0251/">251</a>  Python 2.2 Release Schedule                             Warsaw, GvR
+  IF  <a href="/dev/peps/pep-0283/">283</a>  Python 2.3 Release Schedule                             GvR
+  IF  <a href="/dev/peps/pep-0320/">320</a>  Python 2.4 Release Schedule                             Warsaw, Hettinger, Baxter
+  PF  <a href="/dev/peps/pep-0347/">347</a>  Migrating the Python CVS to Subversion                  von LÃ¶wis
+  IF  <a href="/dev/peps/pep-0356/">356</a>  Python 2.5 Release Schedule                             Norwitz, GvR, Baxter
+  PF  <a href="/dev/peps/pep-0360/">360</a>  Externally Maintained Packages                          Cannon
+  IF  <a href="/dev/peps/pep-0361/">361</a>  Python 2.6 and 3.0 Release Schedule                     Norwitz, Warsaw
+  PF  <a href="/dev/peps/pep-0374/">374</a>  Choosing a distributed VCS for the Python project       Cannon, Turnbull, Vassalotti, Warsaw, Ochtman
+  IF  <a href="/dev/peps/pep-0375/">375</a>  Python 3.1 Release Schedule                             Peterson
+  PF  <a href="/dev/peps/pep-0385/">385</a>  Migrating from Subversion to Mercurial                  Ochtman, Pitrou, Brandl
+  PS  <a href="/dev/peps/pep-0438/">438</a>  Transitioning to release-file hosting on PyPI           Krekel, Meyer
+  PA  <a href="/dev/peps/pep-0449/">449</a>  Removal of the PyPI Mirror Auto Discovery and ...       Stufft
+  PA  <a href="/dev/peps/pep-0464/">464</a>  Removal of the PyPI Mirror Authenticity API             Stufft
+  PA  <a href="/dev/peps/pep-0470/">470</a>  Removing External Hosting Support on PyPI               Stufft
+  PF  <a href="/dev/peps/pep-0512/">512</a>  Migrating from hg.python.org to GitHub                  Cannon
+  PA  <a href="/dev/peps/pep-0527/">527</a>  Removing Un(der)used file types/extensions on PyPI      Stufft
+  PF  <a href="/dev/peps/pep-0545/">545</a>  Python Documentation Translations                       Palard, Naoki, Stinner
+  PF <a href="/dev/peps/pep-3000/">3000</a>  Python 3000                                             GvR
+  PF <a href="/dev/peps/pep-3002/">3002</a>  Procedure for Backwards-Incompatible Changes            Bethard
+  PF <a href="/dev/peps/pep-3003/">3003</a>  Python Language Moratorium                              Cannon, Noller, GvR
+  PF <a href="/dev/peps/pep-3099/">3099</a>  Things that will Not Change in Python 3000              Brandl
+  PF <a href="/dev/peps/pep-3100/">3100</a>  Miscellaneous Python 3.0 Plans                          Cannon
+ 
+ Deferred PEPs
+
+ SD  <a href="/dev/peps/pep-0213/">213</a>  Attribute Access Handlers                               Prescod
+  SD  <a href="/dev/peps/pep-0219/">219</a>  Stackless Python                                        McMillan
+  SD  <a href="/dev/peps/pep-0222/">222</a>  Web Library Enhancements                                Kuchling
+  SD  <a href="/dev/peps/pep-0233/">233</a>  Python Online Help                                      Prescod
+  SD  <a href="/dev/peps/pep-0262/">262</a>  A Database of Installed Python Packages                 Kuchling
+  SD  <a href="/dev/peps/pep-0267/">267</a>  Optimized Access to Module Namespaces                   Hylton
+  SD  <a href="/dev/peps/pep-0269/">269</a>  Pgen Module for Python                                  Riehl
+  SD  <a href="/dev/peps/pep-0280/">280</a>  Optimizing access to globals                            GvR
+  SD  <a href="/dev/peps/pep-0286/">286</a>  Enhanced Argument Tuples                                von LÃ¶wis
+  SD  <a href="/dev/peps/pep-0312/">312</a>  Simple Implicit Lambda                                  Suzi, Martelli
+  SD  <a href="/dev/peps/pep-0316/">316</a>  Programming by Contract for Python                      Way
+  SD  <a href="/dev/peps/pep-0323/">323</a>  Copyable Iterators                                      Martelli
+  SD  <a href="/dev/peps/pep-0337/">337</a>  Logging Usage in the Standard Library                   Dubner
+  SD  <a href="/dev/peps/pep-0349/">349</a>  Allow str() to return unicode strings                   Schemenauer
+  SD  <a href="/dev/peps/pep-0368/">368</a>  Standard image protocol and class                       Mastrodomenico
+  ID  <a href="/dev/peps/pep-0396/">396</a>  Module Version Numbers                                  Warsaw
+  SD  <a href="/dev/peps/pep-0400/">400</a>  Deprecate codecs.StreamReader and codecs.StreamWriter   Stinner
+  SD  <a href="/dev/peps/pep-0403/">403</a>  General purpose decorator clause (aka "@in" clause)     Coghlan
+  PD  <a href="/dev/peps/pep-0407/">407</a>  New release cycle and introducing long-term support ... Pitrou, Brandl, Warsaw
+  SD  <a href="/dev/peps/pep-0419/">419</a>  Protecting cleanup statements from interruptions        Colomiets
+  ID  <a href="/dev/peps/pep-0423/">423</a>  Naming conventions and recipes related to packaging     Bryon
+  ID  <a href="/dev/peps/pep-0426/">426</a>  Metadata for Python Software Packages 2.0               Coghlan, Holth, Stufft
+  ID  <a href="/dev/peps/pep-0444/">444</a>  Python Web3 Interface                                   McDonough, Ronacher
+  SD  <a href="/dev/peps/pep-0459/">459</a>  Standard Metadata Extensions for Python Software ...    Coghlan
+  SD  <a href="/dev/peps/pep-0501/">501</a>  General purpose string interpolation                    Coghlan
+  SD  <a href="/dev/peps/pep-0521/">521</a>  Managing global context via 'with' blocks in ...        Smith
+  SD <a href="/dev/peps/pep-3124/">3124</a>  Overloading, Generic Functions, Interfaces, and ...     Eby
+  SD <a href="/dev/peps/pep-3143/">3143</a>  Standard daemon process library                         Finney
+  SD <a href="/dev/peps/pep-3150/">3150</a>  Statement local namespaces (aka "given" clause)         Coghlan
+ 
+ Abandoned, Withdrawn, and Rejected PEPs
+
+ PW    <a href="/dev/peps/pep-0003/">3</a>  Guidelines for Handling Bug Reports                     Hylton
+  PW    <a href="/dev/peps/pep-0009/">9</a>  Sample Plaintext PEP Template                           Warsaw
+  PR   <a href="/dev/peps/pep-0042/">42</a>  Feature Requests                                        Hylton
+  IS  <a href="/dev/peps/pep-0102/">102</a>  Doing Python Micro Releases                             Baxter, Warsaw, GvR
+  IW  <a href="/dev/peps/pep-0103/">103</a>  Collecting information about git                        Broytman
+  SR  <a href="/dev/peps/pep-0204/">204</a>  Range Literals                                          Wouters
+  IW  <a href="/dev/peps/pep-0206/">206</a>  Python Advanced Library                                 Kuchling
+  SW  <a href="/dev/peps/pep-0209/">209</a>  Multi-dimensional Arrays                                Barrett, Oliphant
+  SR  <a href="/dev/peps/pep-0210/">210</a>  Decoupling the Interpreter Loop                         Ascher
+  SR  <a href="/dev/peps/pep-0211/">211</a>  Adding A New Outer Product Operator                     Wilson
+  SR  <a href="/dev/peps/pep-0212/">212</a>  Loop Counter Iteration                                  Schneider-Kamp
+  SS  <a href="/dev/peps/pep-0215/">215</a>  String Interpolation                                    Yee
+  IR  <a href="/dev/peps/pep-0216/">216</a>  Docstring Format                                        Zadka
+  IR  <a href="/dev/peps/pep-0220/">220</a>  Coroutines, Generators, Continuations                   McMillan
+  SR  <a href="/dev/peps/pep-0224/">224</a>  Attribute Docstrings                                    Lemburg
+  SR  <a href="/dev/peps/pep-0225/">225</a>  Elementwise/Objectwise Operators                        Zhu, Lielens
+  SW  <a href="/dev/peps/pep-0228/">228</a>  Reworking Python's Numeric Model                        Zadka, GvR
+  SR  <a href="/dev/peps/pep-0231/">231</a>  __findattr__()                                          Warsaw
+  SR  <a href="/dev/peps/pep-0239/">239</a>  Adding a Rational Type to Python                        Craig, Zadka
+  SR  <a href="/dev/peps/pep-0240/">240</a>  Adding a Rational Literal to Python                     Craig, Zadka
+  SR  <a href="/dev/peps/pep-0242/">242</a>  Numeric Kinds                                           Dubois
+  SW  <a href="/dev/peps/pep-0243/">243</a>  Module Repository Upload Mechanism                      Reifschneider
+  SR  <a href="/dev/peps/pep-0244/">244</a>  The ``directive`` statement                             von LÃ¶wis
+  SR  <a href="/dev/peps/pep-0245/">245</a>  Python Interface Syntax                                 Pelletier
+  SR  <a href="/dev/peps/pep-0246/">246</a>  Object Adaptation                                       Martelli, Evans
+  SR  <a href="/dev/peps/pep-0254/">254</a>  Making Classes Look More Like Types                     GvR
+  SR  <a href="/dev/peps/pep-0256/">256</a>  Docstring Processing System Framework                   Goodger
+  SR  <a href="/dev/peps/pep-0258/">258</a>  Docutils Design Specification                           Goodger
+  SR  <a href="/dev/peps/pep-0259/">259</a>  Omit printing newline after newline                     GvR
+  SR  <a href="/dev/peps/pep-0265/">265</a>  Sorting Dictionaries by Value                           Griffin
+  SW  <a href="/dev/peps/pep-0266/">266</a>  Optimizing Global Variable/Attribute Access             Montanaro
+  SR  <a href="/dev/peps/pep-0268/">268</a>  Extended HTTP functionality and WebDAV                  Stein
+  SR  <a href="/dev/peps/pep-0270/">270</a>  uniq method for list objects                            Petrone
+  SR  <a href="/dev/peps/pep-0271/">271</a>  Prefixing sys.path by command line option               Giacometti
+  SR  <a href="/dev/peps/pep-0275/">275</a>  Switching on Multiple Values                            Lemburg
+  SR  <a href="/dev/peps/pep-0276/">276</a>  Simple Iterator for ints                                Althoff
+  SR  <a href="/dev/peps/pep-0281/">281</a>  Loop Counter Iteration with range and xrange            Hetland
+  SR  <a href="/dev/peps/pep-0284/">284</a>  Integer for-loops                                       Eppstein, Ewing
+  SW  <a href="/dev/peps/pep-0288/">288</a>  Generators Attributes and Exceptions                    Hettinger
+  SR  <a href="/dev/peps/pep-0294/">294</a>  Type Names in the types Module                          Tirosh
+  SR  <a href="/dev/peps/pep-0295/">295</a>  Interpretation of multiline string constants            Koltsov
+  SW  <a href="/dev/peps/pep-0296/">296</a>  Adding a bytes Object Type                              Gilbert
+  SR  <a href="/dev/peps/pep-0297/">297</a>  Support for System Upgrades                             Lemburg
+  SW  <a href="/dev/peps/pep-0298/">298</a>  The Locked Buffer Interface                             Heller
+  SR  <a href="/dev/peps/pep-0299/">299</a>  Special __main__() function in modules                  Epler
+  SR  <a href="/dev/peps/pep-0303/">303</a>  Extend divmod() for Multiple Divisors                   Bellman
+  SW  <a href="/dev/peps/pep-0304/">304</a>  Controlling Generation of Bytecode Files                Montanaro
+  IW  <a href="/dev/peps/pep-0306/">306</a>  How to Change Python's Grammar                          Hudson, Diederich, Coghlan, Peterson
+  SR  <a href="/dev/peps/pep-0310/">310</a>  Reliable Acquisition/Release Pairs                      Hudson, Moore
+  SR  <a href="/dev/peps/pep-0313/">313</a>  Adding Roman Numeral Literals to Python                 Meyer
+  SR  <a href="/dev/peps/pep-0315/">315</a>  Enhanced While Loop                                     Hettinger, Carroll
+  SR  <a href="/dev/peps/pep-0317/">317</a>  Eliminate Implicit Exception Instantiation              Taschuk
+  SR  <a href="/dev/peps/pep-0319/">319</a>  Python Synchronize/Asynchronize Block                   Pelletier
+  SW  <a href="/dev/peps/pep-0321/">321</a>  Date/Time Parsing and Formatting                        Kuchling
+  SR  <a href="/dev/peps/pep-0325/">325</a>  Resource-Release Support for Generators                 Pedroni
+  SR  <a href="/dev/peps/pep-0326/">326</a>  A Case for Top and Bottom Values                        Carlson, Reedy
+  SR  <a href="/dev/peps/pep-0329/">329</a>  Treating Builtins as Constants in the Standard Library  Hettinger
+  SR  <a href="/dev/peps/pep-0330/">330</a>  Python Bytecode Verification                            Pelletier
+  SR  <a href="/dev/peps/pep-0332/">332</a>  Byte vectors and String/Unicode Unification             Montanaro
+  SW  <a href="/dev/peps/pep-0334/">334</a>  Simple Coroutines via SuspendIteration                  Evans
+  SR  <a href="/dev/peps/pep-0335/">335</a>  Overloadable Boolean Operators                          Ewing
+  SR  <a href="/dev/peps/pep-0336/">336</a>  Make None Callable                                      McClelland
+  IW  <a href="/dev/peps/pep-0339/">339</a>  Design of the CPython Compiler                          Cannon
+  SR  <a href="/dev/peps/pep-0340/">340</a>  Anonymous Block Statements                              GvR
+  SS  <a href="/dev/peps/pep-0344/">344</a>  Exception Chaining and Embedded Tracebacks              Yee
+  SW  <a href="/dev/peps/pep-0346/">346</a>  User Defined ("``with``") Statements                    Coghlan
+  SR  <a href="/dev/peps/pep-0348/">348</a>  Exception Reorganization for Python 3.0                 Cannon
+  IR  <a href="/dev/peps/pep-0350/">350</a>  Codetags                                                Elliott
+  SR  <a href="/dev/peps/pep-0351/">351</a>  The freeze protocol                                     Warsaw
+  SS  <a href="/dev/peps/pep-0354/">354</a>  Enumerations in Python                                  Finney
+  SR  <a href="/dev/peps/pep-0355/">355</a>  Path - Object oriented filesystem paths                 Lindqvist
+  SW  <a href="/dev/peps/pep-0359/">359</a>  The "make" Statement                                    Bethard
+  SR  <a href="/dev/peps/pep-0363/">363</a>  Syntax For Dynamic Attribute Access                     North
+  SW  <a href="/dev/peps/pep-0364/">364</a>  Transitioning to the Py3K Standard Library              Warsaw
+  SR  <a href="/dev/peps/pep-0365/">365</a>  Adding the pkg_resources module                         Eby
+  SS  <a href="/dev/peps/pep-0367/">367</a>  New Super                                               Spealman, Delaney
+  SW  <a href="/dev/peps/pep-0369/">369</a>  Post import hooks                                       Heimes
+  SR  <a href="/dev/peps/pep-0377/">377</a>  Allow __enter__() methods to skip the statement body    Coghlan
+  SW  <a href="/dev/peps/pep-0379/">379</a>  Adding an Assignment Expression                         Whitley
+  SR  <a href="/dev/peps/pep-0382/">382</a>  Namespace Packages                                      v. LÃ¶wis
+  SS  <a href="/dev/peps/pep-0386/">386</a>  Changing the version comparison module in Distutils     ZiadÃ©
+  SR  <a href="/dev/peps/pep-0390/">390</a>  Static metadata for Distutils                           ZiadÃ©
+  SW  <a href="/dev/peps/pep-0395/">395</a>  Qualified Names for Modules                             Coghlan
+  PR  <a href="/dev/peps/pep-0401/">401</a>  BDFL Retirement                                         Warsaw, Cannon
+  SR  <a href="/dev/peps/pep-0402/">402</a>  Simplified Package Layout and Partitioning              Eby
+  SW  <a href="/dev/peps/pep-0406/">406</a>  Improved Encapsulation of Import State                  Coghlan, Slodkowicz
+  SR  <a href="/dev/peps/pep-0408/">408</a>  Standard library __preview__ package                    Coghlan, Bendersky
+  SR  <a href="/dev/peps/pep-0410/">410</a>  Use decimal.Decimal type for timestamps                 Stinner
+  PW  <a href="/dev/peps/pep-0413/">413</a>  Faster evolution of the Python Standard Library         Coghlan
+  SR  <a href="/dev/peps/pep-0416/">416</a>  Add a frozendict builtin type                           Stinner
+  SW  <a href="/dev/peps/pep-0422/">422</a>  Simpler customisation of class creation                 Coghlan, Urban
+  SW  <a href="/dev/peps/pep-0431/">431</a>  Time zone support improvements                          Regebro
+  SS  <a href="/dev/peps/pep-0433/">433</a>  Easier suppression of file descriptor inheritance       Stinner
+  SR  <a href="/dev/peps/pep-0437/">437</a>  A DSL for specifying signatures, annotations and ...    Krah
+  SR  <a href="/dev/peps/pep-0439/">439</a>  Inclusion of implicit pip bootstrap in Python ...       Jones
+  SR  <a href="/dev/peps/pep-0455/">455</a>  Adding a key-transforming dictionary to collections     Pitrou
+  SW  <a href="/dev/peps/pep-0460/">460</a>  Add binary interpolation and formatting                 Pitrou
+  PW  <a href="/dev/peps/pep-0462/">462</a>  Core development workflow automation for CPython        Coghlan
+  SR  <a href="/dev/peps/pep-0463/">463</a>  Exception-catching expressions                          Angelico
+  SW  <a href="/dev/peps/pep-0469/">469</a>  Migration of dict iteration code to Python 3            Coghlan
+  PW  <a href="/dev/peps/pep-0474/">474</a>  Creating forge.python.org                               Coghlan
+  PW  <a href="/dev/peps/pep-0481/">481</a>  Migrate CPython to Git, Github, and Phabricator         Stufft
+  SR  <a href="/dev/peps/pep-0490/">490</a>  Chain exceptions at C level                             Stinner
+  IR  <a href="/dev/peps/pep-0496/">496</a>  Environment Markers                                     Polley
+  SR  <a href="/dev/peps/pep-0500/">500</a>  A protocol for delegating datetime methods to their ... Belopolsky, Peters
+  SW  <a href="/dev/peps/pep-0504/">504</a>  Using the System RNG by default                         Coghlan
+  PR  <a href="/dev/peps/pep-0507/">507</a>  Migrate CPython to Git and GitLab                       Warsaw
+  SR  <a href="/dev/peps/pep-0516/">516</a>  Build system abstraction for pip/conda etc              Collins, Smith
+  SR  <a href="/dev/peps/pep-0522/">522</a>  Allow BlockingIOError in security sensitive APIs        Coghlan, Smith
+  SW  <a href="/dev/peps/pep-0531/">531</a>  Existence checking operators                            Coghlan
+  SR  <a href="/dev/peps/pep-0548/">548</a>  More Flexible Loop Control                              Murray
+  SR  <a href="/dev/peps/pep-0559/">559</a>  Built-in noop()                                         Warsaw
+  SR  <a href="/dev/peps/pep-0666/">666</a>  Reject Foolish Indentation                              Creighton
+  SR  <a href="/dev/peps/pep-0754/">754</a>  IEEE 754 Floating Point Special Values                  Warnes
+  PW <a href="/dev/peps/pep-3001/">3001</a>  Procedure for reviewing and improving standard ...      Brandl
+  SR <a href="/dev/peps/pep-3103/">3103</a>  A Switch/Case Statement                                 GvR
+  SR <a href="/dev/peps/pep-3117/">3117</a>  Postfix type declarations                               Brandl
+  SR <a href="/dev/peps/pep-3122/">3122</a>  Delineation of the main module                          Cannon
+  SR <a href="/dev/peps/pep-3125/">3125</a>  Remove Backslash Continuation                           Jewett
+  SR <a href="/dev/peps/pep-3126/">3126</a>  Remove Implicit String Concatenation                    Jewett, Hettinger
+  SR <a href="/dev/peps/pep-3128/">3128</a>  BList: A Faster List-like Type                          Stutzbach
+  SR <a href="/dev/peps/pep-3130/">3130</a>  Access to Current Module/Class/Function                 Jewett
+  SR <a href="/dev/peps/pep-3133/">3133</a>  Introducing Roles                                       Winter
+  SR <a href="/dev/peps/pep-3136/">3136</a>  Labeled break and continue                              Chisholm
+  SR <a href="/dev/peps/pep-3139/">3139</a>  Cleaning out sys and the "interpreter" module           Peterson
+  SR <a href="/dev/peps/pep-3140/">3140</a>  str(container) should call str(item), not repr(item)    Broytman, Jewett
+  SR <a href="/dev/peps/pep-3142/">3142</a>  Add a "while" clause to generator expressions           Britton
+  SW <a href="/dev/peps/pep-3145/">3145</a>  Asynchronous I/O For subprocess.Popen                   Pruitt, McCreary, Carlson
+  SW <a href="/dev/peps/pep-3146/">3146</a>  Merging Unladen Swallow into CPython                    Winter, Yasskin, Kleckner
+  SR <a href="/dev/peps/pep-3152/">3152</a>  Cofunctions                                             Ewing
+  SS <a href="/dev/peps/pep-3153/">3153</a>  Asynchronous IO support                                 Houtven
+ 
+
+</pre>
+<h3>Numerical Index</h3>
+<pre>
+     num  title                                                   owner
+     ---  -----                                                   -----
+ P     <a href="/dev/peps/pep-0001/">1</a>  PEP Purpose and Guidelines                              Warsaw, Hylton, Goodger, Coghlan
+  PF    <a href="/dev/peps/pep-0002/">2</a>  Procedure for Adding New Modules                        Faassen
+  PW    <a href="/dev/peps/pep-0003/">3</a>  Guidelines for Handling Bug Reports                     Hylton
+  P     <a href="/dev/peps/pep-0004/">4</a>  Deprecation of Standard Modules                         Cannon, von LÃ¶wis
+  P     <a href="/dev/peps/pep-0005/">5</a>  Guidelines for Language Evolution                       Prescod
+  P     <a href="/dev/peps/pep-0006/">6</a>  Bug Fix Releases                                        Aahz, Baxter
+  P     <a href="/dev/peps/pep-0007/">7</a>  Style Guide for C Code                                  GvR, Warsaw
+  P     <a href="/dev/peps/pep-0008/">8</a>  Style Guide for Python Code                             GvR, Warsaw, Coghlan
+  PW    <a href="/dev/peps/pep-0009/">9</a>  Sample Plaintext PEP Template                           Warsaw
+  P    <a href="/dev/peps/pep-0010/">10</a>  Voting Guidelines                                       Warsaw
+  P    <a href="/dev/peps/pep-0011/">11</a>  Removing support for little used platforms              von LÃ¶wis, Cannon
+  P    <a href="/dev/peps/pep-0012/">12</a>  Sample reStructuredText PEP Template                    Goodger, Warsaw
+ 
+ I    <a href="/dev/peps/pep-0020/">20</a>  The Zen of Python                                       Peters
+ 
+ PR   <a href="/dev/peps/pep-0042/">42</a>  Feature Requests                                        Hylton
+ 
+ SF  <a href="/dev/peps/pep-0100/">100</a>  Python Unicode Integration                              Lemburg
+  I   <a href="/dev/peps/pep-0101/">101</a>  Doing Python Releases 101                               Warsaw, GvR
+  IS  <a href="/dev/peps/pep-0102/">102</a>  Doing Python Micro Releases                             Baxter, Warsaw, GvR
+  IW  <a href="/dev/peps/pep-0103/">103</a>  Collecting information about git                        Broytman
+ 
+ IF  <a href="/dev/peps/pep-0160/">160</a>  Python 1.6 Release Schedule                             Drake
+ 
+ IF  <a href="/dev/peps/pep-0200/">200</a>  Python 2.0 Release Schedule                             Hylton
+  SF  <a href="/dev/peps/pep-0201/">201</a>  Lockstep Iteration                                      Warsaw
+  SF  <a href="/dev/peps/pep-0202/">202</a>  List Comprehensions                                     Warsaw
+  SF  <a href="/dev/peps/pep-0203/">203</a>  Augmented Assignments                                   Wouters
+  SR  <a href="/dev/peps/pep-0204/">204</a>  Range Literals                                          Wouters
+  SF  <a href="/dev/peps/pep-0205/">205</a>  Weak References                                         Drake
+  IW  <a href="/dev/peps/pep-0206/">206</a>  Python Advanced Library                                 Kuchling
+  SF  <a href="/dev/peps/pep-0207/">207</a>  Rich Comparisons                                        GvR, Ascher
+  SF  <a href="/dev/peps/pep-0208/">208</a>  Reworking the Coercion Model                            Schemenauer, Lemburg
+  SW  <a href="/dev/peps/pep-0209/">209</a>  Multi-dimensional Arrays                                Barrett, Oliphant
+  SR  <a href="/dev/peps/pep-0210/">210</a>  Decoupling the Interpreter Loop                         Ascher
+  SR  <a href="/dev/peps/pep-0211/">211</a>  Adding A New Outer Product Operator                     Wilson
+  SR  <a href="/dev/peps/pep-0212/">212</a>  Loop Counter Iteration                                  Schneider-Kamp
+  SD  <a href="/dev/peps/pep-0213/">213</a>  Attribute Access Handlers                               Prescod
+  SF  <a href="/dev/peps/pep-0214/">214</a>  Extended Print Statement                                Warsaw
+  SS  <a href="/dev/peps/pep-0215/">215</a>  String Interpolation                                    Yee
+  IR  <a href="/dev/peps/pep-0216/">216</a>  Docstring Format                                        Zadka
+  SF  <a href="/dev/peps/pep-0217/">217</a>  Display Hook for Interactive Use                        Zadka
+  SF  <a href="/dev/peps/pep-0218/">218</a>  Adding a Built-In Set Object Type                       Wilson, Hettinger
+  SD  <a href="/dev/peps/pep-0219/">219</a>  Stackless Python                                        McMillan
+  IR  <a href="/dev/peps/pep-0220/">220</a>  Coroutines, Generators, Continuations                   McMillan
+  SF  <a href="/dev/peps/pep-0221/">221</a>  Import As                                               Wouters
+  SD  <a href="/dev/peps/pep-0222/">222</a>  Web Library Enhancements                                Kuchling
+  SF  <a href="/dev/peps/pep-0223/">223</a>  Change the Meaning of ``\x`` Escapes                    Peters
+  SR  <a href="/dev/peps/pep-0224/">224</a>  Attribute Docstrings                                    Lemburg
+  SR  <a href="/dev/peps/pep-0225/">225</a>  Elementwise/Objectwise Operators                        Zhu, Lielens
+  IF  <a href="/dev/peps/pep-0226/">226</a>  Python 2.1 Release Schedule                             Hylton
+  SF  <a href="/dev/peps/pep-0227/">227</a>  Statically Nested Scopes                                Hylton
+  SW  <a href="/dev/peps/pep-0228/">228</a>  Reworking Python's Numeric Model                        Zadka, GvR
+  SF  <a href="/dev/peps/pep-0229/">229</a>  Using Distutils to Build Python                         Kuchling
+  SF  <a href="/dev/peps/pep-0230/">230</a>  Warning Framework                                       GvR
+  SR  <a href="/dev/peps/pep-0231/">231</a>  __findattr__()                                          Warsaw
+  SF  <a href="/dev/peps/pep-0232/">232</a>  Function Attributes                                     Warsaw
+  SD  <a href="/dev/peps/pep-0233/">233</a>  Python Online Help                                      Prescod
+  SF  <a href="/dev/peps/pep-0234/">234</a>  Iterators                                               Yee, GvR
+  SF  <a href="/dev/peps/pep-0235/">235</a>  Import on Case-Insensitive Platforms                    Peters
+  SF  <a href="/dev/peps/pep-0236/">236</a>  Back to the __future__                                  Peters
+  SF  <a href="/dev/peps/pep-0237/">237</a>  Unifying Long Integers and Integers                     Zadka, GvR
+  SF  <a href="/dev/peps/pep-0238/">238</a>  Changing the Division Operator                          Zadka, GvR
+  SR  <a href="/dev/peps/pep-0239/">239</a>  Adding a Rational Type to Python                        Craig, Zadka
+  SR  <a href="/dev/peps/pep-0240/">240</a>  Adding a Rational Literal to Python                     Craig, Zadka
+  SF  <a href="/dev/peps/pep-0241/">241</a>  Metadata for Python Software Packages                   Kuchling
+  SR  <a href="/dev/peps/pep-0242/">242</a>  Numeric Kinds                                           Dubois
+  SW  <a href="/dev/peps/pep-0243/">243</a>  Module Repository Upload Mechanism                      Reifschneider
+  SR  <a href="/dev/peps/pep-0244/">244</a>  The ``directive`` statement                             von LÃ¶wis
+  SR  <a href="/dev/peps/pep-0245/">245</a>  Python Interface Syntax                                 Pelletier
+  SR  <a href="/dev/peps/pep-0246/">246</a>  Object Adaptation                                       Martelli, Evans
+  IF  <a href="/dev/peps/pep-0247/">247</a>  API for Cryptographic Hash Functions                    Kuchling
+  IF  <a href="/dev/peps/pep-0248/">248</a>  Python Database API Specification v1.0                  Lemburg
+  IF  <a href="/dev/peps/pep-0249/">249</a>  Python Database API Specification v2.0                  Lemburg
+  SF  <a href="/dev/peps/pep-0250/">250</a>  Using site-packages on Windows                          Moore
+  IF  <a href="/dev/peps/pep-0251/">251</a>  Python 2.2 Release Schedule                             Warsaw, GvR
+  SF  <a href="/dev/peps/pep-0252/">252</a>  Making Types Look More Like Classes                     GvR
+  SF  <a href="/dev/peps/pep-0253/">253</a>  Subtyping Built-in Types                                GvR
+  SR  <a href="/dev/peps/pep-0254/">254</a>  Making Classes Look More Like Types                     GvR
+  SF  <a href="/dev/peps/pep-0255/">255</a>  Simple Generators                                       Schemenauer, Peters, Hetland
+  SR  <a href="/dev/peps/pep-0256/">256</a>  Docstring Processing System Framework                   Goodger
+  I   <a href="/dev/peps/pep-0257/">257</a>  Docstring Conventions                                   Goodger, GvR
+  SR  <a href="/dev/peps/pep-0258/">258</a>  Docutils Design Specification                           Goodger
+  SR  <a href="/dev/peps/pep-0259/">259</a>  Omit printing newline after newline                     GvR
+  SF  <a href="/dev/peps/pep-0260/">260</a>  Simplify xrange()                                       GvR
+  SF  <a href="/dev/peps/pep-0261/">261</a>  Support for "wide" Unicode characters                   Prescod
+  SD  <a href="/dev/peps/pep-0262/">262</a>  A Database of Installed Python Packages                 Kuchling
+  SF  <a href="/dev/peps/pep-0263/">263</a>  Defining Python Source Code Encodings                   Lemburg, von LÃ¶wis
+  SF  <a href="/dev/peps/pep-0264/">264</a>  Future statements in simulated shells                   Hudson
+  SR  <a href="/dev/peps/pep-0265/">265</a>  Sorting Dictionaries by Value                           Griffin
+  SW  <a href="/dev/peps/pep-0266/">266</a>  Optimizing Global Variable/Attribute Access             Montanaro
+  SD  <a href="/dev/peps/pep-0267/">267</a>  Optimized Access to Module Namespaces                   Hylton
+  SR  <a href="/dev/peps/pep-0268/">268</a>  Extended HTTP functionality and WebDAV                  Stein
+  SD  <a href="/dev/peps/pep-0269/">269</a>  Pgen Module for Python                                  Riehl
+  SR  <a href="/dev/peps/pep-0270/">270</a>  uniq method for list objects                            Petrone
+  SR  <a href="/dev/peps/pep-0271/">271</a>  Prefixing sys.path by command line option               Giacometti
+  IF  <a href="/dev/peps/pep-0272/">272</a>  API for Block Encryption Algorithms v1.0                Kuchling
+  SF  <a href="/dev/peps/pep-0273/">273</a>  Import Modules from Zip Archives                        Ahlstrom
+  SF  <a href="/dev/peps/pep-0274/">274</a>  Dict Comprehensions                                     Warsaw
+  SR  <a href="/dev/peps/pep-0275/">275</a>  Switching on Multiple Values                            Lemburg
+  SR  <a href="/dev/peps/pep-0276/">276</a>  Simple Iterator for ints                                Althoff
+  SF  <a href="/dev/peps/pep-0277/">277</a>  Unicode file name support for Windows NT                Hodgson
+  SF  <a href="/dev/peps/pep-0278/">278</a>  Universal Newline Support                               Jansen
+  SF  <a href="/dev/peps/pep-0279/">279</a>  The enumerate() built-in function                       Hettinger
+  SD  <a href="/dev/peps/pep-0280/">280</a>  Optimizing access to globals                            GvR
+  SR  <a href="/dev/peps/pep-0281/">281</a>  Loop Counter Iteration with range and xrange            Hetland
+  SF  <a href="/dev/peps/pep-0282/">282</a>  A Logging System                                        Sajip, Mick
+  IF  <a href="/dev/peps/pep-0283/">283</a>  Python 2.3 Release Schedule                             GvR
+  SR  <a href="/dev/peps/pep-0284/">284</a>  Integer for-loops                                       Eppstein, Ewing
+  SF  <a href="/dev/peps/pep-0285/">285</a>  Adding a bool type                                      GvR
+  SD  <a href="/dev/peps/pep-0286/">286</a>  Enhanced Argument Tuples                                von LÃ¶wis
+  I   <a href="/dev/peps/pep-0287/">287</a>  reStructuredText Docstring Format                       Goodger
+  SW  <a href="/dev/peps/pep-0288/">288</a>  Generators Attributes and Exceptions                    Hettinger
+  SF  <a href="/dev/peps/pep-0289/">289</a>  Generator Expressions                                   Hettinger
+  I   <a href="/dev/peps/pep-0290/">290</a>  Code Migration and Modernization                        Hettinger
+  IF  <a href="/dev/peps/pep-0291/">291</a>  Backward Compatibility for the Python 2 Standard ...    Norwitz
+  SF  <a href="/dev/peps/pep-0292/">292</a>  Simpler String Substitutions                            Warsaw
+  SF  <a href="/dev/peps/pep-0293/">293</a>  Codec Error Handling Callbacks                          DÃ¶rwald
+  SR  <a href="/dev/peps/pep-0294/">294</a>  Type Names in the types Module                          Tirosh
+  SR  <a href="/dev/peps/pep-0295/">295</a>  Interpretation of multiline string constants            Koltsov
+  SW  <a href="/dev/peps/pep-0296/">296</a>  Adding a bytes Object Type                              Gilbert
+  SR  <a href="/dev/peps/pep-0297/">297</a>  Support for System Upgrades                             Lemburg
+  SW  <a href="/dev/peps/pep-0298/">298</a>  The Locked Buffer Interface                             Heller
+  SR  <a href="/dev/peps/pep-0299/">299</a>  Special __main__() function in modules                  Epler
+ 
+ SF  <a href="/dev/peps/pep-0301/">301</a>  Package Index and Metadata for Distutils                Jones
+  SF  <a href="/dev/peps/pep-0302/">302</a>  New Import Hooks                                        JvR, Moore
+  SR  <a href="/dev/peps/pep-0303/">303</a>  Extend divmod() for Multiple Divisors                   Bellman
+  SW  <a href="/dev/peps/pep-0304/">304</a>  Controlling Generation of Bytecode Files                Montanaro
+  SF  <a href="/dev/peps/pep-0305/">305</a>  CSV File API                                            Altis, Cole, McNamara, Montanaro, Wells
+  IW  <a href="/dev/peps/pep-0306/">306</a>  How to Change Python's Grammar                          Hudson, Diederich, Coghlan, Peterson
+  SF  <a href="/dev/peps/pep-0307/">307</a>  Extensions to the pickle protocol                       GvR, Peters
+  SF  <a href="/dev/peps/pep-0308/">308</a>  Conditional Expressions                                 GvR, Hettinger
+  SF  <a href="/dev/peps/pep-0309/">309</a>  Partial Function Application                            Harris
+  SR  <a href="/dev/peps/pep-0310/">310</a>  Reliable Acquisition/Release Pairs                      Hudson, Moore
+  SF  <a href="/dev/peps/pep-0311/">311</a>  Simplified Global Interpreter Lock Acquisition for ...  Hammond
+  SD  <a href="/dev/peps/pep-0312/">312</a>  Simple Implicit Lambda                                  Suzi, Martelli
+  SR  <a href="/dev/peps/pep-0313/">313</a>  Adding Roman Numeral Literals to Python                 Meyer
+  SF  <a href="/dev/peps/pep-0314/">314</a>  Metadata for Python Software Packages v1.1              Kuchling, Jones
+  SR  <a href="/dev/peps/pep-0315/">315</a>  Enhanced While Loop                                     Hettinger, Carroll
+  SD  <a href="/dev/peps/pep-0316/">316</a>  Programming by Contract for Python                      Way
+  SR  <a href="/dev/peps/pep-0317/">317</a>  Eliminate Implicit Exception Instantiation              Taschuk
+  SF  <a href="/dev/peps/pep-0318/">318</a>  Decorators for Functions and Methods                    Smith
+  SR  <a href="/dev/peps/pep-0319/">319</a>  Python Synchronize/Asynchronize Block                   Pelletier
+  IF  <a href="/dev/peps/pep-0320/">320</a>  Python 2.4 Release Schedule                             Warsaw, Hettinger, Baxter
+  SW  <a href="/dev/peps/pep-0321/">321</a>  Date/Time Parsing and Formatting                        Kuchling
+  SF  <a href="/dev/peps/pep-0322/">322</a>  Reverse Iteration                                       Hettinger
+  SD  <a href="/dev/peps/pep-0323/">323</a>  Copyable Iterators                                      Martelli
+  SF  <a href="/dev/peps/pep-0324/">324</a>  subprocess - New process module                         Astrand
+  SR  <a href="/dev/peps/pep-0325/">325</a>  Resource-Release Support for Generators                 Pedroni
+  SR  <a href="/dev/peps/pep-0326/">326</a>  A Case for Top and Bottom Values                        Carlson, Reedy
+  SF  <a href="/dev/peps/pep-0327/">327</a>  Decimal Data Type                                       Batista
+  SF  <a href="/dev/peps/pep-0328/">328</a>  Imports: Multi-Line and Absolute/Relative               Aahz
+  SR  <a href="/dev/peps/pep-0329/">329</a>  Treating Builtins as Constants in the Standard Library  Hettinger
+  SR  <a href="/dev/peps/pep-0330/">330</a>  Python Bytecode Verification                            Pelletier
+  SF  <a href="/dev/peps/pep-0331/">331</a>  Locale-Independent Float/String Conversions             Reis
+  SR  <a href="/dev/peps/pep-0332/">332</a>  Byte vectors and String/Unicode Unification             Montanaro
+  IF  <a href="/dev/peps/pep-0333/">333</a>  Python Web Server Gateway Interface v1.0                Eby
+  SW  <a href="/dev/peps/pep-0334/">334</a>  Simple Coroutines via SuspendIteration                  Evans
+  SR  <a href="/dev/peps/pep-0335/">335</a>  Overloadable Boolean Operators                          Ewing
+  SR  <a href="/dev/peps/pep-0336/">336</a>  Make None Callable                                      McClelland
+  SD  <a href="/dev/peps/pep-0337/">337</a>  Logging Usage in the Standard Library                   Dubner
+  SF  <a href="/dev/peps/pep-0338/">338</a>  Executing modules as scripts                            Coghlan
+  IW  <a href="/dev/peps/pep-0339/">339</a>  Design of the CPython Compiler                          Cannon
+  SR  <a href="/dev/peps/pep-0340/">340</a>  Anonymous Block Statements                              GvR
+  SF  <a href="/dev/peps/pep-0341/">341</a>  Unifying try-except and try-finally                     Brandl
+  SF  <a href="/dev/peps/pep-0342/">342</a>  Coroutines via Enhanced Generators                      GvR, Eby
+  SF  <a href="/dev/peps/pep-0343/">343</a>  The "with" Statement                                    GvR, Coghlan
+  SS  <a href="/dev/peps/pep-0344/">344</a>  Exception Chaining and Embedded Tracebacks              Yee
+  SA  <a href="/dev/peps/pep-0345/">345</a>  Metadata for Python Software Packages 1.2               Jones
+  SW  <a href="/dev/peps/pep-0346/">346</a>  User Defined ("``with``") Statements                    Coghlan
+  PF  <a href="/dev/peps/pep-0347/">347</a>  Migrating the Python CVS to Subversion                  von LÃ¶wis
+  SR  <a href="/dev/peps/pep-0348/">348</a>  Exception Reorganization for Python 3.0                 Cannon
+  SD  <a href="/dev/peps/pep-0349/">349</a>  Allow str() to return unicode strings                   Schemenauer
+  IR  <a href="/dev/peps/pep-0350/">350</a>  Codetags                                                Elliott
+  SR  <a href="/dev/peps/pep-0351/">351</a>  The freeze protocol                                     Warsaw
+  SF  <a href="/dev/peps/pep-0352/">352</a>  Required Superclass for Exceptions                      Cannon, GvR
+  SF  <a href="/dev/peps/pep-0353/">353</a>  Using ssize_t as the index type                         von LÃ¶wis
+  SS  <a href="/dev/peps/pep-0354/">354</a>  Enumerations in Python                                  Finney
+  SR  <a href="/dev/peps/pep-0355/">355</a>  Path - Object oriented filesystem paths                 Lindqvist
+  IF  <a href="/dev/peps/pep-0356/">356</a>  Python 2.5 Release Schedule                             Norwitz, GvR, Baxter
+  SF  <a href="/dev/peps/pep-0357/">357</a>  Allowing Any Object to be Used for Slicing              Oliphant
+  SF  <a href="/dev/peps/pep-0358/">358</a>  The "bytes" Object                                      Schemenauer, GvR
+  SW  <a href="/dev/peps/pep-0359/">359</a>  The "make" Statement                                    Bethard
+  PF  <a href="/dev/peps/pep-0360/">360</a>  Externally Maintained Packages                          Cannon
+  IF  <a href="/dev/peps/pep-0361/">361</a>  Python 2.6 and 3.0 Release Schedule                     Norwitz, Warsaw
+  SF  <a href="/dev/peps/pep-0362/">362</a>  Function Signature Object                               Cannon, Seo, Selivanov, Hastings
+  SR  <a href="/dev/peps/pep-0363/">363</a>  Syntax For Dynamic Attribute Access                     North
+  SW  <a href="/dev/peps/pep-0364/">364</a>  Transitioning to the Py3K Standard Library              Warsaw
+  SR  <a href="/dev/peps/pep-0365/">365</a>  Adding the pkg_resources module                         Eby
+  SF  <a href="/dev/peps/pep-0366/">366</a>  Main module explicit relative imports                   Coghlan
+  SS  <a href="/dev/peps/pep-0367/">367</a>  New Super                                               Spealman, Delaney
+  SD  <a href="/dev/peps/pep-0368/">368</a>  Standard image protocol and class                       Mastrodomenico
+  SW  <a href="/dev/peps/pep-0369/">369</a>  Post import hooks                                       Heimes
+  SF  <a href="/dev/peps/pep-0370/">370</a>  Per user site-packages directory                        Heimes
+  SF  <a href="/dev/peps/pep-0371/">371</a>  Addition of the multiprocessing package to the ...      Noller, Oudkerk
+  SF  <a href="/dev/peps/pep-0372/">372</a>  Adding an ordered dictionary to collections             Ronacher, Hettinger
+  I   <a href="/dev/peps/pep-0373/">373</a>  Python 2.7 Release Schedule                             Peterson
+  PF  <a href="/dev/peps/pep-0374/">374</a>  Choosing a distributed VCS for the Python project       Cannon, Turnbull, Vassalotti, Warsaw, Ochtman
+  IF  <a href="/dev/peps/pep-0375/">375</a>  Python 3.1 Release Schedule                             Peterson
+  SA  <a href="/dev/peps/pep-0376/">376</a>  Database of Installed Python Distributions              ZiadÃ©
+  SR  <a href="/dev/peps/pep-0377/">377</a>  Allow __enter__() methods to skip the statement body    Coghlan
+  SF  <a href="/dev/peps/pep-0378/">378</a>  Format Specifier for Thousands Separator                Hettinger
+  SW  <a href="/dev/peps/pep-0379/">379</a>  Adding an Assignment Expression                         Whitley
+  SF  <a href="/dev/peps/pep-0380/">380</a>  Syntax for Delegating to a Subgenerator                 Ewing
+  S   <a href="/dev/peps/pep-0381/">381</a>  Mirroring infrastructure for PyPI                       ZiadÃ©, v. LÃ¶wis
+  SR  <a href="/dev/peps/pep-0382/">382</a>  Namespace Packages                                      v. LÃ¶wis
+  SF  <a href="/dev/peps/pep-0383/">383</a>  Non-decodable Bytes in System Character Interfaces      v. LÃ¶wis
+  SF  <a href="/dev/peps/pep-0384/">384</a>  Defining a Stable ABI                                   v. LÃ¶wis
+  PF  <a href="/dev/peps/pep-0385/">385</a>  Migrating from Subversion to Mercurial                  Ochtman, Pitrou, Brandl
+  SS  <a href="/dev/peps/pep-0386/">386</a>  Changing the version comparison module in Distutils     ZiadÃ©
+  P   <a href="/dev/peps/pep-0387/">387</a>  Backwards Compatibility Policy                          Peterson
+ 
+ SF  <a href="/dev/peps/pep-0389/">389</a>  argparse - New Command Line Parsing Module              Bethard
+  SR  <a href="/dev/peps/pep-0390/">390</a>  Static metadata for Distutils                           ZiadÃ©
+  SF  <a href="/dev/peps/pep-0391/">391</a>  Dictionary-Based Configuration For Logging              Sajip
+  I   <a href="/dev/peps/pep-0392/">392</a>  Python 3.2 Release Schedule                             Brandl
+  SF  <a href="/dev/peps/pep-0393/">393</a>  Flexible String Representation                          v. LÃ¶wis
+  I   <a href="/dev/peps/pep-0394/">394</a>  The "python" Command on Unix-Like Systems               Staley, Coghlan, Warsaw
+  SW  <a href="/dev/peps/pep-0395/">395</a>  Qualified Names for Modules                             Coghlan
+  ID  <a href="/dev/peps/pep-0396/">396</a>  Module Version Numbers                                  Warsaw
+  SF  <a href="/dev/peps/pep-0397/">397</a>  Python launcher for Windows                             Hammond, v. LÃ¶wis
+  I   <a href="/dev/peps/pep-0398/">398</a>  Python 3.3 Release Schedule                             Brandl
+  IF  <a href="/dev/peps/pep-0399/">399</a>  Pure Python/C Accelerator Module Compatibility ...      Cannon
+  SD  <a href="/dev/peps/pep-0400/">400</a>  Deprecate codecs.StreamReader and codecs.StreamWriter   Stinner
+  PR  <a href="/dev/peps/pep-0401/">401</a>  BDFL Retirement                                         Warsaw, Cannon
+  SR  <a href="/dev/peps/pep-0402/">402</a>  Simplified Package Layout and Partitioning              Eby
+  SD  <a href="/dev/peps/pep-0403/">403</a>  General purpose decorator clause (aka "@in" clause)     Coghlan
+  IF  <a href="/dev/peps/pep-0404/">404</a>  Python 2.8 Un-release Schedule                          Warsaw
+  SF  <a href="/dev/peps/pep-0405/">405</a>  Python Virtual Environments                             Meyer
+  SW  <a href="/dev/peps/pep-0406/">406</a>  Improved Encapsulation of Import State                  Coghlan, Slodkowicz
+  PD  <a href="/dev/peps/pep-0407/">407</a>  New release cycle and introducing long-term support ... Pitrou, Brandl, Warsaw
+  SR  <a href="/dev/peps/pep-0408/">408</a>  Standard library __preview__ package                    Coghlan, Bendersky
+  SF  <a href="/dev/peps/pep-0409/">409</a>  Suppressing exception context                           Furman
+  SR  <a href="/dev/peps/pep-0410/">410</a>  Use decimal.Decimal type for timestamps                 Stinner
+  IA  <a href="/dev/peps/pep-0411/">411</a>  Provisional packages in the Python standard library     Coghlan, Bendersky
+  SF  <a href="/dev/peps/pep-0412/">412</a>  Key-Sharing Dictionary                                  Shannon
+  PW  <a href="/dev/peps/pep-0413/">413</a>  Faster evolution of the Python Standard Library         Coghlan
+  SF  <a href="/dev/peps/pep-0414/">414</a>  Explicit Unicode Literal for Python 3.3                 Ronacher, Coghlan
+  SF  <a href="/dev/peps/pep-0415/">415</a>  Implement context suppression with exception attributes Peterson
+  SR  <a href="/dev/peps/pep-0416/">416</a>  Add a frozendict builtin type                           Stinner
+  SF  <a href="/dev/peps/pep-0417/">417</a>  Including mock in the Standard Library                  Foord
+  SF  <a href="/dev/peps/pep-0418/">418</a>  Add monotonic time, performance counter, and ...        Simpson, Jewett, Turnbull, Stinner
+  SD  <a href="/dev/peps/pep-0419/">419</a>  Protecting cleanup statements from interruptions        Colomiets
+  SF  <a href="/dev/peps/pep-0420/">420</a>  Implicit Namespace Packages                             Smith
+  SF  <a href="/dev/peps/pep-0421/">421</a>  Adding sys.implementation                               Snow
+  SW  <a href="/dev/peps/pep-0422/">422</a>  Simpler customisation of class creation                 Coghlan, Urban
+  ID  <a href="/dev/peps/pep-0423/">423</a>  Naming conventions and recipes related to packaging     Bryon
+  SF  <a href="/dev/peps/pep-0424/">424</a>  A method for exposing a length hint                     Gaynor
+  SA  <a href="/dev/peps/pep-0425/">425</a>  Compatibility Tags for Built Distributions              Holth
+  ID  <a href="/dev/peps/pep-0426/">426</a>  Metadata for Python Software Packages 2.0               Coghlan, Holth, Stufft
+  SA  <a href="/dev/peps/pep-0427/">427</a>  The Wheel Binary Package Format 1.0                     Holth
+  SF  <a href="/dev/peps/pep-0428/">428</a>  The pathlib module -- object-oriented filesystem paths  Pitrou
+  I   <a href="/dev/peps/pep-0429/">429</a>  Python 3.4 Release Schedule                             Hastings
+  IF  <a href="/dev/peps/pep-0430/">430</a>  Migrating to Python 3 as the default online ...         Coghlan
+  SW  <a href="/dev/peps/pep-0431/">431</a>  Time zone support improvements                          Regebro
+  S   <a href="/dev/peps/pep-0432/">432</a>  Restructuring the CPython startup sequence              Coghlan
+  SS  <a href="/dev/peps/pep-0433/">433</a>  Easier suppression of file descriptor inheritance       Stinner
+  I   <a href="/dev/peps/pep-0434/">434</a>  IDLE Enhancement Exception for All Branches             Rovito, Reedy
+  SF  <a href="/dev/peps/pep-0435/">435</a>  Adding an Enum type to the Python standard library      Warsaw, Bendersky, Furman
+  S   <a href="/dev/peps/pep-0436/">436</a>  The Argument Clinic DSL                                 Hastings
+  SR  <a href="/dev/peps/pep-0437/">437</a>  A DSL for specifying signatures, annotations and ...    Krah
+  PS  <a href="/dev/peps/pep-0438/">438</a>  Transitioning to release-file hosting on PyPI           Krekel, Meyer
+  SR  <a href="/dev/peps/pep-0439/">439</a>  Inclusion of implicit pip bootstrap in Python ...       Jones
+  IA  <a href="/dev/peps/pep-0440/">440</a>  Version Identification and Dependency Specification     Coghlan, Stufft
+  SF  <a href="/dev/peps/pep-0441/">441</a>  Improving Python ZIP Application Support                Holth, Moore
+  SF  <a href="/dev/peps/pep-0442/">442</a>  Safe object finalization                                Pitrou
+  SF  <a href="/dev/peps/pep-0443/">443</a>  Single-dispatch generic functions                       Langa
+  ID  <a href="/dev/peps/pep-0444/">444</a>  Python Web3 Interface                                   McDonough, Ronacher
+  SF  <a href="/dev/peps/pep-0445/">445</a>  Add new APIs to customize Python memory allocators      Stinner
+  SF  <a href="/dev/peps/pep-0446/">446</a>  Make newly created file descriptors non-inheritable     Stinner
+  S   <a href="/dev/peps/pep-0447/">447</a>  Add __getdescriptor__ method to metaclass               Oussoren
+  SF  <a href="/dev/peps/pep-0448/">448</a>  Additional Unpacking Generalizations                    Landau
+  PA  <a href="/dev/peps/pep-0449/">449</a>  Removal of the PyPI Mirror Auto Discovery and ...       Stufft
+  SF  <a href="/dev/peps/pep-0450/">450</a>  Adding A Statistics Module To The Standard Library      D'Aprano
+  SF  <a href="/dev/peps/pep-0451/">451</a>  A ModuleSpec Type for the Import System                 Snow
+  I   <a href="/dev/peps/pep-0452/">452</a>  API for Cryptographic Hash Functions v2.0               Kuchling, Heimes
+  SF  <a href="/dev/peps/pep-0453/">453</a>  Explicit bootstrapping of pip in Python installations   Stufft, Coghlan
+  SF  <a href="/dev/peps/pep-0454/">454</a>  Add a new tracemalloc module to trace Python memory ... Stinner
+  SR  <a href="/dev/peps/pep-0455/">455</a>  Adding a key-transforming dictionary to collections     Pitrou
+  SF  <a href="/dev/peps/pep-0456/">456</a>  Secure and interchangeable hash algorithm               Heimes
+  I   <a href="/dev/peps/pep-0457/">457</a>  Syntax For Positional-Only Parameters                   Hastings
+  S   <a href="/dev/peps/pep-0458/">458</a>  Surviving a Compromise of PyPI                          Kuppusamy, Diaz, Stufft, Cappos
+  SD  <a href="/dev/peps/pep-0459/">459</a>  Standard Metadata Extensions for Python Software ...    Coghlan
+  SW  <a href="/dev/peps/pep-0460/">460</a>  Add binary interpolation and formatting                 Pitrou
+  SF  <a href="/dev/peps/pep-0461/">461</a>  Adding % formatting to bytes and bytearray              Furman
+  PW  <a href="/dev/peps/pep-0462/">462</a>  Core development workflow automation for CPython        Coghlan
+  SR  <a href="/dev/peps/pep-0463/">463</a>  Exception-catching expressions                          Angelico
+  PA  <a href="/dev/peps/pep-0464/">464</a>  Removal of the PyPI Mirror Authenticity API             Stufft
+  SF  <a href="/dev/peps/pep-0465/">465</a>  A dedicated infix operator for matrix multiplication    Smith
+  SF  <a href="/dev/peps/pep-0466/">466</a>  Network Security Enhancements for Python 2.7.x          Coghlan
+  S   <a href="/dev/peps/pep-0467/">467</a>  Minor API improvements for binary sequences             Coghlan
+  SF  <a href="/dev/peps/pep-0468/">468</a>  Preserving the order of \*\*kwargs in a function.       Snow
+  SW  <a href="/dev/peps/pep-0469/">469</a>  Migration of dict iteration code to Python 3            Coghlan
+  PA  <a href="/dev/peps/pep-0470/">470</a>  Removing External Hosting Support on PyPI               Stufft
+  SF  <a href="/dev/peps/pep-0471/">471</a>  os.scandir() function -- a better and faster ...        Hoyt
+  S   <a href="/dev/peps/pep-0472/">472</a>  Support for indexing with keyword arguments             Borini, Martinot-Lagarde
+  S   <a href="/dev/peps/pep-0473/">473</a>  Adding structured data to built-in exceptions           Kreft
+  PW  <a href="/dev/peps/pep-0474/">474</a>  Creating forge.python.org                               Coghlan
+  SF  <a href="/dev/peps/pep-0475/">475</a>  Retry system calls failing with EINTR                   Natali, Stinner
+  SF  <a href="/dev/peps/pep-0476/">476</a>  Enabling certificate verification by default for ...    Gaynor
+  SF  <a href="/dev/peps/pep-0477/">477</a>  Backport ensurepip (PEP 453) to Python 2.7              Stufft, Coghlan
+  I   <a href="/dev/peps/pep-0478/">478</a>  Python 3.5 Release Schedule                             Hastings
+  SF  <a href="/dev/peps/pep-0479/">479</a>  Change StopIteration handling inside generators         Angelico, GvR
+  S   <a href="/dev/peps/pep-0480/">480</a>  Surviving a Compromise of PyPI: The Maximum ...         Kuppusamy, Diaz, Stufft, Cappos
+  PW  <a href="/dev/peps/pep-0481/">481</a>  Migrate CPython to Git, Github, and Phabricator         Stufft
+  I   <a href="/dev/peps/pep-0482/">482</a>  Literature Overview for Type Hints                      Langa
+  I   <a href="/dev/peps/pep-0483/">483</a>  The Theory of Type Hints                                GvR, Levkivskyi
+  SA  <a href="/dev/peps/pep-0484/">484</a>  Type Hints                                              GvR, Lehtosalo, Langa
+  SF  <a href="/dev/peps/pep-0485/">485</a>  A Function for testing approximate equality             Barker
+  SF  <a href="/dev/peps/pep-0486/">486</a>  Make the Python Launcher aware of virtual environments  Moore
+  SF  <a href="/dev/peps/pep-0487/">487</a>  Simpler customisation of class creation                 Teichmann
+  SF  <a href="/dev/peps/pep-0488/">488</a>  Elimination of PYO files                                Cannon
+  SF  <a href="/dev/peps/pep-0489/">489</a>  Multi-phase extension module initialization             Viktorin, Behnel, Coghlan
+  SR  <a href="/dev/peps/pep-0490/">490</a>  Chain exceptions at C level                             Stinner
+  S   <a href="/dev/peps/pep-0491/">491</a>  The Wheel Binary Package Format 1.9                     Holth
+  SF  <a href="/dev/peps/pep-0492/">492</a>  Coroutines with async and await syntax                  Selivanov
+  SF  <a href="/dev/peps/pep-0493/">493</a>  HTTPS verification migration tools for Python 2.7       Coghlan, Kuska, Lemburg
+  I   <a href="/dev/peps/pep-0494/">494</a>  Python 3.6 Release Schedule                             Deily
+  SF  <a href="/dev/peps/pep-0495/">495</a>  Local Time Disambiguation                               Belopolsky, Peters
+  IR  <a href="/dev/peps/pep-0496/">496</a>  Environment Markers                                     Polley
+  P   <a href="/dev/peps/pep-0497/">497</a>  A standard mechanism for backward compatibility         Schofield
+  SF  <a href="/dev/peps/pep-0498/">498</a>  Literal String Interpolation                            Smith
+  S   <a href="/dev/peps/pep-0499/">499</a>  ``python -m foo`` should bind ...                       Simpson
+  SR  <a href="/dev/peps/pep-0500/">500</a>  A protocol for delegating datetime methods to their ... Belopolsky, Peters
+  SD  <a href="/dev/peps/pep-0501/">501</a>  General purpose string interpolation                    Coghlan
+  I   <a href="/dev/peps/pep-0502/">502</a>  String Interpolation - Extended Discussion              Miller
+  IA  <a href="/dev/peps/pep-0503/">503</a>  Simple Repository API                                   Stufft
+  SW  <a href="/dev/peps/pep-0504/">504</a>  Using the System RNG by default                         Coghlan
+  S   <a href="/dev/peps/pep-0505/">505</a>  None-aware operators                                    Haase
+  SA  <a href="/dev/peps/pep-0506/">506</a>  Adding A Secrets Module To The Standard Library         D'Aprano
+  PR  <a href="/dev/peps/pep-0507/">507</a>  Migrate CPython to Git and GitLab                       Warsaw
+  I   <a href="/dev/peps/pep-0508/">508</a>  Dependency specification for Python Software Packages   Collins
+  SF  <a href="/dev/peps/pep-0509/">509</a>  Add a private version to dict                           Stinner
+  S   <a href="/dev/peps/pep-0510/">510</a>  Specialize functions with guards                        Stinner
+  S   <a href="/dev/peps/pep-0511/">511</a>  API for code transformers                               Stinner
+  PF  <a href="/dev/peps/pep-0512/">512</a>  Migrating from hg.python.org to GitHub                  Cannon
+  I   <a href="/dev/peps/pep-0513/">513</a>  A Platform Tag for Portable Linux Built Distributions   McGibbon, Smith
+  I   <a href="/dev/peps/pep-0514/">514</a>  Python registration in the Windows registry             Dower
+  SF  <a href="/dev/peps/pep-0515/">515</a>  Underscores in Numeric Literals                         Brandl, Storchaka
+  SR  <a href="/dev/peps/pep-0516/">516</a>  Build system abstraction for pip/conda etc              Collins, Smith
+  SA  <a href="/dev/peps/pep-0517/">517</a>  A build-system independent format for source trees      Smith, Kluyver
+  IA  <a href="/dev/peps/pep-0518/">518</a>  Specifying Minimum Build System Requirements for ...    Cannon, Smith, Stufft
+  SF  <a href="/dev/peps/pep-0519/">519</a>  Adding a file system path protocol                      Cannon, Zevenhoven
+  SF  <a href="/dev/peps/pep-0520/">520</a>  Preserving Class Attribute Definition Order             Snow
+  SD  <a href="/dev/peps/pep-0521/">521</a>  Managing global context via 'with' blocks in ...        Smith
+  SR  <a href="/dev/peps/pep-0522/">522</a>  Allow BlockingIOError in security sensitive APIs        Coghlan, Smith
+  SF  <a href="/dev/peps/pep-0523/">523</a>  Adding a frame evaluation API to CPython                Cannon, Viehland
+  SF  <a href="/dev/peps/pep-0524/">524</a>  Make os.urandom() blocking on Linux                     Stinner
+  SF  <a href="/dev/peps/pep-0525/">525</a>  Asynchronous Generators                                 Selivanov
+  SF  <a href="/dev/peps/pep-0526/">526</a>  Syntax for Variable Annotations                         Gonzalez, House, Levkivskyi, Roach, GvR
+  PA  <a href="/dev/peps/pep-0527/">527</a>  Removing Un(der)used file types/extensions on PyPI      Stufft
+  SF  <a href="/dev/peps/pep-0528/">528</a>  Change Windows console encoding to UTF-8                Dower
+  SF  <a href="/dev/peps/pep-0529/">529</a>  Change Windows filesystem encoding to UTF-8             Dower
+  SF  <a href="/dev/peps/pep-0530/">530</a>  Asynchronous Comprehensions                             Selivanov
+  SW  <a href="/dev/peps/pep-0531/">531</a>  Existence checking operators                            Coghlan
+  S   <a href="/dev/peps/pep-0532/">532</a>  A circuit breaking protocol and binary operators        Coghlan, Haase
+  S   <a href="/dev/peps/pep-0533/">533</a>  Deterministic cleanup for iterators                     Smith
+  S   <a href="/dev/peps/pep-0534/">534</a>  Distributing a Subset of the Standard Library           Orsava, Viktorin, Coghlan
+  S   <a href="/dev/peps/pep-0535/">535</a>  Rich comparison chaining                                Coghlan
+  S   <a href="/dev/peps/pep-0536/">536</a>  Final Grammar for Literal String Interpolation          Angerer
+  I   <a href="/dev/peps/pep-0537/">537</a>  Python 3.7 Release Schedule                             Deily
+  SF  <a href="/dev/peps/pep-0538/">538</a>  Coercing the legacy C locale to a UTF-8 based locale    Coghlan
+  SA  <a href="/dev/peps/pep-0539/">539</a>  A New C-API for Thread-Local Storage in CPython         Bray, Yamamoto
+  S   <a href="/dev/peps/pep-0540/">540</a>  Add a new UTF-8 mode                                    Stinner
+  P   <a href="/dev/peps/pep-0541/">541</a>  Package Index Name Retention                            Langa
+  S   <a href="/dev/peps/pep-0542/">542</a>  Dot Notation Assignment In Function Header              Meskanen
+  S   <a href="/dev/peps/pep-0543/">543</a>  A Unified TLS API for Python                            Benfield, Heimes
+  S   <a href="/dev/peps/pep-0544/">544</a>  Protocols: Structural subtyping (static duck typing)    Levkivskyi, Lehtosalo, Langa
+  PF  <a href="/dev/peps/pep-0545/">545</a>  Python Documentation Translations                       Palard, Naoki, Stinner
+  SA  <a href="/dev/peps/pep-0546/">546</a>  Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7  Stinner, Benfield
+  S   <a href="/dev/peps/pep-0547/">547</a>  Running extension modules using the -m option           Plch, Viktorin
+  SR  <a href="/dev/peps/pep-0548/">548</a>  More Flexible Loop Control                              Murray
+  S   <a href="/dev/peps/pep-0549/">549</a>  Instance Descriptors                                    Hastings
+  S   <a href="/dev/peps/pep-0550/">550</a>  Execution Context                                       Selivanov, Pranskevichus
+  S   <a href="/dev/peps/pep-0551/">551</a>  Security transparency in the Python runtime             Dower
+  SA  <a href="/dev/peps/pep-0552/">552</a>  Deterministic pycs                                      Peterson
+  SF  <a href="/dev/peps/pep-0553/">553</a>  Built-in breakpoint()                                   Warsaw
+  S   <a href="/dev/peps/pep-0554/">554</a>  Multiple Interpreters in the Stdlib                     Snow
+  S   <a href="/dev/peps/pep-0555/">555</a>  Context-local variables (contextvars)                   Zevenhoven
+  S   <a href="/dev/peps/pep-0556/">556</a>  Threaded garbage collection                             Pitrou
+  S   <a href="/dev/peps/pep-0557/">557</a>  Data Classes                                            Smith
+  S   <a href="/dev/peps/pep-0558/">558</a>  Defined semantics for locals()                          Coghlan
+  SR  <a href="/dev/peps/pep-0559/">559</a>  Built-in noop()                                         Warsaw
+  S   <a href="/dev/peps/pep-0560/">560</a>  Core support for generic types                          Levkivskyi
+  S   <a href="/dev/peps/pep-0561/">561</a>  Distributing and Packaging Type Information             Smith
+  S   <a href="/dev/peps/pep-0562/">562</a>  Module __getattr__                                      Levkivskyi
+  S   <a href="/dev/peps/pep-0563/">563</a>  Postponed Evaluation of Annotations                     Langa
+ 
+ SF  <a href="/dev/peps/pep-0628/">628</a>  Add ``math.tau``                                        Coghlan
+ 
+ SR  <a href="/dev/peps/pep-0666/">666</a>  Reject Foolish Indentation                              Creighton
+ 
+ SR  <a href="/dev/peps/pep-0754/">754</a>  IEEE 754 Floating Point Special Values                  Warnes
+ 
+ PF <a href="/dev/peps/pep-3000/">3000</a>  Python 3000                                             GvR
+  PW <a href="/dev/peps/pep-3001/">3001</a>  Procedure for reviewing and improving standard ...      Brandl
+  PF <a href="/dev/peps/pep-3002/">3002</a>  Procedure for Backwards-Incompatible Changes            Bethard
+  PF <a href="/dev/peps/pep-3003/">3003</a>  Python Language Moratorium                              Cannon, Noller, GvR
+ 
+ PF <a href="/dev/peps/pep-3099/">3099</a>  Things that will Not Change in Python 3000              Brandl
+  PF <a href="/dev/peps/pep-3100/">3100</a>  Miscellaneous Python 3.0 Plans                          Cannon
+  SF <a href="/dev/peps/pep-3101/">3101</a>  Advanced String Formatting                              Talin
+  SF <a href="/dev/peps/pep-3102/">3102</a>  Keyword-Only Arguments                                  Talin
+  SR <a href="/dev/peps/pep-3103/">3103</a>  A Switch/Case Statement                                 GvR
+  SF <a href="/dev/peps/pep-3104/">3104</a>  Access to Names in Outer Scopes                         Yee
+  SF <a href="/dev/peps/pep-3105/">3105</a>  Make print a function                                   Brandl
+  SF <a href="/dev/peps/pep-3106/">3106</a>  Revamping dict.keys(), .values() and .items()           GvR
+  SF <a href="/dev/peps/pep-3107/">3107</a>  Function Annotations                                    Winter, Lownds
+  SF <a href="/dev/peps/pep-3108/">3108</a>  Standard Library Reorganization                         Cannon
+  SF <a href="/dev/peps/pep-3109/">3109</a>  Raising Exceptions in Python 3000                       Winter
+  SF <a href="/dev/peps/pep-3110/">3110</a>  Catching Exceptions in Python 3000                      Winter
+  SF <a href="/dev/peps/pep-3111/">3111</a>  Simple input built-in in Python 3000                    Roberge
+  SF <a href="/dev/peps/pep-3112/">3112</a>  Bytes literals in Python 3000                           Orendorff
+  SF <a href="/dev/peps/pep-3113/">3113</a>  Removal of Tuple Parameter Unpacking                    Cannon
+  SF <a href="/dev/peps/pep-3114/">3114</a>  Renaming iterator.next() to iterator.__next__()         Yee
+  SF <a href="/dev/peps/pep-3115/">3115</a>  Metaclasses in Python 3000                              Talin
+  SF <a href="/dev/peps/pep-3116/">3116</a>  New I/O                                                 Stutzbach, GvR, Verdone
+  SR <a href="/dev/peps/pep-3117/">3117</a>  Postfix type declarations                               Brandl
+  SF <a href="/dev/peps/pep-3118/">3118</a>  Revising the buffer protocol                            Oliphant, Banks
+  SF <a href="/dev/peps/pep-3119/">3119</a>  Introducing Abstract Base Classes                       GvR, Talin
+  SF <a href="/dev/peps/pep-3120/">3120</a>  Using UTF-8 as the default source encoding              von LÃ¶wis
+  SA <a href="/dev/peps/pep-3121/">3121</a>  Extension Module Initialization and Finalization        von LÃ¶wis
+  SR <a href="/dev/peps/pep-3122/">3122</a>  Delineation of the main module                          Cannon
+  SF <a href="/dev/peps/pep-3123/">3123</a>  Making PyObject_HEAD conform to standard C              von LÃ¶wis
+  SD <a href="/dev/peps/pep-3124/">3124</a>  Overloading, Generic Functions, Interfaces, and ...     Eby
+  SR <a href="/dev/peps/pep-3125/">3125</a>  Remove Backslash Continuation                           Jewett
+  SR <a href="/dev/peps/pep-3126/">3126</a>  Remove Implicit String Concatenation                    Jewett, Hettinger
+  SF <a href="/dev/peps/pep-3127/">3127</a>  Integer Literal Support and Syntax                      Maupin
+  SR <a href="/dev/peps/pep-3128/">3128</a>  BList: A Faster List-like Type                          Stutzbach
+  SF <a href="/dev/peps/pep-3129/">3129</a>  Class Decorators                                        Winter
+  SR <a href="/dev/peps/pep-3130/">3130</a>  Access to Current Module/Class/Function                 Jewett
+  SF <a href="/dev/peps/pep-3131/">3131</a>  Supporting Non-ASCII Identifiers                        von LÃ¶wis
+  SF <a href="/dev/peps/pep-3132/">3132</a>  Extended Iterable Unpacking                             Brandl
+  SR <a href="/dev/peps/pep-3133/">3133</a>  Introducing Roles                                       Winter
+  SF <a href="/dev/peps/pep-3134/">3134</a>  Exception Chaining and Embedded Tracebacks              Yee
+  SF <a href="/dev/peps/pep-3135/">3135</a>  New Super                                               Spealman, Delaney, Ryan
+  SR <a href="/dev/peps/pep-3136/">3136</a>  Labeled break and continue                              Chisholm
+  SF <a href="/dev/peps/pep-3137/">3137</a>  Immutable Bytes and Mutable Buffer                      GvR
+  SF <a href="/dev/peps/pep-3138/">3138</a>  String representation in Python 3000                    Ishimoto
+  SR <a href="/dev/peps/pep-3139/">3139</a>  Cleaning out sys and the "interpreter" module           Peterson
+  SR <a href="/dev/peps/pep-3140/">3140</a>  str(container) should call str(item), not repr(item)    Broytman, Jewett
+  SF <a href="/dev/peps/pep-3141/">3141</a>  A Type Hierarchy for Numbers                            Yasskin
+  SR <a href="/dev/peps/pep-3142/">3142</a>  Add a "while" clause to generator expressions           Britton
+  SD <a href="/dev/peps/pep-3143/">3143</a>  Standard daemon process library                         Finney
+  SF <a href="/dev/peps/pep-3144/">3144</a>  IP Address Manipulation Library for the Python ...      Moody
+  SW <a href="/dev/peps/pep-3145/">3145</a>  Asynchronous I/O For subprocess.Popen                   Pruitt, McCreary, Carlson
+  SW <a href="/dev/peps/pep-3146/">3146</a>  Merging Unladen Swallow into CPython                    Winter, Yasskin, Kleckner
+  SF <a href="/dev/peps/pep-3147/">3147</a>  PYC Repository Directories                              Warsaw
+  SF <a href="/dev/peps/pep-3148/">3148</a>  futures - execute computations asynchronously           Quinlan
+  SF <a href="/dev/peps/pep-3149/">3149</a>  ABI version tagged .so files                            Warsaw
+  SD <a href="/dev/peps/pep-3150/">3150</a>  Statement local namespaces (aka "given" clause)         Coghlan
+  SF <a href="/dev/peps/pep-3151/">3151</a>  Reworking the OS and IO exception hierarchy             Pitrou
+  SR <a href="/dev/peps/pep-3152/">3152</a>  Cofunctions                                             Ewing
+  SS <a href="/dev/peps/pep-3153/">3153</a>  Asynchronous IO support                                 Houtven
+  SF <a href="/dev/peps/pep-3154/">3154</a>  Pickle protocol version 4                               Pitrou
+  SF <a href="/dev/peps/pep-3155/">3155</a>  Qualified name for classes and functions                Pitrou
+  SF <a href="/dev/peps/pep-3156/">3156</a>  Asynchronous IO Support Rebooted: the "asyncio" Module  GvR
+ 
+ IF <a href="/dev/peps/pep-3333/">3333</a>  Python Web Server Gateway Interface v1.0.1              Eby
+ 
+
+</pre>
+<h3>Reserved PEP Numbers</h3>
+<pre>
+     num  title                                                   owner
+     ---  -----                                                   -----
+     801  RESERVED                                                Warsaw
+
+
+</pre>
+<h3>Key</h3>
+<pre>
+    S - Standards Track PEP
+    I - Informational PEP
+    P - Process PEP
+
+    A - Accepted proposal
+    R - Rejected proposal
+    W - Withdrawn proposal
+    D - Deferred proposal
+    F - Final proposal
+    A - Active proposal
+    D - Draft proposal
+    S - Superseded proposal
+
+
+</pre>
+<h3>Owners</h3>
+<pre>
+    name                         email address
+    ----                         -------------
+    Aahz                         aahz at pythoncraft.com
+     Ahlstrom, James C.           jim at interet.com
+     Althoff, Jim                 james_althoff at i2.com
+     Altis, Kevin                 altis at semi-retired.com
+     Angelico, Chris              rosuav at gmail.com
+     Angerer, Philipp             phil.angerer at gmail.com
+     Ascher, David                davida at activestate.com
+     Astrand, Peter               astrand at lysator.liu.se
+     Banks, Carl                  pythondev at aerojockey.com
+     Barker, Christopher          chris.barker at noaa.gov
+     Barrett, Paul                barrett at stsci.edu
+     Batista, Facundo             facundo at taniquetil.com.ar
+     Baxter, Anthony              anthony at interlink.com.au
+     Behnel, Stefan               stefan_ml at behnel.de
+     Bellman, Thomas              bellman+pep-divmod@lysator.liu.se
+     Belopolsky, Alexander        alexander.belopolsky at gmail.com
+     Bendersky, Eli               eliben at gmail.com
+     Benfield, Cory               cory at lukasa.co.uk
+     Bethard, Steven              steven.bethard at gmail.com
+     Borini, Stefano              
+    Brandl, Georg                georg at python.org
+     Bray, Erik M.                
+    Britton, Gerald              gerald.britton at gmail.com
+     Broytman, Oleg               phd at phdru.name
+     Bryon, Benoit                benoit at marmelune.net
+     Cannon, Brett                brett at python.org
+     Cappos, Justin               jcappos at nyu.edu
+     Carlson, Josiah              jcarlson at uci.edu
+     Carroll, W Isaac             icarroll at pobox.com
+     Chisholm, Matt               matt-python at theory.org
+     Coghlan, Nick                ncoghlan at gmail.com
+     Cole, Dave                   djc at object-craft.com.au
+     Collins, Robert              rbtcollins at hp.com
+     Colomiets, Paul              paul at colomiets.name
+     Craig, Christopher A.        python-pep at ccraig.org
+     Creighton, Laura             lac at strakt.com
+     D'Aprano, Steven             steve at pearwood.info
+     Deily, Ned                   nad at python.org
+     Delaney, Tim                 timothy.c.delaney at gmail.com
+     Diaz, Vladimir               vladimir.diaz at nyu.edu
+     Diederich, Jack              jackdied at gmail.com
+     DÃ¶rwald, Walter              walter at livinglogic.de
+     Dower, Steve                 steve.dower at python.org
+     Drake, Fred L., Jr.          fdrake at acm.org
+     Dubner, Michael P.           dubnerm at mindless.com
+     Dubois, Paul F.              paul at pfdubois.com
+     Eby, Phillip J.              pje at telecommunity.com
+     Eby, P.J.                    pje at telecommunity.com
+     Elliott, Micah               mde at tracos.org
+    Epler, Jeff                  jepler at unpythonic.net
+     Eppstein, David              eppstein at ics.uci.edu
+     Evans, Clark C.              cce at clarkevans.com
+     Ewing, Gregory               greg.ewing at canterbury.ac.nz
+     Ewing, Greg                  greg.ewing at canterbury.ac.nz
+     Faassen, Martijn             faassen at infrae.com
+     Finney, Ben                  ben+python@benfinney.id.au
+     Foord, Michael               michael at python.org
+     Furman, Ethan                ethan at stoneleaf.us
+     Gaynor, Alex                 alex.gaynor at gmail.com
+     Giacometti, FrÃ©dÃ©ric B.      fred at arakne.com
+     Gilbert, Scott               xscottg at yahoo.com
+    Gonzalez, Ryan               rymg19 at gmail.com
+     Goodger, David               goodger at python.org
+     Griffin, Grant               g2 at iowegian.com
+     Haase, Mark E.               mehaase at gmail.com
+     Hammond, Mark                mhammond at skippinet.com.au
+     Harris, Peter                scav at blueyonder.co.uk
+     Hastings, Larry              larry at hastings.org
+     Heimes, Christian            christian at python.org
+     Heller, Thomas               theller at python.net
+     Hetland, Magnus Lie          magnus at hetland.org
+     Hettinger, Raymond           python at rcn.com
+     Hodgson, Neil                neilh at scintilla.org
+     Holth, Daniel                dholth at gmail.com
+     House, Philip                phouse512 at gmail.com
+     Houtven, Laurens Van         _ at lvh.cc
+     Hoyt, Ben                    benhoyt at gmail.com
+     Hudson, Michael              mwh at python.net
+     Hylton, Jeremy               jeremy at alum.mit.edu
+     Ishimoto, Atsuo              ishimoto--at--gembook.org
+    Jansen, Jack                 jack at cwi.nl
+     Jewett, Jim J.               jimjjewett at gmail.com
+     Jewett, Jim                  jimjjewett at gmail.com
+     Jones, Richard               richard at python.org
+     Kleckner, Reid               rnk at mit.edu
+     Kluyver, Thomas              thomas at kluyver.me.uk
+     Koltsov, Stepan              yozh at mx1.ru
+     Krah, Stefan                 skrah at bytereef.org
+     Kreft, Sebastian             skreft at deezer.com
+     Krekel, Holger               holger at merlinux.eu
+     Kuchling, A.M.               amk at amk.ca
+     Kuppusamy, Trishank Karthik  trishank at nyu.edu
+     Kuska, Robert                rkuska at redhat.com
+     Landau, Joshua               joshua at landau.ws
+     Langa, Åukasz                lukasz at langa.pl
+     Lehtosalo, Jukka             jukka.lehtosalo at iki.fi
+     Lemburg, Marc-AndrÃ©          mal at lemburg.com
+     Levkivskyi, Ivan             levkivskyi at gmail.com
+     Lielens, Gregory             gregory.lielens at fft.be
+     Lindqvist, BjÃ¶rn             bjourne at gmail.com
+     v. LÃ¶wis, Martin             martin at v.loewis.de
+     von LÃ¶wis, Martin            martin at v.loewis.de
+     Lownds, Tony                 tony at lownds.com
+     Martelli, Alex               aleaxit at gmail.com
+     Martinot-Lagarde, Joseph     
+    Mastrodomenico, Lino         l.mastrodomenico at gmail.com
+     Maupin, Patrick              pmaupin at gmail.com
+     McClelland, Andrew           eternalsquire at comcast.net
+     McCreary, Charles R.         
+    McDonough, Chris             chrism at plope.com
+     McGibbon, Robert T.          rmcgibbo at gmail.com
+     McMillan, Gordon             gmcm at hypernet.com
+     McNamara, Andrew             andrewm at object-craft.com.au
+     Meskanen, Markus             markusmeskanen at gmail.com
+     Meyer, Mike                  mwm at mired.org
+     Meyer, Carl                  carl at oddbird.net
+     Mick, Trent                  trentm at activestate.com
+     Miller, Mike G.              
+    Montanaro, Skip              skip at pobox.com
+     Moody, Peter                 pmoody at google.com
+     Moore, Paul                  p.f.moore at gmail.com
+     Murray, R David              
+    Naoki,         Inada         songofacandy at gmail.com
+     Natali, Charles-FranÃ§ois     cf.natali at gmail.com
+     Noller, Jesse                jnoller at gmail.com
+     North, Ben                   ben at redfrontdoor.org
+     Norwitz, Neal                nnorwitz at gmail.com
+     Ochtman, Dirkjan             dirkjan at ochtman.nl
+     Oliphant, Travis             oliphant at ee.byu.edu
+     Orendorff, Jason             jason.orendorff at gmail.com
+     Orsava, TomÃ¡Å¡                tomas.n at orsava.cz
+     Oudkerk, Richard             r.m.oudkerk at googlemail.com
+     Oussoren, Ronald             ronaldoussoren at mac.com
+     Palard, Julien               julien at palard.fr
+     Pedroni, Samuele             pedronis at python.org
+     Pelletier, Michel            michel at users.sourceforge.net
+     Peters, Tim                  tim.peters at gmail.com
+     Peterson, Benjamin           benjamin at python.org
+     Petrone, Jason               jp at demonseed.net
+     Pitrou, Antoine              solipsis at pitrou.net
+     Plch, Marcel                 gmarcel.plch at gmail.com
+     Polley, James                jp at jamezpolley.com
+     Pranskevichus, Elvis         elvis at magic.io
+     Prescod, Paul                paul at prescod.net
+     Pruitt, (James) Eric         
+    Quinlan, Brian               brian at sweetapp.com
+     Reedy, Terry                 tjreedy at udel.edu
+     Regebro, Lennart             regebro at gmail.com
+     Reifschneider, Sean          jafo-pep at tummy.com
+     Reis, Christian R.           kiko at async.com.br
+    Riehl, Jonathan              jriehl at spaceship.com
+     Roach, Lisa                  lisaroach14 at gmail.com
+     Roberge, Andre               andre.roberge at gmail.com 
+    Ronacher, Armin              armin.ronacher at active-4.com
+     van Rossum, Just (JvR)       just at letterror.com
+     van Rossum, Guido (GvR)      guido at python.org
+     Rovito, Todd                 rovitotv at gmail.com
+     Ryan, Lie                    lie.1296 at gmail.com
+     Sajip, Vinay                 vinay_sajip at red-dove.com
+    Schemenauer, Neil            nas at arctrix.com
+     Schneider-Kamp, Peter        nowonder at nowonder.de
+     Schofield, Ed                ed at pythoncharmers.com
+    Selivanov, Yury              yury at magic.io
+     Seo, Jiwon                   seojiwon at gmail.com
+     Shannon, Mark                mark at hotpy.org
+     Simpson, Cameron             cs at zip.com.au
+     Slodkowicz, Greg             jergosh at gmail.com
+     Smith, Nathaniel J.          njs at pobox.com
+     Smith, Kevin D.              kevin.smith at themorgue.org
+     Smith, Nathaniel             njs at pobox.com
+     Smith, Ethan                 ethan at ethanhs.me
+     Smith, Eric V.               eric at trueblade.com
+     Snow, Eric                   ericsnowcurrently at gmail.com
+     Spealman, Calvin             ironfroggy at gmail.com
+     Staley, Kerrick              mail at kerrickstaley.com
+     Stein, Greg                  gstein at lyra.org
+     Stinner, Victor              victor.stinner at gmail.com
+     Storchaka, Serhiy            
+    Stufft, Donald               donald at stufft.io
+     Stutzbach, Daniel            daniel at stutzbachenterprises.com
+     Suzi, Roman                  rnd at onego.ru
+     Talin                        viridia at gmail.com
+     Taschuk, Steven              staschuk at telusplanet.net
+     Teichmann, Martin            lkb.teichmann at gmail.com
+     Tirosh, Oren                 oren at hishome.net
+    Turnbull, Stephen J.         stephen at xemacs.org
+     Urban, Daniel                urban.dani+py@gmail.com
+     Vassalotti, Alexandre        alexandre at peadrop.com
+     Verdone, Mike                mike.verdone at gmail.com
+     Viehland, Dino               dinov at microsoft.com
+     Viktorin, Petr               encukou at gmail.com
+     Warnes, Gregory R.           gregory_r_warnes at groton.pfizer.com
+     Warsaw, Barry                barry at python.org
+     Way, Terence                 terry at wayforward.net
+     Wells, Cliff                 logiplexsoftware at earthlink.net
+     Whitley, Jervis              jervisau at gmail.com
+     Wilson, Greg                 gvwilson at ddj.com
+     Winter, Collin               collinwinter at google.com
+     Wouters, Thomas              thomas at python.org
+     Yamamoto, Masayuki           
+    Yasskin, Jeffrey             jyasskin at google.com
+     Yee, Ka-Ping                 ping at zesty.ca
+     Zadka, Moshe                 moshez at zadka.site.co.il
+     Zevenhoven, Koos             k7hoven at gmail.com
+     Zhu, Huaiyu                  hzhu at users.sourceforge.net
+     ZiadÃ©, Tarek                 tarek at ziade.org
+ 
+
+</pre>
+<h3>References</h3>
+<pre>
+    [1] <a href="/dev/peps/pep-0001/">PEP 1</a>: PEP Purpose and Guidelines
+    [2] View PEP history online
+        <a href="https://hg.python.org/peps/">https://hg.python.org/peps/</a>
+
+
+</pre>
+</div>
+
+    </article>
+
+
+                </section>
+
+                
+
+
+<aside class="left-sidebar" role="secondary">
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+        <div class="twitter-widget sidebar-widget">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ThePSF" data-widget-id="434113224703610882">Tweets by @ThePSF</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+    <div class="psf-sidebar-widget sidebar-widget">
+        <h3 class="widget-title">The PSF</h3>
+<p>The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software and our mission. </p>
+
+    </div>
+
+</aside>
+
+
+
+                
+                
+
+
+            </div><!-- end .container -->
+        </div><!-- end #content .content-wrapper -->
+
+        <!-- Footer and social media list -->
+        <footer id="site-map" class="main-footer" role="contentinfo">
+            <div class="main-footer-links">
+                <div class="container">
+
+                    
+                    <a id="back-to-top-1" class="jump-link" href="#python-network"><span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> Back to Top</a>
+
+                    
+
+<ul class="sitemap navigation menu do-not-print" role="tree" id="container">
+    
+    <li class="tier-1 element-1">
+        <a href="/about/" >About</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/help/" title="">Help</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="http://brochure.getpython.info/" title="">Python Brochure</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-2">
+        <a href="/downloads/" >Downloads</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/download/alternatives" title="">Alternative Implementations</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-3">
+        <a href="/doc/" >Documentation</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/doc/essays/" title="">Python Essays</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-4">
+        <a href="/community/" >Community</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/community/forums/" title="">Forums</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-10" role="treeitem"><a href="/community/awards" title="">Community Awards</a></li>
+    
+        <li class="tier-2 element-11" role="treeitem"><a href="https://www.python.org/psf/codeofconduct/" title="">Code of Conduct</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-5">
+        <a href="/about/success/" title="success-stories">Success Stories</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/about/success/#software-development" title="">Software Development</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-6">
+        <a href="/blogs/" title="News from around the Python world">News</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-7">
+        <a href="/events/" >Events</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/events/python-events" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-8">
+        <a href="/dev/" >Contributing</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://bugs.python.org/" title="">Issue Tracker</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://mail.python.org/mailman/listinfo/python-dev" title="">python-dev list</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/dev/core-mentorship/" title="">Core Mentorship</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+</ul>
+
+
+                    <a id="back-to-top-2" class="jump-link" href="#python-network"><span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> Back to Top</a>
+                    
+
+                </div><!-- end .container -->
+            </div> <!-- end .main-footer-links -->
+
+            <div class="site-base">
+                <div class="container">
+                    
+                    <ul class="footer-links navigation menu do-not-print" role="tree">
+                        <li class="tier-1 element-1"><a href="/about/help/">Help &amp; <span class="say-no-more">General</span> Contact</a></li>
+                        <li class="tier-1 element-2"><a href="/community/diversity/">Diversity <span class="say-no-more">Initiatives</span></a></li>
+                        <li class="tier-1 element-3"><a href="https://github.com/python/pythondotorg/issues">Submit Website Bug</a></li>
+                        <li class="tier-1 element-4">
+                            <a href="https://status.python.org/">Status <span class="python-status-indicator-default" id="python-status-indicator"></span></a>
+                        </li>
+                    </ul>
+
+                    <div class="copyright">
+                        <p><small>
+                            <span class="pre">Copyright &copy;2001-2017.</span>
+                            &nbsp;<span class="pre"><a href="/psf-landing/">Python Software Foundation</a></span>
+                            &nbsp;<span class="pre"><a href="/about/legal/">Legal Statements</a></span>
+                            &nbsp;<span class="pre"><a href="/privacy/">Privacy Policy</a></span>
+                        </small></p>
+                    </div>
+
+                </div><!-- end .container -->
+            </div><!-- end .site-base -->
+
+        </footer>
+
+    </div><!-- end #touchnav-wrapper -->
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <script src="/static/js/libs/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="/static/js/main-min.js" charset="utf-8"></script>
+    
+
+    <!--[if lte IE 7]>
+    <script type="text/javascript" src="/static/js/plugins/IE8-min.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="/static/js/plugins/getComputedStyle-min.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+
+    
+
+    
+    
+
+</body>
+</html>

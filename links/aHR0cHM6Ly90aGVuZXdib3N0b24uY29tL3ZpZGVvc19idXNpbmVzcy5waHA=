@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Watch free video tutorials on computer programming, web design, game development, and more.">    <title>Video Tutorials - thenewboston</title>
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin' >
+<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' >
+<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/main.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/widgets.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/pages.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/themes.min.css' >
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js' ></script>
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script><![endif]-->    
+</head>
+<body class="theme-default main-menu-fixed main-navbar-fixed">
+
+<script>
+    (function (i, s, o, g, r, a, m){
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function (){
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-56989641-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+    
+
+<script>var init = []; var tnb_base_path = 'https://thenewboston.com/';</script>
+<div id="main-wrapper">
+	
+<div id="main-navbar" class="navbar navbar-inverse" role="navigation">
+
+	<!-- Left menu toggle button -->
+	<button type="button" id="main-menu-toggle">
+		<i class="navbar-icon fa fa-bars icon"></i>
+	</button>
+
+	<div class="navbar-inner">
+
+		<!-- Logo and top menu toggle (for smaller screens) -->
+		<div class="navbar-header">
+			<a href="https://thenewboston.com/index.php" class="navbar-brand">
+				<div>
+					<img alt="thenewboston Logo" src="/images/logo.png" />
+				</div>
+				thenewboston
+			</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+			        data-target="#main-navbar-collapse">
+				<i class="navbar-icon fa fa-bars"></i>
+			</button>
+		</div>
+
+		<div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
+			<div>
+
+				<!-- Left buttons -->
+				<ul class="nav navbar-nav">
+                    					<li><a href="https://thenewboston.com/forum"><i class="dropdown-icon fa fa-comment"></i>&nbsp; Forum</a></li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp; Video Tutorials</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://thenewboston.com/videos_beauty.php">Beauty</a></li>
+                            <li><a href="https://thenewboston.com/videos_business.php">Business</a></li>
+                            <li><a href="https://thenewboston.com/videos.php">Computer Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_food.php">Cooking</a></li>
+                            <li><a href="https://thenewboston.com/videos_health.php">Health &amp; Medicine</a></li>
+                            <li><a href="https://thenewboston.com/videos_humanities.php">Humanities</a></li>
+                            <li><a href="https://thenewboston.com/videos_math.php">Math</a></li>
+                            <li><a href="https://thenewboston.com/videos_science.php">Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_social.php">Social Sciences</a></li>
+                        </ul>
+                    </li>
+				</ul>
+
+				<!-- Right buttons -->
+				<div class="right clearfix">
+                                        <ul class="nav navbar-nav pull-right right-navbar-nav">
+                        <!-- Login Form -->
+                        <li class="hidden-sm hidden-xs">
+                            <form class="navbar-form pull-left" method="post" action="https://thenewboston.com/login.php" validate="true">
+                                <div class="form-group">
+                                    <input type="text" class="form-control require-validation" placeholder="Email" v-email="1" v-require="1" name="email" id="username_id"  />
+                                    <input type="password" class="form-control require-validation" placeholder="Password" v-require="1" v-minlength="6" name="password" id="password_id" />
+                                    <input type="submit" name="signin_submit" class="btn btn-primary" value="Login" /> 
+                                    <input type="hidden" name="action" value="login" />
+                                    <input type="hidden" name="af40ee74ee5067a2c965afe27ed5bcb2" value="1" />                                </div>
+                            </form>
+                        </li>
+                        
+                        <!-- Login Link -->
+                        <li class="visible-sm visible-xs"><a href="https://thenewboston.com/login.php"><i class="dropdown-icon fa fa-sign-in"></i>&nbsp; Login</a></li>
+                    </ul>
+                    				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>	    <div id="main-menu" role="navigation">
+	<div id="main-menu-inner">
+
+		
+		<ul class="navigation">
+            
+                <!-- Beauty -->
+                <li>
+                    <a href="https://thenewboston.com/videos_beauty.php">
+                        <i class="menu-icon fa fa-heart"></i>
+                        <span class="mm-text">Beauty</span>
+                    </a>
+                </li>
+
+                <!-- Business -->
+                <li>
+                    <a href="https://thenewboston.com/videos_business.php">
+                        <i class="menu-icon fa fa-line-chart"></i>
+                        <span class="mm-text">Business</span>
+                    </a>
+                </li>
+
+                <!-- Computer Science -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php">
+                        <i class="menu-icon fa fa-laptop"></i>
+                        <span class="mm-text">Computer Science</span>
+                    </a>
+                </li>
+
+                <!-- Cooking -->
+                <li>
+                    <a href="https://thenewboston.com/videos_food.php">
+                        <i class="menu-icon fa fa-coffee"></i>
+                        <span class="mm-text">Cooking</span>
+                    </a>
+                </li>
+
+                <!-- Health & Medicine -->
+                <li>
+                    <a href="https://thenewboston.com/videos_health.php">
+                        <i class="menu-icon fa fa-stethoscope"></i>
+                        <span class="mm-text">Health &amp; Medicine</span>
+                    </a>
+                </li>
+
+                <!-- Humanities -->
+                <li>
+                    <a href="https://thenewboston.com/videos_humanities.php">
+                        <i class="menu-icon fa fa-bank"></i>
+                        <span class="mm-text">Humanities</span>
+                    </a>
+                </li>
+
+                <!-- Math -->
+                <li>
+                    <a href="https://thenewboston.com/videos_math.php">
+                        <i class="menu-icon fa fa-plus"></i>
+                        <span class="mm-text">Math</span>
+                    </a>
+                </li>
+
+                <!-- Science -->
+                <li>
+                    <a href="https://thenewboston.com/videos_science.php">
+                        <i class="menu-icon fa fa-leaf"></i>
+                        <span class="mm-text">Science</span>
+                    </a>
+                </li>
+
+                <!-- Social Sciences -->
+                <li>
+                    <a href="https://thenewboston.com/videos_social.php">
+                        <i class="menu-icon fa fa-graduation-cap"></i>
+                        <span class="mm-text">Social Sciences</span>
+                    </a>
+                </li>
+
+                                    <div class="menu-content animated fadeIn">
+                        <a href="https://thenewboston.com/register.php" class="btn btn-primary btn-block btn-outline dark">Create an Account</a>
+                    </div>
+                
+                        
+		</ul>
+	</div>
+</div>    
+
+	<div id="content-wrapper">
+
+        <!-- Breadcrumbs -->
+		<ul class="breadcrumb breadcrumb-page">
+            <li><a href="index.php">Home</a></li>
+            <li class="active">
+                <a href="https://thenewboston.com/videos_business.php">
+                                            Business                                    </a>
+            </li>
+		</ul>
+        
+                
+                <div class="row">
+            <div class="col-xs-12">
+                <h1 class="margin-top0 featured-video-heading">Watch Thousands of Tutorials for Free!</h1>
+                <p class="margin-bottom25">Welcome to the worlds largest collection of computer and technology related tutorials on the web. Feel free to browse through our library of over 7,000 videos and tutorials. We have courses in programming, web design, video editing, game development, and more. Join the over 180 million people who have already enjoyed the benefits of online learning.</p>
+            </div>
+        </div>
+        
+		<div class="row">
+            
+			<!-- Left -->
+			<div class="col-xs-12 col-lg-6">
+				
+                
+                    <!-- Featured video (not computer science) -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item youtube-player" src="//www.youtube.com/embed/KYneLGRTgy8?enablejsapi=1" 
+                            data-code="KYneLGRTgy8"                             
+                            data-token="af40ee74ee5067a2c965afe27ed5bcb2" 
+                            id="youtube-player8" allowfullscreen></iframe>
+                    </div>
+                    <br />
+                    <p>
+                        Entrepreneur Mark Cuban discusses the U.S. Economy and starting a business with Trish Regan at the Clinton Global Initiative in Chicago on Bloomberg Television's "Street Smart."                    </p>
+                    <br />
+                    
+                    <!-- Top 10 Courses (not computer science) -->
+                    <div class="panel">
+
+                        <div class="panel-heading">
+                            <h2 class="panel-title"><b>Top 8 Courses</b></h2>
+                        </div>
+
+                        <div class="panel-body no-padding">
+                            <table class="videos-top-courses">
+
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=277">
+                                                <img src="/images/video_categories/277.png" alt="Accounting (aba) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=277">1.&nbsp; Accounting (aba)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Learn about accounting, the action or process of keeping financial accounts.                                                <a href="https://thenewboston.com/videos_business.php?cat=277">9 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=261">
+                                                <img src="/images/video_categories/261.png" alt="Microeconomics and Macroeconomics Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=261">2.&nbsp; Microeconomics and Macroeconomics</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Topics covered in an traditional college level introductory microeconomics and macroeconomics course.                                                <a href="https://thenewboston.com/videos_business.php?cat=261">131 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=260">
+                                                <img src="/images/video_categories/260.png" alt="Personal Finance (ka) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=260">3.&nbsp; Personal Finance (ka)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                A 20 video course from Khan Academy which discuss personal finances and financial planning.                                                <a href="https://thenewboston.com/videos_business.php?cat=260">20 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=266">
+                                                <img src="/images/video_categories/266.png" alt="Valuation and Investing (ka) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=266">4.&nbsp; Valuation and Investing (ka)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Building blocks and case studies on the financial analysis and valuation of public equities.                                                <a href="https://thenewboston.com/videos_business.php?cat=266">12 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=246">
+                                                <img src="/images/video_categories/246.png" alt="Financial Theory (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=246">5.&nbsp; Financial Theory (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course attempts to explain the role and the importance of the financial system in the global economy. The course also gives a picture of the kind of thinking and analysis done by hedge funds.                                                <a href="https://thenewboston.com/videos_business.php?cat=246">26 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=248">
+                                                <img src="/images/video_categories/248.png" alt="Financial Markets - 2011 (Yale) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=248">6.&nbsp; Financial Markets - 2011 (Yale)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                An overview of the ideas, methods, and institutions that permit human society to manage risks and foster enterprise. Description of practices today and analysis of prospects for the future.                                                <a href="https://thenewboston.com/videos_business.php?cat=248">23 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=263">
+                                                <img src="/images/video_categories/263.png" alt="Banking and Money (ka) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=263">7.&nbsp; Banking and Money (ka)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This 25 video series from Khan Academy discusses topics on how banks work and how money is created.                                                <a href="https://thenewboston.com/videos_business.php?cat=263">25 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_business.php?cat=274">
+                                                <img src="/images/video_categories/274.png" alt="Employee Motivation and Behavior Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_business.php?cat=274">8.&nbsp; Employee Motivation and Behavior</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course from Alanis Business Academy covers several topics regarding employee motivation and behavior.                                                <a href="https://thenewboston.com/videos_business.php?cat=274">10 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+
+                    </div>
+                    
+                
+			</div>
+
+			<!-- Right -->
+			<div class="col-xs-12 col-lg-4">
+
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-calculator"></i>
+                                Accounting                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=277" class="list-group-item">
+                                        Accounting (aba)                                        <span class="item-details"> Â· 9 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=258" class="list-group-item">
+                                        Accounting I (jccc)                                        <span class="item-details"> Â· 39 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=259" class="list-group-item">
+                                        Accounting II (jccc)                                        <span class="item-details"> Â· 42 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-usd"></i>
+                                Finance                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=264" class="list-group-item">
+                                        Current Economics (ka)                                        <span class="item-details"> Â· 20 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=272" class="list-group-item">
+                                        Finance (aba)                                        <span class="item-details"> Â· 14 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=262" class="list-group-item">
+                                        Finance (ka)                                        <span class="item-details"> Â· 196 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=245" class="list-group-item">
+                                        Financial Markets - 2008 (Yale)                                        <span class="item-details"> Â· 26 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=248" class="list-group-item">
+                                        Financial Markets - 2011 (Yale)                                        <span class="item-details"> Â· 23 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=246" class="list-group-item">
+                                        Financial Theory (Yale)                                        <span class="item-details"> Â· 26 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=261" class="list-group-item">
+                                        Microeconomics and Macroeconomics                                        <span class="item-details"> Â· 131 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=260" class="list-group-item">
+                                        Personal Finance (ka)                                        <span class="item-details"> Â· 20 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=266" class="list-group-item">
+                                        Valuation and Investing (ka)                                        <span class="item-details"> Â· 12 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-line-chart"></i>
+                                Marketing                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=276" class="list-group-item">
+                                        Marketing (aba)                                        <span class="item-details"> Â· 18 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=270" class="list-group-item">
+                                        Marketing Basics                                        <span class="item-details"> Â· 20 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-university"></i>
+                                Other Business                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=263" class="list-group-item">
+                                        Banking and Money (ka)                                        <span class="item-details"> Â· 25 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=275" class="list-group-item">
+                                        Business Communication (aba)                                        <span class="item-details"> Â· 15 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=269" class="list-group-item">
+                                        Credit Crisis (ka)                                        <span class="item-details"> Â· 13 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=265" class="list-group-item">
+                                        Currency (ka)                                        <span class="item-details"> Â· 8 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=271" class="list-group-item">
+                                        Economics (aba)                                        <span class="item-details"> Â· 15 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=274" class="list-group-item">
+                                        Employee Motivation and Behavior                                        <span class="item-details"> Â· 10 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=273" class="list-group-item">
+                                        Introduction to Management (aba)                                        <span class="item-details"> Â· 32 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=268" class="list-group-item">
+                                        Paulson Bailout                                        <span class="item-details"> Â· 14 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_business.php?cat=267" class="list-group-item">
+                                        Venture Capital and Markets (ka)                                        <span class="item-details"> Â· 9 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<div id="main-menu-bg"></div></div>
+
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' ></script>
+<script type='text/javascript' src='/js/pixel-admin.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-script.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-forum-script.min.js' ></script>
+<script type='text/javascript' src='//www.youtube.com/iframe_api' ></script>
+</body>
+</html>

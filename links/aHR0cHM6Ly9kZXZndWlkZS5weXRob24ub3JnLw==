@@ -1,0 +1,994 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Python Developerâs Guide &#8212; Python Developer&#39;s Guide </title>
+    
+    <link rel="stylesheet" href="_static/pydoctheme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://media.readthedocs.org/css/badge_only.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="https://media.readthedocs.org/javascript/jquery/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="https://media.readthedocs.org/javascript/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://media.readthedocs.org/javascript/underscore.js"></script>
+    <script type="text/javascript" src="https://media.readthedocs.org/javascript/doctools.js"></script>
+    <script type="text/javascript" src="https://media.readthedocs.org/javascript/readthedocs-doc-embed.js"></script>
+    <script type="text/javascript" src="_static/sidebar.js"></script>
+    <link rel="index" title="Index" href="genindex/" />
+    <link rel="search" title="Search" href="search/" />
+    <link rel="next" title="1. Getting Started" href="setup/" />
+    <link rel="shortcut icon" type="image/png" href="https://docs.python.org/3/_static/py.png" />
+    <script type="text/javascript" src="https://docs.python.org/3/_static/copybutton.js"></script>
+
+ 
+
+  
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="http://devguide.python.org/" />
+
+<link rel="stylesheet" href="https://media.readthedocs.org/css/readthedocs-doc-embed.css" type="text/css" />
+
+<script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = 'index' 		
+READTHEDOCS_DATA['source_suffix'] = '.rst'
+</script>
+
+<script type="text/javascript" src="_static/readthedocs-dynamic-include.js"></script>
+
+<!-- end RTD <extrahead> --></head>
+  <body role="document">  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex/" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="setup/" title="1. Getting Started"
+             accesskey="N">next</a> |</li>
+        <li><img src="https://docs.python.org/3/_static/py.png" alt=""
+                 style="vertical-align: middle; margin-top: -1px"/></li>
+        <li><a href="https://www.python.org/">Python</a> &#187;</li>
+        <li>
+          <a href="#">Python Developer's Guide </a> &#187;
+        </li>
+
+    
+        <li class="inline-search right" style="display: none">
+            
+
+    <div role="search">
+        <form action="search/" method="get">
+            <input placeholder="Quick search" type="text" name="q" />
+            <input type="submit" value="Go" />
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+    <script type="text/javascript">$('.inline-search').show(0);</script>
+
+             |
+        </li>
+
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="python-developer-s-guide">
+<h1>Python Developer&#8217;s Guide<a class="headerlink" href="#python-developer-s-guide" title="Permalink to this headline">Â¶</a></h1>
+<p>This guide is a comprehensive resource for <a class="reference internal" href="#contributing"><span class="std std-ref">contributing</span></a>
+to <a class="reference external" href="https://www.python.org/">Python</a> &#8211; for both new and experienced contributors.  It is
+<a class="reference internal" href="docquality/#helping-with-the-developers-guide"><span class="std std-ref">maintained</span></a> by the same community
+that maintains Python.  We welcome your contributions to Python!</p>
+<div class="section" id="quick-reference">
+<h2>Quick Reference<a class="headerlink" href="#quick-reference" title="Permalink to this headline">Â¶</a></h2>
+<p>Here are the basic steps needed to get <a class="reference internal" href="setup/#setup"><span class="std std-ref">set up</span></a> and contribute a
+patch. This is meant as a checklist, once you know the basics. For complete
+instructions please see the <a class="reference internal" href="setup/#setup"><span class="std std-ref">setup guide</span></a>.</p>
+<ol class="arabic">
+<li><p class="first">Install and set up <a class="reference internal" href="setup/#vcsetup"><span class="std std-ref">Git</span></a> and other dependencies
+(see the <a class="reference internal" href="setup/#setup"><span class="std std-ref">Get Setup</span></a> page for detailed information).</p>
+</li>
+<li><p class="first">Fork <a class="reference external" href="https://github.com/python/cpython">the CPython repository</a>
+to your GitHub account and <a class="reference internal" href="setup/#checkout"><span class="std std-ref">get the source code</span></a> using:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/&lt;</span><span class="n">your_username</span><span class="o">&gt;/</span><span class="n">cpython</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Build Python, on UNIX and Mac OS use:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">configure</span> <span class="o">--</span><span class="k">with</span><span class="o">-</span><span class="n">pydebug</span> <span class="o">&amp;&amp;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j</span>
+</pre></div>
+</div>
+<p>and on Windows use:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">PCbuild</span>\<span class="n">build</span><span class="o">.</span><span class="n">bat</span> <span class="o">-</span><span class="n">e</span> <span class="o">-</span><span class="n">d</span>
+</pre></div>
+</div>
+<p>See also <a class="reference internal" href="setup/#compiling"><span class="std std-ref">more detailed instructions</span></a>,
+<a class="reference internal" href="setup/#build-dependencies"><span class="std std-ref">how to build dependencies</span></a>, and the
+plaform-specific pages for <a class="reference internal" href="setup/#unix-compiling"><span class="std std-ref">UNIX</span></a>,
+<a class="reference internal" href="setup/#macos"><span class="std std-ref">Mac OS</span></a>, and <a class="reference internal" href="setup/#windows-compiling"><span class="std std-ref">Windows</span></a>.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="runtests/"><span class="doc">Run the tests</span></a>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">test</span> <span class="o">-</span><span class="n">j3</span>
+</pre></div>
+</div>
+<p>On <a class="reference internal" href="setup/#mac-python-exe"><span class="std std-ref">most</span></a> Mac OS X systems, replace <code class="file docutils literal"><span class="pre">./python</span></code>
+with <code class="file docutils literal"><span class="pre">./python.exe</span></code>.  On Windows, use <code class="file docutils literal"><span class="pre">python.bat</span></code>.  With Python
+2.7, replace <code class="docutils literal"><span class="pre">test</span></code> with <code class="docutils literal"><span class="pre">test.regrtest</span></code>.</p>
+</li>
+<li><p class="first">Create a new branch where your work for the issue will go, e.g.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="n">fix</span><span class="o">-</span><span class="n">issue</span><span class="o">-</span><span class="mi">12345</span> <span class="n">master</span>
+</pre></div>
+</div>
+<p>If an issue does not already exist, please <a class="reference external" href="https://bugs.python.org/">create it</a>.  Trivial issues (e.g. typo fixes) do not
+require any issue to be created.</p>
+</li>
+<li><p class="first">Once you fixed the issue, run the tests, run <code class="docutils literal"><span class="pre">make</span> <span class="pre">patchcheck</span></code>, and if
+everything is ok, commit.</p>
+</li>
+<li><p class="first">Push the branch on your fork on GitHub and <a class="reference internal" href="pullrequest/"><span class="doc">create a pull request</span></a>.  Include the issue number using <code class="docutils literal"><span class="pre">bpo-NNNN</span></code> in the
+pull request description.  For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">bpo</span><span class="o">-</span><span class="mi">12345</span><span class="p">:</span> <span class="n">Fix</span> <span class="n">some</span> <span class="n">bug</span> <span class="ow">in</span> <span class="n">spam</span> <span class="n">module</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">First time contributors will need to sign the Contributor Licensing
+Agreement (CLA) as described in the <a class="reference internal" href="pullrequest/#cla"><span class="std std-ref">Licensing</span></a> section of
+this guide.</p>
+</div>
+</div>
+<div class="section" id="quick-links">
+<h2>Quick Links<a class="headerlink" href="#quick-links" title="Permalink to this headline">Â¶</a></h2>
+<p>Here are some links that you probably will reference frequently while
+contributing to Python:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://bugs.python.org/">Issue tracker</a></li>
+<li><a class="reference external" href="https://www.python.org/dev/buildbot/">Buildbot status</a></li>
+<li><a class="reference internal" href="help/"><span class="doc">Where to Get Help</span></a></li>
+<li><a class="reference external" href="https://www.python.org/dev/peps/">PEPs</a> (Python Enhancement Proposals)</li>
+<li><a class="reference internal" href="gitbootcamp/"><span class="doc">Git Bootcamp and Cheat Sheet</span></a></li>
+</ul>
+</div>
+<div class="section" id="status-of-python-branches">
+<span id="branchstatus"></span><h2>Status of Python branches<a class="headerlink" href="#status-of-python-branches" title="Permalink to this headline">Â¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="9%" />
+<col width="8%" />
+<col width="10%" />
+<col width="10%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Branch</th>
+<th class="head">Schedule</th>
+<th class="head">Status</th>
+<th class="head">First release</th>
+<th class="head">End-of-life</th>
+<th class="head">Comment</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>master</td>
+<td><span class="target" id="index-0"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0537"><strong>PEP 537</strong></a></td>
+<td>features</td>
+<td><em>2018-06-15</em></td>
+<td><em>2023-06-15</em></td>
+<td>The master branch is currently the future version Python 3.7.</td>
+</tr>
+<tr class="row-odd"><td>3.6</td>
+<td><span class="target" id="index-1"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0494"><strong>PEP 494</strong></a></td>
+<td>bugfix</td>
+<td>2016-12-23</td>
+<td><em>2021-12-23</em></td>
+<td><a class="reference external" href="https://www.python.org/downloads/release/python-363/">Most recent binary release: Python 3.6.3</a></td>
+</tr>
+<tr class="row-even"><td>2.7</td>
+<td><span class="target" id="index-2"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0373"><strong>PEP 373</strong></a></td>
+<td>bugfix</td>
+<td>2010-07-03</td>
+<td><em>2020-01-01</em></td>
+<td>The support has been extended to 2020 (1).
+<a class="reference external" href="https://www.python.org/downloads/release/python-2713/">Most recent binary release: Python 2.7.13</a></td>
+</tr>
+<tr class="row-odd"><td>3.5</td>
+<td><span class="target" id="index-3"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0478"><strong>PEP 478</strong></a></td>
+<td>security</td>
+<td>2015-09-13</td>
+<td><em>2020-09-13</em></td>
+<td><a class="reference external" href="https://www.python.org/downloads/release/python-354/">Most recent binary release: Python 3.5.4</a></td>
+</tr>
+<tr class="row-even"><td>3.4</td>
+<td><span class="target" id="index-4"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0429"><strong>PEP 429</strong></a></td>
+<td>security</td>
+<td>2014-03-16</td>
+<td><em>2019-03-16</em></td>
+<td><a class="reference external" href="https://www.python.org/downloads/release/python-347/">Most recent security release: Python 3.4.7</a></td>
+</tr>
+</tbody>
+</table>
+<p>(1) The exact date of Python 2.7 end-of-life has not been decided yet. It will
+be decided by Python 2.7 release manager, Benjamin Peterson, who will update
+the <span class="target" id="index-5"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0373"><strong>PEP 373</strong></a>. Read also the <a class="reference external" href="https://mail.python.org/pipermail/python-dev/2017-March/147655.html">[Python-Dev] Exact date of Python 2 EOL?</a> thread
+on python-dev (March 2017).</p>
+<p>Status:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">features:</th><td class="field-body">new features are only added to the master branch, this branch
+accepts any kind of change.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">bugfix:</th><td class="field-body">bugfixes and security fixes are accepted, new binaries are still
+released.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">security:</th><td class="field-body">only security fixes are accepted and no more binaries are released,
+but new source-only versions can be released</td>
+</tr>
+<tr class="field-even field"><th class="field-name">end-of-life:</th><td class="field-body">release cycle is frozen; no further changes can be pushed to it.</td>
+</tr>
+</tbody>
+</table>
+<p>Dates in <em>italic</em> are scheduled and can be adjusted.</p>
+<p>By default, the end-of-life is scheduled 5 years after the first release.  It
+can be adjusted by the release manager of each branch. Versions older than 2.7
+have reached end-of-life.</p>
+<p>See also <a class="reference internal" href="devcycle/#secbranch"><span class="std std-ref">Security branches</span></a>.</p>
+<p>Each release of Python is tagged in the source repo with a tag of the form
+<code class="docutils literal"><span class="pre">vX.Y.ZTN</span></code>, where <code class="docutils literal"><span class="pre">X</span></code> is the major version, <code class="docutils literal"><span class="pre">Y</span></code> is the
+minor version, <code class="docutils literal"><span class="pre">Z</span></code> is the micro version, <code class="docutils literal"><span class="pre">T</span></code> is the release level
+(<code class="docutils literal"><span class="pre">a</span></code> for alpha releases, <code class="docutils literal"><span class="pre">b</span></code> for beta, <code class="docutils literal"><span class="pre">rc</span></code> release candidate,
+and <em>null</em> for final releases), and <code class="docutils literal"><span class="pre">N</span></code> is the release serial number.
+Some examples of release tags: <code class="docutils literal"><span class="pre">v3.7.0a1</span></code>, <code class="docutils literal"><span class="pre">v3.6.3</span></code>, <code class="docutils literal"><span class="pre">v2.7.14rc1</span></code>.</p>
+<p>The code base for a release cycle which has reached end-of-life status
+is frozen and no longer has a branch in the repo.  The final state of
+the end-of-lifed branch is recorded as a tag with the same name as the
+former branch, e.g. <code class="docutils literal"><span class="pre">3.3</span></code> or <code class="docutils literal"><span class="pre">2.6</span></code>.  For reference, here are the
+most recently end-of-lifed release cycles:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="9%" />
+<col width="8%" />
+<col width="10%" />
+<col width="10%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Tag</th>
+<th class="head">Schedule</th>
+<th class="head">Status</th>
+<th class="head">First release</th>
+<th class="head">End-of-life</th>
+<th class="head">Comment</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>3.3</td>
+<td><span class="target" id="index-6"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0398"><strong>PEP 398</strong></a></td>
+<td>end-of-life</td>
+<td>2012-09-29</td>
+<td>2017-09-29</td>
+<td><a class="reference external" href="https://www.python.org/downloads/release/python-337/">Final release: Python 3.3.7</a></td>
+</tr>
+<tr class="row-odd"><td>3.2</td>
+<td><span class="target" id="index-7"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0392"><strong>PEP 392</strong></a></td>
+<td>end-of-life</td>
+<td>2011-02-20</td>
+<td>2016-02-20</td>
+<td><a class="reference external" href="https://www.python.org/downloads/release/python-326/">Final release: Python 3.2.6</a></td>
+</tr>
+<tr class="row-even"><td>3.1</td>
+<td><span class="target" id="index-8"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0375"><strong>PEP 375</strong></a></td>
+<td>end-of-life</td>
+<td>2009-06-27</td>
+<td>2012-04-11</td>
+<td><a class="reference external" href="https://www.python.org/downloads/release/python-315/">Final release: Python 3.1.5</a></td>
+</tr>
+<tr class="row-odd"><td>3.0</td>
+<td><span class="target" id="index-9"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0361"><strong>PEP 361</strong></a></td>
+<td>end-of-life</td>
+<td>2008-12-03</td>
+<td>2009-01-13</td>
+<td><a class="reference external" href="https://www.python.org/download/releases/3.0.1/">Final release: Python 3.0.1</a></td>
+</tr>
+<tr class="row-even"><td>2.6</td>
+<td><span class="target" id="index-10"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0361"><strong>PEP 361</strong></a></td>
+<td>end-of-life</td>
+<td>2008-10-01</td>
+<td>2013-10-29</td>
+<td><a class="reference external" href="https://www.python.org/download/releases/2.6.9/">Final release: Python 2.6.9</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="contributing">
+<span id="id1"></span><h2>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">Â¶</a></h2>
+<p>We encourage everyone to contribute to Python and that&#8217;s why we have put up this
+developer&#8217;s guide.  If you still have questions after reviewing the material in
+this guide, then the <a class="reference external" href="https://www.python.org/dev/core-mentorship/">Python Mentors</a> group is available to help guide new
+contributors through the process.</p>
+<p>A number of individuals from the Python community have contributed to a series
+of excellent guides at <a class="reference external" href="https://opensource.guide/">Open Source Guides</a>.</p>
+<p>Core developers and contributors alike will find the following guides useful:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://opensource.guide/how-to-contribute/">How to Contribute to Open Source</a></li>
+<li><a class="reference external" href="https://opensource.guide/building-community/">Building Welcoming Communities</a></li>
+</ul>
+<p>Guide for contributing to Python:</p>
+<ul class="simple">
+<li><a class="reference internal" href="setup/"><span class="doc">Getting Started</span></a></li>
+<li><a class="reference internal" href="help/"><span class="doc">Where to Get Help</span></a></li>
+<li><a class="reference internal" href="pullrequest/"><span class="doc">Lifecycle of a Pull Request</span></a></li>
+<li><a class="reference internal" href="runtests/"><span class="doc">Running &amp; Writing Tests</span></a></li>
+<li><dl class="first docutils">
+<dt>Beginner tasks to become familiar with the development process</dt>
+<dd><ul class="first last">
+<li><a class="reference internal" href="docquality/"><span class="doc">Helping with Documentation</span></a></li>
+<li><a class="reference internal" href="coverage/"><span class="doc">Increase Test Coverage</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Advanced tasks for once you are comfortable</dt>
+<dd><ul class="first last">
+<li><a class="reference internal" href="silencewarnings/"><span class="doc">Silence Warnings From the Test Suite</span></a></li>
+<li>Fixing issues found by the <a class="reference internal" href="buildbots/"><span class="doc">buildbots</span></a></li>
+<li>Helping out with reviewing <a class="reference external" href="https://github.com/python/cpython/pulls?utf8=%E2%9C%93&amp;q=is%3Apr%20is%3Aopen%20label%3A%22awaiting%20review%22">open pull requests</a>.
+See <a class="reference internal" href="pullrequest/#how-to-review-a-pull-request"><span class="std std-ref">how to review a Pull Request</span></a>.</li>
+<li><a class="reference internal" href="fixingissues/"><span class="doc">Fixing &#8220;easy&#8221; Issues (and Beyond)</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><a class="reference internal" href="tracker/#tracker"><span class="std std-ref">Using the Issue Tracker</span></a> and <a class="reference internal" href="tracker/#helptriage"><span class="std std-ref">Helping Triage Issues</span></a></dt>
+<dd><ul class="first last">
+<li><a class="reference internal" href="triaging/"><span class="doc">Triaging an Issue</span></a></li>
+<li><a class="reference internal" href="experts/"><span class="doc">Experts Index</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><a class="reference internal" href="communication/"><span class="doc">Following Python&#8217;s Development</span></a></li>
+<li><dl class="first docutils">
+<dt><a class="reference internal" href="coredev/"><span class="doc">How to Become a Core Developer</span></a></dt>
+<dd><ul class="first last">
+<li><a class="reference internal" href="committing/"><span class="doc">Accepting Pull Requests</span></a></li>
+<li><a class="reference internal" href="devcycle/"><span class="doc">Development Cycle</span></a></li>
+<li><a class="reference internal" href="buildbots/"><span class="doc">Continuous Integration</span></a></li>
+<li><a class="reference internal" href="coverity/"><span class="doc">Coverity Scan</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><a class="reference internal" href="gitbootcamp/"><span class="doc">Git Bootcamp and Cheat Sheet</span></a></li>
+</ul>
+<p>It is <strong>recommended</strong> that the above documents be read in the order listed.  You
+can stop where you feel comfortable and begin contributing immediately without
+reading and understanding these documents all at once.  If you do choose to skip
+around within the documentation, be aware that it is written assuming preceding
+documentation has been read so you may find it necessary to backtrack to fill in
+missing concepts and terminology.</p>
+</div>
+<div class="section" id="proposing-changes-to-python-itself">
+<h2>Proposing changes to Python itself<a class="headerlink" href="#proposing-changes-to-python-itself" title="Permalink to this headline">Â¶</a></h2>
+<p>Improving Python&#8217;s code, documentation and tests are ongoing tasks that are
+never going to be &#8220;finished&#8221;, as Python operates as part of an ever-evolving
+system of technology.  An even more challenging ongoing task than these
+necessary maintenance activities is finding ways to make Python, in the form of
+the standard library and the language definition, an even better tool in a
+developer&#8217;s toolkit.</p>
+<p>While these kinds of change are much rarer than those described above, they do
+happen and that process is also described as part of this guide:</p>
+<ul class="simple">
+<li><a class="reference internal" href="stdlibchanges/"><span class="doc">Adding to the Stdlib</span></a></li>
+<li><a class="reference internal" href="langchanges/"><span class="doc">Changing the Python Language</span></a></li>
+</ul>
+</div>
+<div class="section" id="other-interpreter-implementations">
+<h2>Other Interpreter Implementations<a class="headerlink" href="#other-interpreter-implementations" title="Permalink to this headline">Â¶</a></h2>
+<p>This guide is specifically for contributing to the Python reference interpreter,
+also known as CPython (while most of the standard library is written in Python,
+the interpreter core is written in C and integrates most easily with the C and
+C++ ecosystems).</p>
+<p>There are other Python implementations, each with a different focus.  Like
+CPython, they always have more things they would like to do than they have
+developers to work on them.  Some major example that may be of interest are:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.pypy.org/">PyPy</a>: A Python interpreter focused on high speed (JIT-compiled) operation
+on major platforms</li>
+<li><a class="reference external" href="http://www.jython.org/">Jython</a>: A Python interpreter focused on good integration with the Java
+Virtual Machine (JVM) environment</li>
+<li><a class="reference external" href="http://ironpython.net/">IronPython</a>: A Python interpreter focused on good integration with the
+Common Language Runtime (CLR) provided by .NET and Mono</li>
+<li><a class="reference external" href="http://www.stackless.com/">Stackless</a>: A Python interpreter focused on providing lightweight
+microthreads while remaining largely compatible with CPython specific
+extension modules</li>
+</ul>
+</div>
+<div class="section" id="key-resources">
+<h2>Key Resources<a class="headerlink" href="#key-resources" title="Permalink to this headline">Â¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Coding style guides</dt>
+<dd><ul class="first last">
+<li><span class="target" id="index-11"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0007"><strong>PEP 7</strong></a> (Style Guide for C Code)</li>
+<li><span class="target" id="index-12"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0008"><strong>PEP 8</strong></a> (Style Guide for Python Code)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><a class="reference external" href="https://bugs.python.org/">Issue tracker</a></dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="http://psf.upfronthosting.co.za/roundup/meta">Meta tracker</a> (issue
+tracker for the issue tracker)</li>
+<li><a class="reference internal" href="experts/"><span class="doc">Experts Index</span></a></li>
+<li><a class="reference external" href="https://www.python.org/dev/searchplugin/">Firefox search engine plug-in</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><a class="reference external" href="https://www.python.org/dev/buildbot/">Buildbot status</a></li>
+<li><dl class="first docutils">
+<dt>Source code</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="https://github.com/python/cpython/">Browse online</a></li>
+<li><a class="reference external" href="https://github.com/python/cpython/archive/master.zip">Snapshot of the *master* branch</a></li>
+<li><a class="reference external" href="http://buildbot.python.org/daily-dmg/">Daily OS X installer</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><a class="reference external" href="https://www.python.org/dev/peps/">PEPs</a> (Python Enhancement Proposals)</li>
+<li><a class="reference internal" href="help/"><span class="doc">Where to Get Help</span></a></li>
+<li><a class="reference internal" href="developers/"><span class="doc">Developer Log</span></a></li>
+</ul>
+</div>
+<div class="section" id="additional-resources">
+<span id="resources"></span><h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Permalink to this headline">Â¶</a></h2>
+<ul class="simple">
+<li>Anyone can clone the sources for this guide.  See
+<a class="reference internal" href="docquality/#helping-with-the-developers-guide"><span class="std std-ref">Helping with the Developer&#8217;s Guide</span></a>.</li>
+<li><dl class="first docutils">
+<dt>Help with ...</dt>
+<dd><ul class="first last">
+<li><a class="reference internal" href="exploring/"><span class="doc">Exploring CPython&#8217;s Internals</span></a></li>
+<li><a class="reference internal" href="grammar/"><span class="doc">Changing CPython&#8217;s Grammar</span></a></li>
+<li><a class="reference internal" href="compiler/"><span class="doc">Design of CPython&#8217;s Compiler</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Tool support</dt>
+<dd><ul class="first last">
+<li><a class="reference internal" href="gdb/"><span class="doc">gdb Support</span></a></li>
+<li><a class="reference internal" href="clang/"><span class="doc">Dynamic Analysis with Clang</span></a></li>
+<li>Various tools with configuration files as found in the <a class="reference external" href="https://github.com/python/cpython/tree/master/Misc">Misc directory</a></li>
+<li>Information about editors and their configurations can be found in the
+<a class="reference external" href="https://wiki.python.org/moin/PythonEditors">wiki</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><a class="reference external" href="https://pythondotorg.readthedocs.io/">python.org maintenance</a></li>
+<li><a class="reference internal" href="search/"><span class="std std-ref">Search this guide</span></a></li>
+</ul>
+</div>
+<div class="section" id="code-of-conduct">
+<h2>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permalink to this headline">Â¶</a></h2>
+<p>Please note that all interactions on
+<a class="reference external" href="https://www.python.org/psf-landing/">Python Software Foundation</a>-supported
+infrastructure is <a class="reference external" href="https://www.python.org/psf/records/board/minutes/2014-01-06/#management-of-the-psfs-web-properties">covered</a>
+by the <a class="reference external" href="https://www.python.org/psf/codeofconduct/">PSF Code of Conduct</a>,
+which includes all infrastructure used in the development of Python itself
+(e.g. mailing lists, issue trackers, GitHub, etc.).
+In general this means everyone is expected to be open, considerate, and
+respectful of others no matter what their position is within the project.</p>
+</div>
+<div class="section" id="full-table-of-contents">
+<span id="contents"></span><h2>Full Table of Contents<a class="headerlink" href="#full-table-of-contents" title="Permalink to this headline">Â¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="setup/">1. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="setup/#getting-set-up">1.1. Getting Set Up</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="setup/#version-control-setup">1.1.1. Version Control Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="setup/#getting-the-source-code">1.1.2. Getting the Source Code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="setup/#compiling-for-debugging">1.1.3. Compiling (for debugging)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="setup/#build-dependencies">1.1.3.1. Build dependencies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="setup/#unix">1.1.3.2. UNIX</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="setup/#id2">1.1.3.2.1. Clang</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="setup/#windows">1.1.3.3. Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="setup/#regenerate-configure">1.1.4. Regenerate configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="setup/#troubleshooting-the-build">1.1.5. Troubleshooting the build</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="setup/#avoiding-re-creating-auto-generated-files">1.1.5.1. Avoiding re-creating auto-generated files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="setup/#editors-and-tools">1.2. Editors and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup/#directory-structure">1.3. Directory Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="help/">2. Where to Get Help</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="help/#ask-python-dev">2.1. Ask #python-dev</a></li>
+<li class="toctree-l2"><a class="reference internal" href="help/#core-mentorship">2.2. Core Mentorship</a></li>
+<li class="toctree-l2"><a class="reference internal" href="help/#mailing-lists">2.3. Mailing Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="help/#file-a-bug">2.4. File a Bug</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pullrequest/">3. Lifecycle of a Pull Request</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#introduction">3.1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#quick-guide">3.2. Quick Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#step-by-step-guide">3.3. Step-by-step Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#making-good-prs">3.4. Making Good PRs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#patchcheck">3.5. <code class="docutils literal"><span class="pre">patchcheck</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#making-good-commits">3.6. Making Good Commits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#licensing">3.7. Licensing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#submitting">3.8. Submitting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#converting-an-existing-patch-from-b-p-o-to-github">3.9. Converting an Existing Patch from b.p.o to GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#reviewing">3.10. Reviewing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pullrequest/#how-to-review-a-pull-request">3.10.1. How to Review a Pull Request</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#dismissing-review-from-another-core-developer">3.11. Dismissing Review from Another Core Developer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#committing-rejecting">3.12. Committing/Rejecting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pullrequest/#crediting">3.13. Crediting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="runtests/">4. Running &amp; Writing Tests</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="runtests/#running">4.1. Running</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="runtests/#unexpected-skips">4.1.1. Unexpected Skips</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="runtests/#writing">4.2. Writing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="runtests/#benchmarks">4.3. Benchmarks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="coverage/">5. Increase Test Coverage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="coverage/#common-gotchas">5.1. Common Gotchas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coverage/#measuring-coverage">5.2. Measuring Coverage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="coverage/#using-coverage-py">5.2.1. Using coverage.py</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="coverage/#install-coverage">5.2.1.1. Install Coverage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="coverage/#basic-usage">5.2.1.2. Basic Usage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="coverage/#branch-coverage">5.2.1.3. Branch Coverage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="coverage/#coverage-results-for-modules-imported-early-on">5.2.1.4. Coverage Results For Modules Imported Early On</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="coverage/#using-test-regrtest">5.2.2. Using test.regrtest</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="coverage/#filing-the-issue">5.3. Filing the Issue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coverage/#measuring-coverage-of-c-code-with-gcov-and-lcov">5.4. Measuring coverage of C code with gcov and lcov</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="docquality/">6. Helping with Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="docquality/#helping-with-issues-filed-on-the-issue-tracker">6.1. Helping with issues filed on the issue tracker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docquality/#proofreading">6.2. Proofreading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docquality/#helping-with-the-developer-s-guide">6.3. Helping with the Developer&#8217;s Guide</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="documenting/">7. Documenting Python</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="documenting/#introduction">7.1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documenting/#style-guide">7.2. Style guide</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#use-of-whitespace">7.2.1. Use of whitespace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#footnotes">7.2.2. Footnotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#capitalization">7.2.3. Capitalization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#affirmative-tone">7.2.4. Affirmative Tone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#economy-of-expression">7.2.5. Economy of Expression</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#security-considerations-and-other-concerns">7.2.6. Security Considerations (and Other Concerns)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#code-examples">7.2.7. Code Examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#code-equivalents">7.2.8. Code Equivalents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#audience">7.2.9. Audience</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="documenting/#restructuredtext-primer">7.3. reStructuredText Primer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#paragraphs">7.3.1. Paragraphs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#inline-markup">7.3.2. Inline markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#lists-and-quotes">7.3.3. Lists and Quotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#source-code">7.3.4. Source Code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#hyperlinks">7.3.5. Hyperlinks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="documenting/#external-links">7.3.5.1. External links</a></li>
+<li class="toctree-l4"><a class="reference internal" href="documenting/#internal-links">7.3.5.2. Internal links</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#sections">7.3.6. Sections</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#explicit-markup">7.3.7. Explicit Markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#directives">7.3.8. Directives</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#id1">7.3.9. Footnotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#comments">7.3.10. Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#source-encoding">7.3.11. Source encoding</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#gotchas">7.3.12. Gotchas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="documenting/#additional-markup-constructs">7.4. Additional Markup Constructs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#meta-information-markup">7.4.1. Meta-information markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#module-specific-markup">7.4.2. Module-specific markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#information-units">7.4.3. Information units</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#showing-code-examples">7.4.4. Showing code examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#id3">7.4.5. Inline markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#cross-linking-markup">7.4.6. Cross-linking markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#paragraph-level-markup">7.4.7. Paragraph-level markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#table-of-contents-markup">7.4.8. Table-of-contents markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#index-generating-markup">7.4.9. Index-generating markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#grammar-production-displays">7.4.10. Grammar production displays</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#substitutions">7.4.11. Substitutions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="documenting/#building-the-documentation">7.5. Building the documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#using-make-make-bat">7.5.1. Using make / make.bat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="documenting/#without-make">7.5.2. Without make</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="silencewarnings/">8. Silence Warnings From the Test Suite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fixingissues/">9. Fixing &#8220;easy&#8221; Issues (and Beyond)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracker/">10. Issue Tracking</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tracker/#using-the-issue-tracker">10.1. Using the Issue Tracker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tracker/#checking-if-a-bug-already-exists">10.1.1. Checking if a bug already exists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tracker/#reporting-an-issue">10.1.2. Reporting an issue</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tracker/#helping-triage-issues">10.2. Helping Triage Issues</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tracker/#classifying-reports">10.2.1. Classifying Reports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tracker/#reviewing-patches">10.2.2. Reviewing Patches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tracker/#finding-an-issue-you-can-help-with">10.2.3. Finding an Issue You Can Help With</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tracker/#disagreement-with-a-resolution-on-the-issue-tracker">10.3. Disagreement With a Resolution on the Issue Tracker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tracker/#gaining-the-developer-role-on-the-issue-tracker">10.4. Gaining the &#8220;Developer&#8221; Role on the Issue Tracker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tracker/#the-meta-tracker">10.5. The Meta Tracker</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="triaging/">11. Triaging an Issue</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="triaging/#fields">11.1. Fields</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#title">11.1.1. Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#type">11.1.2. Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#stage">11.1.3. Stage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#components">11.1.4. Components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#versions">11.1.5. Versions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#priority">11.1.6. Priority</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#keywords">11.1.7. Keywords</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#nosy-list">11.1.8. Nosy List</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#assigned-to">11.1.9. Assigned To</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#dependencies">11.1.10. Dependencies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#superseder">11.1.11. Superseder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#status">11.1.12. Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#resolution">11.1.13. Resolution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="triaging/#mercurial-repository">11.1.14. Mercurial Repository</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="triaging/#generating-special-links-in-a-comment">11.2. Generating Special Links in a Comment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="communication/">12. Following Python&#8217;s Development</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="communication/#mailing-lists">12.1. Mailing Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="communication/#irc">12.2. IRC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="communication/#blogs">12.3. Blogs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="communication/#standards-of-behaviour-in-these-communication-channels">12.4. Standards of behaviour in these communication channels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="communication/#additional-repositories">12.5. Additional Repositories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="porting/">13. Porting Python to a new platform</a></li>
+<li class="toctree-l1"><a class="reference internal" href="coredev/">14. How to Become a Core Developer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="coredev/#what-it-takes">14.1. What it Takes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coredev/#what-it-means">14.2. What it Means</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coredev/#gaining-commit-privileges">14.3. Gaining Commit Privileges</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="coredev/#mailing-lists">14.3.1. Mailing Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="coredev/#issue-tracker">14.3.2. Issue Tracker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="coredev/#github">14.3.3. GitHub</a></li>
+<li class="toctree-l3"><a class="reference internal" href="coredev/#sign-a-contributor-agreement">14.3.4. Sign a Contributor Agreement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="coredev/#pull-request-merging">14.3.5. Pull Request merging</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="coredev/#responsibilities">14.4. Responsibilities</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developers/">15. Developer Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developers/#permissions-history">15.1. Permissions History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developers/#permissions-dropped-on-request">15.2. Permissions Dropped on Request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developers/#permissions-dropped-after-loss-of-contact">15.3. Permissions Dropped after Loss of Contact</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developers/#initials-of-project-admins">15.4. Initials of Project Admins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developers/#procedure-for-granting-or-dropping-access">15.5. Procedure for Granting or Dropping Access</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="committing/">16. Accepting Pull Requests</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="committing/#is-the-pr-ready-to-be-accepted">16.1. Is the PR ready to be accepted?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="committing/#does-the-test-suite-still-pass">16.1.1. Does the test suite still pass?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="committing/#patch-checklist">16.1.2. Patch checklist</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="committing/#handling-others-code">16.2. Handling Others&#8217; Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="committing/#contributor-licensing-agreements">16.3. Contributor Licensing Agreements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="committing/#what-s-new-and-news-entries">16.4. What&#8217;s New and News Entries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="committing/#working-with-git">16.5. Working with Git</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="committing/#active-branches">16.5.1. Active branches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="committing/#backporting-changes-to-an-older-version">16.5.2. Backporting Changes to an Older Version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="committing/#reverting-a-merged-pull-request">16.5.3. Reverting a Merged Pull Request</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="devcycle/">17. Development Cycle</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="devcycle/#branches">17.1. Branches</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#in-development-main-branch">17.1.1. In-development (main) branch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#maintenance-branches">17.1.2. Maintenance branches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#security-branches">17.1.3. Security branches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#summary">17.1.4. Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="devcycle/#stages">17.2. Stages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#pre-alpha">17.2.1. Pre-alpha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#alpha">17.2.2. Alpha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#beta">17.2.3. Beta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#release-candidate-rc">17.2.4. Release Candidate (RC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devcycle/#final">17.2.5. Final</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="buildbots/">18. Continuous Integration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="buildbots/#checking-results-of-automatic-builds">18.1. Checking results of automatic builds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildbots/#stability">18.2. Stability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildbots/#flags-dependent-failures">18.3. Flags-dependent failures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildbots/#ordering-dependent-failures">18.4. Ordering-dependent failures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildbots/#transient-failures">18.5. Transient failures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildbots/#custom-builders">18.6. Custom builders</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="stdlibchanges/">19. Adding to the Stdlib</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="stdlibchanges/#adding-to-a-pre-existing-module">19.1. Adding to a pre-existing module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stdlibchanges/#adding-a-new-module">19.2. Adding a new module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="stdlibchanges/#acceptable-types-of-modules">19.2.1. Acceptable Types of Modules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stdlibchanges/#requirements">19.2.2. Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stdlibchanges/#proposal-process">19.2.3. Proposal Process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="langchanges/">20. Changing the Python Language</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="langchanges/#what-qualifies">20.1. What Qualifies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="langchanges/#pep-process">20.2. PEP Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="langchanges/#suggesting-new-features-and-language-changes">20.3. Suggesting new features and language changes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="experts/">21. Experts Index</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="experts/#stdlib">21.1. Stdlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experts/#tools">21.2. Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experts/#platforms">21.3. Platforms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experts/#miscellaneous">21.4. Miscellaneous</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experts/#documentation-translations">21.5. Documentation Translations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gdb/">22. gdb Support</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gdb/#gdb-7-and-later">22.1. gdb 7 and later</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gdb/#gdb-6-and-earlier">22.2. gdb 6 and earlier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gdb/#updating-auto-load-safe-path-to-allow-test-gdb-to-run">22.3. Updating auto-load-safe-path to allow test_gdb to run</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exploring/">23. Exploring CPython&#8217;s Internals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exploring/#cpython-source-code-layout">23.1. CPython Source Code Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploring/#additional-references">23.2. Additional References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grammar/">24. Changing CPython&#8217;s Grammar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grammar/#abstract">24.1. Abstract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grammar/#rationale">24.2. Rationale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grammar/#checklist">24.3. Checklist</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="compiler/">25. Design of CPython&#8217;s Compiler</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#abstract">25.1. Abstract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#parse-trees">25.2. Parse Trees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#abstract-syntax-trees-ast">25.3. Abstract Syntax Trees (AST)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#memory-management">25.4. Memory Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#parse-tree-to-ast">25.5. Parse Tree to AST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#control-flow-graphs">25.6. Control Flow Graphs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#ast-to-cfg-to-bytecode">25.7. AST to CFG to Bytecode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#introducing-new-bytecode">25.8. Introducing New Bytecode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#code-objects">25.9. Code Objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#important-files">25.10. Important Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#known-compiler-related-experiments">25.11. Known Compiler-related Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compiler/#references">25.12. References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="coverity/">26. Coverity Scan</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="coverity/#access-to-analysis-reports">26.1. Access to analysis reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coverity/#building-and-uploading-analysis">26.2. Building and uploading analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coverity/#known-limitations">26.3. Known limitations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="coverity/#false-positives">26.3.1. False positives</a></li>
+<li class="toctree-l3"><a class="reference internal" href="coverity/#intentionally">26.3.2. Intentionally</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="coverity/#modeling">26.4. Modeling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coverity/#workflow">26.5. Workflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="coverity/#false-positive-and-intentional-issues">26.5.1. False positive and intentional issues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="coverity/#positive-issues">26.5.2. Positive issues</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="coverity/#contact">26.6. Contact</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="clang/">27. Dynamic Analysis with Clang</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="clang/#what-is-clang">27.1. What is Clang?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clang/#what-are-sanitizers">27.2. What are Sanitizers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clang/#clang-llvm-setup">27.3. Clang/LLVM Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="clang/#download-build-and-install">27.3.1. Download, Build and Install</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="clang/#python-build-setup">27.4. Python Build Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="clang/#building-python">27.4.1. Building Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clang/#blacklisting-ignoring-findings">27.4.2. Blacklisting (Ignoring) Findings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="buildslave/">28. Running a buildslave</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="buildslave/#preparing-for-buildslave-setup">28.1. Preparing for buildslave setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildslave/#setting-up-the-buildslave">28.2. Setting up the buildslave</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="buildslave/#conventional-always-on-machines">28.2.1. Conventional always-on machines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="buildslave/#latent-slaves">28.2.2. Latent slaves</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="buildslave/#buildslave-operation">28.3. Buildslave operation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildslave/#required-ports">28.4. Required Ports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildslave/#required-resources">28.5. Required Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buildslave/#security-considerations">28.6. Security Considerations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="motivations/">29. Core Developer Motivations and Affiliations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="motivations/#published-entries">29.1. Published entries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="motivations/#goals-of-this-page">29.2. Goals of this page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="motivations/#limitations-on-scope">29.3. Limitations on scope</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gitbootcamp/">30. Git Bootcamp and Cheat Sheet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#forking-cpython-github-repository">30.1. Forking CPython GitHub Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#cloning-the-forked-cpython-repository">30.2. Cloning The Forked CPython Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#listing-the-remote-repositories">30.3. Listing the Remote Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#setting-up-your-name-and-email-address">30.4. Setting Up Your Name and Email Address</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#enabling-autocrlf-on-windows">30.5. Enabling <code class="docutils literal"><span class="pre">autocrlf</span></code> on Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#creating-and-switching-branches">30.6. Creating and Switching Branches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#deleting-branches">30.7. Deleting Branches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#staging-and-committing-files">30.8. Staging and Committing Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#reverting-changes">30.9. Reverting Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#stashing-changes">30.10. Stashing Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#committing-changes">30.11. Committing Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#pushing-changes">30.12. Pushing Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#creating-a-pull-request">30.13. Creating a Pull Request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#syncing-with-upstream">30.14. Syncing With Upstream</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#applying-a-patch-from-mercurial-to-git">30.15. Applying a Patch from Mercurial to Git</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#downloading-other-s-patches">30.16. Downloading Other&#8217;s Patches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#accepting-and-merging-a-pull-request">30.17. Accepting and Merging A Pull Request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#backporting-merged-changes">30.18. Backporting Merged Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gitbootcamp/#editing-a-pull-request-prior-to-merging">30.19. Editing a Pull Request Prior to Merging</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Python Developer&#8217;s Guide</a><ul>
+<li><a class="reference internal" href="#quick-reference">Quick Reference</a></li>
+<li><a class="reference internal" href="#quick-links">Quick Links</a></li>
+<li><a class="reference internal" href="#status-of-python-branches">Status of Python branches</a></li>
+<li><a class="reference internal" href="#contributing">Contributing</a></li>
+<li><a class="reference internal" href="#proposing-changes-to-python-itself">Proposing changes to Python itself</a></li>
+<li><a class="reference internal" href="#other-interpreter-implementations">Other Interpreter Implementations</a></li>
+<li><a class="reference internal" href="#key-resources">Key Resources</a></li>
+<li><a class="reference internal" href="#additional-resources">Additional Resources</a></li>
+<li><a class="reference internal" href="#code-of-conduct">Code of Conduct</a></li>
+<li><a class="reference internal" href="#full-table-of-contents">Full Table of Contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="setup/"
+                        title="next chapter">1. Getting Started</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex/" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="setup/" title="1. Getting Started"
+             >next</a> |</li>
+        <li><img src="https://docs.python.org/3/_static/py.png" alt=""
+                 style="vertical-align: middle; margin-top: -1px"/></li>
+        <li><a href="https://www.python.org/">Python</a> &#187;</li>
+        <li>
+          <a href="#">Python Developer's Guide </a> &#187;
+        </li>
+
+    
+        <li class="inline-search right" style="display: none">
+            
+
+    <div role="search">
+        <form action="search/" method="get">
+            <input placeholder="Quick search" type="text" name="q" />
+            <input type="submit" value="Go" />
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+    <script type="text/javascript">$('.inline-search').show(0);</script>
+
+             |
+        </li>
+
+      </ul>
+    </div>  
+    <div class="footer">
+    &copy; <a href="copyright/">Copyright</a> 2011-2017, Python Software Foundation.
+    <br />
+    The Python Software Foundation is a non-profit corporation.
+    <a href="https://www.python.org/psf/donations/">Please donate.</a>
+    <br />
+    Last updated on None.
+    <br />
+    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5.3.
+    </div>
+
+  </body>
+</html>

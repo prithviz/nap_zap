@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jaydutt Shukla | Interactive Designer</title>
+<style>
+</style>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/circle.css">
+
+   <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <!--JS -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/anim.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/pace.min.js"></script>
+   <script src="/pace/pace.js"></script>
+ 
+  <script src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/rt/retina.min.js"></script>
+              <script>
+              new WOW().init();
+			  
+              </script>
+			  <script>
+			  $(document).ready(function(){
+$("a").click(function(){
+	$("#all,#web,#ux,#pht").addClass("animated fadeIn");
+	$("img").addClass("animated flipInY");
+});
+});
+
+</script>
+</head>
+<body>
+	<div class="menub"><a href="#" data-toggle="modal" data-target="#myModal"><img src="img/rect2.png" class="menu" data-wow-duration="1s" data-wow-delay="1.5s" ></a></div>
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+		<div class="cls_btn">
+			 <a href="#" class="close_m" data-dismiss="modal">&#10005;</a></div>
+				<div class="modal-body">
+					<div class="nav">
+						<ul>
+							<center><li><a href="#home" data-dismiss="modal" class="hvr-underline-from-center wow bounceInLeft">Home</a></li>
+							<li><a href="#aboutme" data-dismiss="modal" class="hvr-underline-from-center wow bounceInRight">About Me</a></li>
+							<li><a href="#skills" data-dismiss="modal" class="hvr-underline-from-center wow bounceInLeft">Skills</a></li>
+							<li><a href="#work" data-dismiss="modal" class="hvr-underline-from-center wow bounceInRight">Work</a></li>
+							<li><a href="#contact" data-dismiss="modal" class="hvr-underline-from-center wow bounceInLeft">Contact Me</a></li></center>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+<section id="home">
+
+ <!--<div class="fullscreen-bg wow fadeIn">
+
+        <video loop muted autoplay poster="img/Productive-Morning.jpg" class="fullscreen-bg__video" id="video">
+            <source src="img/Productive-Morning.mp4" type="video/mp4">
+            <source src="img/Productive-Morning.webm" type="video/webm">
+            <source src="img/Productive-Morning.ogv" type="video/ogv">
+        </video>
+    </div>
+	-->
+	
+	<div class="container">
+	<div class="padd-top">
+			<div class="row"><h1 style="font-family: 'Pacifico', cursive; font-size:60px; letter-spacing:0;" class=" col-md-6 main-page wow bounceInLeft md" data-wow-duration="0.7s" data-wow-delay="1s" >Hey!<span class="colorc2"><br> I'm</span> Jaydutt.</h1>
+			</div>
+			<div class="row"><p class="main-page-p wow bounceInLeft col-md-6" data-wow-duration="0.7s" data-wow-delay="1.5s">Welcome to the <span class="colorc2">interactive</span> world of designs. I'm Jaydutt Shukla from <span class="colorc2">India.</span> Crafting visually stunning <span class="colorc2">memorable</span> experiences for web and interfaces.</p>
+			</div>
+	</div>
+ </div>
+</div>
+</section>
+<section id="aboutme">
+		<div class="container">
+		
+	<br>
+
+	
+				<div class="row" >
+					<div class="col-sm-6 img1">
+					<center>	<img style="box-shadow:0 0 0px black;" src="img/profile.png" class="myimg wow fadeIn" class="img-circle" data-wow-offset="300" class="img-responsive">
+										</center>	
+					
+
+					</div>
+					<div class="col-sm-6 wow slideInUp" style="border-left:2px dashed #2A363B;" >
+					<center class="wow fadeInRight" data-wow-offset="300"><div class="myinfo-head">
+						<h1 class="main-page" style="color:#2A363B;font-size:50px;letter-spacing:2px;margin-top:10px;">About <span class="colorc">me</span>!</h1><hr class="vhr">
+						</div>
+						<div class="myinfo-data">
+						<p  class="main-page-p" style="color:#2A363B;letter-spacing:1px;font-size:20px;" text-align="center">I am a <span class="colorc">freelance</span> web designer, developer, and photographer based in India. I love to <span class="colorc">code</span>. I'm good at making web<span class="colorc"> colorful</span>. Graphic Designing is my <span class="colorc">hobby</span>. Apart from that, I love to <span class="colorc">travel</span> the world. I like to read blogs. If you still want to know more about me, you should consider <span class="colorc">following</span> me on my several <span class="colorc">social</span> profiles. </p>
+						</div></center>
+					</div>
+				</div>
+				<br>
+				
+		</div>
+	</section>
+<section id="skills">
+		<div class="container">
+			<div class="row" >
+				<div class="col-lg-12" style="padding:40px 0;">
+					<h1 style="color:#2A363B;"class="main-page sk wow slideInUp" >Ski<span class="colorc">ll</span>s</h1>
+					<p style="color:#2A363B;"class="main-page-p sk wow slideInUp">I'm fluent in HTML, <span class="colorc">CSS3,</span> jQuery and Javascript and I've enough knowledge about <span class="colorc">Bootstrap</span> and responsive web <span class="colorc">designing</span> and in addition, I'm good at <span class="colorc">Photoshop</span> too.</span> I design eye-catching User Interface. </p>
+				</div>
+			</div>
+			<div class="row skill">
+			<center><div class="col-sm-3">
+					<img src="img/photoshop.png" class="img-responsive wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.9s">
+				</div>
+				<div class="col-sm-3">
+					<img src="img/html.png" class="img-responsive wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+				</div>
+				<div class="col-sm-3">
+					<img src="img/css.png" class="img-responsive wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+				</div>
+				<div class="col-sm-3">
+					<img src="img/js.png" class="img-responsive wow bounceInRight"  data-wow-duration="1s" data-wow-delay="0.9s">
+				</div></center>
+			</div>
+		</div>
+	</section>
+<section id="work">
+<div class="container">
+		<center>
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 style="color:#2A363B;font-size:50px;"class="main-page sk wow bounceIn" data-wow-delay="0.6s" >Wo<span class="colorc">r</span>k!</h1>
+				<p style="color:#2A363B;font-size:20px;"class="main-page-p sk wow bounceIn" data-wow-delay="0.6s" >Just<span class="colorc"> wait</span> for sometime.</h1>
+				<p style="color:#2A363B;font-size:20px;"class="main-page-p sk wow bounceIn" data-wow-delay="0.6s" >I'm updating my<span class="colorc"> Portfolio</span> .</h1>
+			</div>
+		</div></center><!--
+	<div class="container">
+	<div clas="row">
+  <ul class="nav nav-pills">
+
+	<li class="active" class="col-sm-3"><a data-toggle="pill" href="../#web">Web/UX/UI</a></li>
+    <li class="col-sm-3">  <a data-toggle="pill" href="../#ux">Graphics</a></li>
+    <li class="col-sm-3"><a data-toggle="pill" href="../#pht">Photography</a></li>
+    <li class="col-sm-3"><a data-toggle="pill" href="../#edits">Photo Edits</a></li>
+  </ul>
+  </div>
+  <div class="tab-content">
+    
+    <div id="web" class="tab-pane in active">
+     <div class="col-md-4 mt">
+								<div class="hovereffect">
+									<img class="img-responsive" src="img\mockups\artify.jpg" alt="">
+										<div class="overlay">
+											<h2>Hover effect 3</h2>
+											<a class="info" href="#">link here</a>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-4 mt">
+								<div class="hovereffect">
+									<img class="img-responsive" src="img\mockups\artify.jpg" alt="">
+										<div class="overlay">
+											<h2>Hover effect 3</h2>
+											<a class="info" href="#">link here</a>
+										</div>
+								</div>
+							</div></div>
+    <div id="ux" class="tab-pane ">
+      <h3>Menu 2</h3>
+	  	  <img src="img/photoshop.png">
+		  	  <img src="img/photoshop.png">
+			  	  <img src="img/photoshop.png">
+				  	  <img src="img/photoshop.png">
+					  	  <img src="img/photoshop.png">
+						  	  <img src="img/photoshop.png">
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="pht" class="tab-pane ">
+      <h3>Menu 3</h3>
+	  	  <img src="img/photoshop.png">
+		  	  <img src="img/photoshop.png">	
+			  <img src="img/photoshop.png">
+			  	  <img src="img/photoshop.png">
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+
+</div>	
+	-->
+</section>
+	<section id="contact">
+		<div class="container">
+			<center>
+				<h1 class="main-page sk wow slideInUp" style="margin-top:50px;">Contact<span class="colorc"> M</span>e!</h1><br><br>
+			</center>
+			<div class="row">
+				<center><div class="col-sm-3 wow slideInUp" data-wow-delay="0.1s">
+					<img src="img/msg.png" ><hr class="vhr wow slideInUp " data-wow-delay="0.1s">
+					<p class="main-page-p" style="letter-spacing:1px;font-size:18px;margin-top:12px;color:white;">jayduttm@gmail.com</p>
+			<hr class="vhr">	</div>
+				
+				<div class="col-sm-3 wow slideInUp" data-wow-delay="0.2s" style="margin-top:-10px;">
+					<img src="img/phn1.png"><hr class="vhr ">
+					<p class="main-page-p" style="letter-spacing:1px;font-size:18px;margin-top:12px;color:white;">(+91)-7698679259</p>
+			<hr class="vhr">	</div>
+			
+			
+</center>
+				<center><div class="col-sm-6 cnt1 " style="border-left:2px dashed rgba(255,255,255,0.5);">
+				
+					<h1 class="main-page wow slideInUp" data-wow-delay="0.3s" style="color:white;font-size:30px;letter-spacing:2px;">Want to get in touch?</span></h1>
+					 <input type="text" class="input1 wow slideInUp" data-wow-delay="0.4s" placeholder="Your Email Goes Here!">
+					  <textarea class="textarea1 wow slideInUp" data-wow-delay="0.4s" placeholder="Your Message Goes Here!"></textarea>
+					<br>
+				
+					<input type="button" class="btn-slide wow slideInUp" data-wow-delay="0.4s" value="Submit" style="color:#2A363B;border:2px solid #2A363B;position:relative;top:-15px;text-style:bold;">
+				</div>
+			</div>
+		<!--	<div class="container liftup">
+                    <a href="https://www.facebook.com/nihalpatel198"> <img class="sicons" src="img/fb.png" height="40px"> 
+                    </a>
+                    <a href="https://twitter.com/nihalpatel189">
+                    <img class="sicons" src="img/twitter.png" height="40px" >
+                    </a>
+                    <a href="https://www.linkedin.com/in/nihalpatel">
+                    <img class="sicons" src="img/ln.png" height="40px" >
+                    </a>
+                    <a href="https://www.behance.net/nihalpatel">
+                    <img class="sicons" src="img/be.png" height="40px" >
+                    </a>
+                    
+                </div>-->
+		</div>
+	</section>
+
+</body>
+</html>

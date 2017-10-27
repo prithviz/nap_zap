@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Watch free video tutorials on computer programming, web design, game development, and more.">    <title>Video Tutorials - thenewboston</title>
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin' >
+<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' >
+<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/main.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/widgets.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/pages.min.css' >
+<link rel='stylesheet' type='text/css' href='/css/themes.min.css' >
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js' ></script>
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script><![endif]-->    
+</head>
+<body class="theme-default main-menu-fixed main-navbar-fixed">
+
+<script>
+    (function (i, s, o, g, r, a, m){
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function (){
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-56989641-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+    
+
+<script>var init = []; var tnb_base_path = 'https://thenewboston.com/';</script>
+<div id="main-wrapper">
+	
+<div id="main-navbar" class="navbar navbar-inverse" role="navigation">
+
+	<!-- Left menu toggle button -->
+	<button type="button" id="main-menu-toggle">
+		<i class="navbar-icon fa fa-bars icon"></i>
+	</button>
+
+	<div class="navbar-inner">
+
+		<!-- Logo and top menu toggle (for smaller screens) -->
+		<div class="navbar-header">
+			<a href="https://thenewboston.com/index.php" class="navbar-brand">
+				<div>
+					<img alt="thenewboston Logo" src="/images/logo.png" />
+				</div>
+				thenewboston
+			</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+			        data-target="#main-navbar-collapse">
+				<i class="navbar-icon fa fa-bars"></i>
+			</button>
+		</div>
+
+		<div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
+			<div>
+
+				<!-- Left buttons -->
+				<ul class="nav navbar-nav">
+                    					<li><a href="https://thenewboston.com/forum"><i class="dropdown-icon fa fa-comment"></i>&nbsp; Forum</a></li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp; Video Tutorials</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://thenewboston.com/videos_beauty.php">Beauty</a></li>
+                            <li><a href="https://thenewboston.com/videos_business.php">Business</a></li>
+                            <li><a href="https://thenewboston.com/videos.php">Computer Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_food.php">Cooking</a></li>
+                            <li><a href="https://thenewboston.com/videos_health.php">Health &amp; Medicine</a></li>
+                            <li><a href="https://thenewboston.com/videos_humanities.php">Humanities</a></li>
+                            <li><a href="https://thenewboston.com/videos_math.php">Math</a></li>
+                            <li><a href="https://thenewboston.com/videos_science.php">Science</a></li>
+                            <li><a href="https://thenewboston.com/videos_social.php">Social Sciences</a></li>
+                        </ul>
+                    </li>
+				</ul>
+
+				<!-- Right buttons -->
+				<div class="right clearfix">
+                                        <ul class="nav navbar-nav pull-right right-navbar-nav">
+                        <!-- Login Form -->
+                        <li class="hidden-sm hidden-xs">
+                            <form class="navbar-form pull-left" method="post" action="https://thenewboston.com/login.php" validate="true">
+                                <div class="form-group">
+                                    <input type="text" class="form-control require-validation" placeholder="Email" v-email="1" v-require="1" name="email" id="username_id"  />
+                                    <input type="password" class="form-control require-validation" placeholder="Password" v-require="1" v-minlength="6" name="password" id="password_id" />
+                                    <input type="submit" name="signin_submit" class="btn btn-primary" value="Login" /> 
+                                    <input type="hidden" name="action" value="login" />
+                                    <input type="hidden" name="ec34817f27a2d923b397080ce54fa120" value="1" />                                </div>
+                            </form>
+                        </li>
+                        
+                        <!-- Login Link -->
+                        <li class="visible-sm visible-xs"><a href="https://thenewboston.com/login.php"><i class="dropdown-icon fa fa-sign-in"></i>&nbsp; Login</a></li>
+                    </ul>
+                    				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>	    <div id="main-menu" role="navigation">
+	<div id="main-menu-inner">
+
+		
+		<ul class="navigation">
+            
+                <!-- Beauty -->
+                <li>
+                    <a href="https://thenewboston.com/videos_beauty.php">
+                        <i class="menu-icon fa fa-heart"></i>
+                        <span class="mm-text">Beauty</span>
+                    </a>
+                </li>
+
+                <!-- Business -->
+                <li>
+                    <a href="https://thenewboston.com/videos_business.php">
+                        <i class="menu-icon fa fa-line-chart"></i>
+                        <span class="mm-text">Business</span>
+                    </a>
+                </li>
+
+                <!-- Computer Science -->
+                <li>
+                    <a href="https://thenewboston.com/videos.php">
+                        <i class="menu-icon fa fa-laptop"></i>
+                        <span class="mm-text">Computer Science</span>
+                    </a>
+                </li>
+
+                <!-- Cooking -->
+                <li>
+                    <a href="https://thenewboston.com/videos_food.php">
+                        <i class="menu-icon fa fa-coffee"></i>
+                        <span class="mm-text">Cooking</span>
+                    </a>
+                </li>
+
+                <!-- Health & Medicine -->
+                <li>
+                    <a href="https://thenewboston.com/videos_health.php">
+                        <i class="menu-icon fa fa-stethoscope"></i>
+                        <span class="mm-text">Health &amp; Medicine</span>
+                    </a>
+                </li>
+
+                <!-- Humanities -->
+                <li>
+                    <a href="https://thenewboston.com/videos_humanities.php">
+                        <i class="menu-icon fa fa-bank"></i>
+                        <span class="mm-text">Humanities</span>
+                    </a>
+                </li>
+
+                <!-- Math -->
+                <li>
+                    <a href="https://thenewboston.com/videos_math.php">
+                        <i class="menu-icon fa fa-plus"></i>
+                        <span class="mm-text">Math</span>
+                    </a>
+                </li>
+
+                <!-- Science -->
+                <li>
+                    <a href="https://thenewboston.com/videos_science.php">
+                        <i class="menu-icon fa fa-leaf"></i>
+                        <span class="mm-text">Science</span>
+                    </a>
+                </li>
+
+                <!-- Social Sciences -->
+                <li>
+                    <a href="https://thenewboston.com/videos_social.php">
+                        <i class="menu-icon fa fa-graduation-cap"></i>
+                        <span class="mm-text">Social Sciences</span>
+                    </a>
+                </li>
+
+                                    <div class="menu-content animated fadeIn">
+                        <a href="https://thenewboston.com/register.php" class="btn btn-primary btn-block btn-outline dark">Create an Account</a>
+                    </div>
+                
+                        
+		</ul>
+	</div>
+</div>    
+
+	<div id="content-wrapper">
+
+        <!-- Breadcrumbs -->
+		<ul class="breadcrumb breadcrumb-page">
+            <li><a href="index.php">Home</a></li>
+            <li class="active">
+                <a href="https://thenewboston.com/videos_math.php">
+                                            Math                                    </a>
+            </li>
+		</ul>
+        
+                
+                <div class="row">
+            <div class="col-xs-12">
+                <h1 class="margin-top0 featured-video-heading">Watch Thousands of Tutorials for Free!</h1>
+                <p class="margin-bottom25">Welcome to the worlds largest collection of computer and technology related tutorials on the web. Feel free to browse through our library of over 7,000 videos and tutorials. We have courses in programming, web design, video editing, game development, and more. Join the over 180 million people who have already enjoyed the benefits of online learning.</p>
+            </div>
+        </div>
+        
+		<div class="row">
+            
+			<!-- Left -->
+			<div class="col-xs-12 col-lg-6">
+				
+                
+                    <!-- Featured video (not computer science) -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item youtube-player" src="//www.youtube.com/embed/ZNiRzZ66YN0?enablejsapi=1" 
+                            data-code="ZNiRzZ66YN0"                             
+                            data-token="ec34817f27a2d923b397080ce54fa120" 
+                            id="youtube-player13" allowfullscreen></iframe>
+                    </div>
+                    <br />
+                    <p>
+                        How accurately can we calculate Pi using hundreds of real pies?                    </p>
+                    <br />
+                    
+                    <!-- Top 10 Courses (not computer science) -->
+                    <div class="panel">
+
+                        <div class="panel-heading">
+                            <h2 class="panel-title"><b>Top 10 Courses</b></h2>
+                        </div>
+
+                        <div class="panel-body no-padding">
+                            <table class="videos-top-courses">
+
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=138">
+                                                <img src="/images/video_categories/138.png" alt="Algebra (KA) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=138">1.&nbsp; Algebra (KA)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Learn the basics of Algebra including topics such as slopes, functions, and the quadratic equation in this course from Khan Academy.                                                <a href="https://thenewboston.com/videos_math.php?cat=138">96 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=114">
+                                                <img src="/images/video_categories/114.png" alt="Trigonometry Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=114">2.&nbsp; Trigonometry</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Trigonometry is the branch of mathematics that deals with the relations between the sides and angles of plane or spherical triangles, and the calculations based on them.                                                <a href="https://thenewboston.com/videos_math.php?cat=114">54 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=253">
+                                                <img src="/images/video_categories/253.png" alt="Prime Numbers (np) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=253">3.&nbsp; Prime Numbers (np)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.                                                <a href="https://thenewboston.com/videos_math.php?cat=253">20 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=113">
+                                                <img src="/images/video_categories/113.png" alt="Precalculus Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=113">4.&nbsp; Precalculus</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Losing sleep at night because you donât understand factorial notation? If so, then this course from ProfRobBob is the course for you!                                                <a href="https://thenewboston.com/videos_math.php?cat=113">144 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=139">
+                                                <img src="/images/video_categories/139.png" alt="Geometry (KA) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=139">5.&nbsp; Geometry (KA)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                This course from Khan Academy covers topics such as points, lines, angles, and much more.                                                <a href="https://thenewboston.com/videos_math.php?cat=139">113 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=118">
+                                                <img src="/images/video_categories/118.png" alt="Statistics Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=118">6.&nbsp; Statistics</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Statistics is the the branch of mathematics that deals with the collection,classification, analysis, and interpretation of numerical facts or data.                                                <a href="https://thenewboston.com/videos_math.php?cat=118">79 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=140">
+                                                <img src="/images/video_categories/140.png" alt="Probability (KA) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=140">7.&nbsp; Probability (KA)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Learn about the basics of probability in this introductory course from Khan Academy.                                                <a href="https://thenewboston.com/videos_math.php?cat=140">41 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=131">
+                                                <img src="/images/video_categories/131.png" alt="Pre-algebra (KA) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=131">8.&nbsp; Pre-algebra (KA)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Having trouble understanding the concepts in pre-algebra? This course can help.                                                <a href="https://thenewboston.com/videos_math.php?cat=131">39 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=252">
+                                                <img src="/images/video_categories/252.png" alt="Pi Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=252">9.&nbsp; Pi</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                What is Pi? Who first used Pi? How do you find it? Learn about the most famous ratio of all with Numberphile.                                                <a href="https://thenewboston.com/videos_math.php?cat=252">17 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                                                                                        <tr>
+                                        <td class="video-icon-column">
+                                            <a href="https://thenewboston.com/videos_math.php?cat=124">
+                                                <img src="/images/video_categories/124.png" alt="Trigonometry (KA) Thumbnail" class="img video-thumbnail">
+                                            </a>
+                                        </td>
+                                        <td class="video-desc-column">
+                                            <h4 class="top-course-title">
+                                                <a href="https://thenewboston.com/videos_math.php?cat=124">10.&nbsp; Trigonometry (KA)</a>
+                                            </h4>
+                                            <p class="top-course-details">
+                                                Learn the basics of Trig in this course from Khan Academy.                                                <a href="https://thenewboston.com/videos_math.php?cat=124">39 videos</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+
+                    </div>
+                    
+                
+			</div>
+
+			<!-- Right -->
+			<div class="col-xs-12 col-lg-4">
+
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-plus"></i>
+                                Algebra                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=138" class="list-group-item">
+                                        Algebra (KA)                                        <span class="item-details"> Â· 96 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=5" class="list-group-item">
+                                        Algebra Basics                                        <span class="item-details"> Â· 32 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=111" class="list-group-item">
+                                        Algebra I                                        <span class="item-details"> Â· 27 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=123" class="list-group-item">
+                                        Algebra I Examples                                        <span class="item-details"> Â· 186 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=112" class="list-group-item">
+                                        Algebra II                                        <span class="item-details"> Â· 110 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=234" class="list-group-item">
+                                        College Algebra (MSU)                                        <span class="item-details"> Â· 38 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=235" class="list-group-item">
+                                        College Algebra (UMKC)                                        <span class="item-details"> Â· 40 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=125" class="list-group-item">
+                                        Linear Algebra                                        <span class="item-details"> Â· 143 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=167" class="list-group-item">
+                                        Linear Algebra (pjmt)                                        <span class="item-details"> Â· 58 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=131" class="list-group-item">
+                                        Pre-algebra (KA)                                        <span class="item-details"> Â· 39 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=172" class="list-group-item">
+                                        Pre-algebra and Arithmetic (pjmt)                                        <span class="item-details"> Â· 46 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-area-chart"></i>
+                                Calculus                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=141" class="list-group-item">
+                                        Calculus (KA)                                        <span class="item-details"> Â· 199 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=169" class="list-group-item">
+                                        Calculus - Semester I (pjmt)                                        <span class="item-details"> Â· 62 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=170" class="list-group-item">
+                                        Calculus - Semester II (pjmt)                                        <span class="item-details"> Â· 145 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=171" class="list-group-item">
+                                        Calculus - Semester III (pjmt)                                        <span class="item-details"> Â· 40 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=115" class="list-group-item">
+                                        Calculus I                                        <span class="item-details"> Â· 99 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=116" class="list-group-item">
+                                        Calculus II                                        <span class="item-details"> Â· 23 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=233" class="list-group-item">
+                                        Fourier Series                                        <span class="item-details"> Â· 18 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=113" class="list-group-item">
+                                        Precalculus                                        <span class="item-details"> Â· 144 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=128" class="list-group-item">
+                                        Precalculus (KA)                                        <span class="item-details"> Â· 44 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-cube"></i>
+                                Geometry                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=117" class="list-group-item">
+                                        Geometry                                        <span class="item-details"> Â· 86 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=139" class="list-group-item">
+                                        Geometry (KA)                                        <span class="item-details"> Â· 113 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=23" class="list-group-item">
+                                        Geometry Basics                                        <span class="item-details"> Â· 23 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=27" class="list-group-item">
+                                        Introduction to Geometry                                        <span class="item-details"> Â· 63 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-graduation-cap"></i>
+                                Other Math                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=129" class="list-group-item">
+                                        Basic Arithmetic (KA)                                        <span class="item-details"> Â· 39 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=7" class="list-group-item">
+                                        Basic Math                                        <span class="item-details"> Â· 11 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=175" class="list-group-item">
+                                        Complex Numbers                                        <span class="item-details"> Â· 21 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=174" class="list-group-item">
+                                        Conic Sections                                        <span class="item-details"> Â· 39 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=182" class="list-group-item">
+                                        Derivatives                                        <span class="item-details"> Â· 79 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=134" class="list-group-item">
+                                        Developmental Math I                                        <span class="item-details"> Â· 146 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=135" class="list-group-item">
+                                        Developmental Math II                                        <span class="item-details"> Â· 131 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=136" class="list-group-item">
+                                        Developmental Math III                                        <span class="item-details"> Â· 107 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=121" class="list-group-item">
+                                        Differential Equations (KA)                                        <span class="item-details"> Â· 45 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=166" class="list-group-item">
+                                        Differential Equations (pjmt)                                        <span class="item-details"> Â· 27 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=179" class="list-group-item">
+                                        Exponents                                        <span class="item-details"> Â· 15 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=176" class="list-group-item">
+                                        Functions                                        <span class="item-details"> Â· 9 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=183" class="list-group-item">
+                                        Game Theory                                        <span class="item-details"> Â· 8 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=187" class="list-group-item">
+                                        Game Theory (Yale)                                        <span class="item-details"> Â· 24 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=180" class="list-group-item">
+                                        Integrals                                        <span class="item-details"> Â· 66 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=181" class="list-group-item">
+                                        Limits                                        <span class="item-details"> Â· 41 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=173" class="list-group-item">
+                                        Logarithms                                        <span class="item-details"> Â· 10 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=252" class="list-group-item">
+                                        Pi                                        <span class="item-details"> Â· 17 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=178" class="list-group-item">
+                                        Polynomials                                        <span class="item-details"> Â· 42 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=253" class="list-group-item">
+                                        Prime Numbers (np)                                        <span class="item-details"> Â· 20 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=177" class="list-group-item">
+                                        Quadratic Equations                                        <span class="item-details"> Â· 45 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-pie-chart"></i>
+                                Statistics                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=140" class="list-group-item">
+                                        Probability (KA)                                        <span class="item-details"> Â· 41 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=118" class="list-group-item">
+                                        Statistics                                        <span class="item-details"> Â· 79 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=127" class="list-group-item">
+                                        Statistics (KA)                                        <span class="item-details"> Â· 68 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="panel video-category-panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <i class="panel-title-icon fa fa-crop"></i>
+                                Trigonometry                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=114" class="list-group-item">
+                                        Trigonometry                                        <span class="item-details"> Â· 54 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=124" class="list-group-item">
+                                        Trigonometry (KA)                                        <span class="item-details"> Â· 39 videos</span>
+                                    </a>
+                                                                    <a href="https://thenewboston.com/videos_math.php?cat=165" class="list-group-item">
+                                        Trigonometry (pjmt)                                        <span class="item-details"> Â· 168 videos</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<div id="main-menu-bg"></div></div>
+
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' ></script>
+<script type='text/javascript' src='/js/pixel-admin.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-script.min.js' ></script>
+<script type='text/javascript' src='/js/tnb-forum-script.min.js' ></script>
+<script type='text/javascript' src='//www.youtube.com/iframe_api' ></script>
+</body>
+</html>
