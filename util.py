@@ -5,7 +5,7 @@ def html_to_text(html):
     "Creates a formatted text email message from a rendered html template (page)"
     soup = BeautifulSoup(html, 'html.parser')
     # Ignore anything in head
-    body, text = soup.body, []
+    body, text = soup.body, []  # body as string & text as empty list
     if body is None:
         return ""
     else:

@@ -2,7 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7.12 virtualenv at ~/Desktop/nap_zap_beta/venv/nap_zap_beta" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7.14 virtualenv at ~/Interpreter_ENV/search_engine/nap_zap" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

@@ -5,3 +5,4 @@ nltk==3.2.5
 WTForms==2.1
 requests==2.18.4
 Flask_WTF==0.14.2
+beautifulsoup4==4.6.0

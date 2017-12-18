@@ -48,13 +48,6 @@ def search_results(query):
     for docid in docids:
         total_doc_num += 1
     urls = [searcher.get_url(docid) for docid in docids]
-    # for url in urls:
-    #	r = requests.get(url)
-    #	html_content = r.text
-    #	soup = BeautifulSoup(html_content,'lxml')
-    #	titles[url] = soup.title.string
-    #	time.sleep(2)
-    # titles = "abcdef"
     texts = [searcher.generate_snippet(query_terms, docid) for docid in docids]
     finish_time = datetime.now()
     return render_template("search_results.html", processing_time=(finish_time - start_time),
