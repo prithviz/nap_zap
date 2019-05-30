@@ -26,8 +26,8 @@ logo = str(r) + '.png'
 
 
 class SearchForm(Form):
-    user_query = StringField('Looking for: ', validators=[DataRequired()])
-    search_button = SubmitField("Search")
+    user_query = StringField('', validators=[DataRequired()],render_kw={"placeholder": "Search here...","style":"width:90%;"})
+    search_button = SubmitField("Search",render_kw={"style":"display:inline-block;float: right;margin-top: -50px"})
 
 
 @app.route("/", methods=["GET", "POST"])
