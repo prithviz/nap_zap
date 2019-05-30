@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 from datetime import datetime
 from flask import Flask, render_template, redirect, url_for, request, Blueprint
 from flask_bootstrap import Bootstrap
