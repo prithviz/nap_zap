@@ -46,7 +46,7 @@ class Indexer(object):
 
         def dump_pickle_to_file(source, file_name):
             file_path = os.path.join(index_dir, file_name)
-            pickle.dump(source, open(file_path, "w"))
+            pickle.dump(source, open(file_path, "wb"))
 
         dump_pickle_to_file(self.inverted_index, "inverted_index")
         dump_pickle_to_file(self.forward_index, "forward_index")
@@ -61,18 +61,18 @@ class Searcher(object):
 
         def load_pickle_from_file(file_name):
             file_path = os.path.join(index_dir, file_name)
-            dst = pickle.load(open(file_path))
-            print "LOADED ", len(dst)
+            dst = pickle.load(open(file_path, 'rb'))
+            print ("LOADED ", len(dst))
             return dst
 
         self.inverted_index = load_pickle_from_file("inverted_index")
-        print "inverted_index: ", len(self.inverted_index)
+        print ("inverted_index: ", len(self.inverted_index))
         self.forward_index = load_pickle_from_file("forward_index")
-        print "forward_index: ", len(self.forward_index)
+        print ("forward_index: ", len(self.forward_index))
         self.url_to_id = load_pickle_from_file("url_to_id")
-        print "url_to_id index: ", len(self.url_to_id)
+        print ("url_to_id index: ", len(self.url_to_id))
 
-        self.id_to_url = {v: k for k, v in self.url_to_id.iteritems()}
+        self.id_to_url = {v: k for k, v in self.url_to_id.items()}
 
     def generate_snippet(self, query_terms, doc_id):
         query_terms_in_window = []
@@ -98,12 +98,13 @@ class Searcher(object):
         return [(term.full_word, term in query_terms) for term in self.forward_index[doc_id][snippet_start:snippet_end]]
 
     def find_documents_AND(self, query_terms):
+        query_terms = list(query_terms)
         query_term_count = defaultdict(set)
         for query_term in query_terms:
             for (pos, docid) in self.inverted_index.get(query_term, []):
                 query_term_count[docid].add(query_term)
 
-        return [doc_id for doc_id, unique_hits in query_term_count.iteritems() if len(unique_hits) == len(query_terms)]
+        return [doc_id for doc_id, unique_hits in query_term_count.items() if len(unique_hits) == len(query_terms)]
 
     def find_documents_OR(self, query_terms):
         docids = set()
@@ -145,6 +146,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print "Running Web UI..... On "
+    print ("Running Web UI..... On ")
     time.sleep(4)
     Popen('python web_ui.py', shell=True)

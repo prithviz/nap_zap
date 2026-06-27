@@ -136,7 +136,7 @@ def crawl_web(seed, max_depth):
         tocrawl = tocrawl[1:]
 
         if page not in crawled and depth <= max_depth:
-            print "Current Dir/page = ", page
+            print ("Current Dir/page = ", page)
             if page.startswith("/"):
                 page = seed + page
             if re.match('^[a-zA-Z]+', page) is None:
@@ -148,9 +148,9 @@ def crawl_web(seed, max_depth):
             except requests.exceptions.ConnectionError or requests.exceptions.MissingSchema:
                 if requests.exceptions.ConnectionError:
                     r.status_code = "Connection Refused"
-                    print page
+                    print (page)
                 if requests.exceptions.MissingSchema:
-                    print "Skipping link:", page
+                    print ("Skipping link:", page)
                     pass
             html = r.text
             stored_text_file_name = os.path.join("links", b64encode(page))
@@ -170,7 +170,7 @@ def crawl_web(seed, max_depth):
             crawled.append(page)
 
             if len(crawled) > 50 * i:
-                print 50 * i
+                print (50 * i)
                 i += 1
 
 
@@ -183,13 +183,13 @@ def main():
     parser.add_argument("--start_url", dest="start_url")
     parser.add_argument("--max_depth", dest="max_depth")
     args = parser.parse_args()
-    print args.start_url, args.max_depth
-    print "here ", args.start_url, args.max_depth
+    print (args.start_url, args.max_depth)
+    print ("here ", args.start_url, args.max_depth)
     crawl_web(args.start_url, args.max_depth)
 
 
 if __name__ == "__main__":  # are you working in from terminal
     main()
-    print "Running Indexing Module...."
+    print ("Running Indexing Module....")
     time.sleep(4)
     Popen('python indexer.py --stored_docs_dir links/ --index_dir indexes',shell=True)

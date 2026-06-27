@@ -4,7 +4,7 @@ from datetime import datetime
 from flask import Flask, render_template, redirect, url_for, request, Blueprint
 from flask_bootstrap import Bootstrap
 from flask_paginate import Pagination, get_page_parameter
-from flask_wtf import Form
+from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 from indexer import Searcher
@@ -15,9 +15,10 @@ import random
 # TODO: Put pagination in search results
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'your-secret-key'
+app.config['WTF_CSRF_ENABLED'] = False
 Bootstrap(app)
 searcher = Searcher("indexes")
-
 r = random.randint(1, 33)
 logo = str(r) + '.png'
 
@@ -25,14 +26,14 @@ logo = str(r) + '.png'
 # print request.environ['REMOTE_ADDR']
 
 
-class SearchForm(Form):
+class SearchForm(FlaskForm):
     user_query = StringField('', validators=[DataRequired()],render_kw={"placeholder": "Search here...","style":"width:90%;"})
     search_button = SubmitField("Search",render_kw={"style":"display:inline-block;float: right;margin-top: -50px"})
 
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    search_form = SearchForm(csrf_enabled=False)
+    search_form = SearchForm()
     if search_form.validate_on_submit():
         return redirect(url_for("search_results", query=search_form.user_query.data))
     return render_template("index.html", form=search_form, logo=logo)
